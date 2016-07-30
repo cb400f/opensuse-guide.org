@@ -37,7 +37,7 @@
 
 
 <td align="center" valign="top" style="padding-top: 5px" width="33%">
-<div class="indholdtekst">Updated: 30 July, 2016</div><br />
+<a href="https://github.com/cb400f/opensuse-guide.org" class="indholdtekst" target="_blank">Updated: 30 July, 2016</a>
 </td>
 
 
