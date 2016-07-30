@@ -1,0 +1,278 @@
+<?php include 'header.php'; ?>
+<title>4. Installation - Howto Install openSUSE on Your Computer</title>
+<?php include 'header2.php'; ?>
+<?php include 'menu.php'; ?> 
+
+<div class="os1">4. Installation</div>
+This is just a brief description of openSUSE installation. For more thorough help see the official documentation.<br /><br />
+
+<div class="os2">4.1 Before Installation</div>
+Before starting there are a few things you should be aware of.<br /><br />
+
+<div class="os3">4.1.1 System Minimum Requirements</div>
+<ul>
+    <li><b>CPU:</b> AMD64 or Intel64 processor</li>
+    <li><b>RAM:</b> 1 GB physical RAM (2 GB recommended)</li>
+    <li><b>Disk Space:</b> 5,0 GB for a normal installation (more recommended)</li>
+    <li><b>Sound and Graphics Card:</b> Most modern cards are supported</li>
+    </ul>
+
+    
+<div class="os3">4.1.2a Burning the ISOs to a DVD</div>
+When you burn the downloaded ISO files to a DVD it's important to remember to burn them as ISOs/images with your CD/DVD writer software, or the media won't be bootable.<br /><br /> 
+
+
+<div class="os3">4.1.2b Creating a USB stick</div>
+The ISO can also be put on an USB stick, see instructions for this on these pages depending on which operating systems you have available:<br />
+
+<ul>
+<li> openSUSE or other Linux: <a href="http://en.opensuse.org/SDB:Live_USB_stick" target="_blank">http://en.opensuse.org/SDB:Live_USB_stick</a></li>
+<li> Microsoft Windows: <a href="https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows" target="_blank">https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows</a></li>
+<li> Mac OSX: <a href="https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x" target="_blank">https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x</a></li>
+</ul>
+
+
+<div class="os3">4.1.3 BIOS Setup</div>
+If your computer won't boot from the DVD or USB media, check that the computer BIOS is configured to boot from CD/DVD or USB.<br /><br />
+
+
+<div class="os3">4.1.4 Dual Boot (openSUSE and MS Windows on the same computer)</div>
+Having openSUSE and MS Windows installed on the same computer is usually fairly simple if MS Windows was installed first. During installation openSUSE will detect MS Windows and the bootloader will display a menu on each startup letting you choose whether to boot openSUSE or MS Windows.<br /><br />
+
+openSUSE needs to be installed on a separate partition/disk. It's recommended to free up space beforehand using a partitioning tool that you're familiar with. But you can also let the openSUSE installer resize your MS Windows partitions - it's strongly recommended to defragment the MS Windows partition before doing so.<br /><br />
+
+
+<div class="os3">4.1.5 Connect Network Cable and Turn on Peripherals</div>
+If you connect your network cable and turn on your printer and other peripherals before commencing the installation, there's a good chance of them being autodetected and configured.<br /><br />
+
+
+<div class="os2">4.2 The Installation Process</div>
+When you're ready, insert the DVD or USB stick and (re)start the computer.<br /><br /> 
+
+This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previous chapter there's also a live medium available that is not as well-tested, that installation is not described here, but it's quite similar.<br /><br />
+
+
+<div class="os3">Welcome</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/welcome.png" rel="thumbnail"><img src="images/installation/dvd/welcomeb.png" alt="welcome" class="pic" /></a></td>
+		<td valign="top">The first thing you'll see is this welcome screen.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Start Installation</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/grub.png" rel="thumbnail"><img src="images/installation/dvd/grubb.png" alt="grub" class="pic" /></a></td>
+		<td valign="top">Then you're presented with a menu.<br /><br />
+		Here you can select your desired language and a few other options, afterwards begin installation.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Language, Keyboard and Licence</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-welcome.png" rel="thumbnail"><img src="images/installation/dvd/inst-welcomeb.png" alt="welcome" class="pic" /></a></td>
+		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.<br /><br /> 
+		Check that language and keyboard layout are as desired.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Installation Options</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-mode.png" rel="thumbnail"><img src="images/installation/dvd/inst-modeb.png" alt="inst-mode" class="pic" /></a></td>
+		<td valign="top">Here you choose to add online repositories or include add-on products, usually will just click "Next". Online repositories can be added in the installed system later.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Partitioning</div>
+<table>
+	<tr>
+	  <td width="205" valign="top"><a href="images/installation/dvd/inst-disk.png" rel="thumbnail"><img src="images/installation/dvd/inst-diskb.png" alt="inst-disk" class="pic" /></a></td>
+	  <td valign="top">By default openSUSE will propose to create three new partitions / (root) for system files, /home/ for personal files of users and swap which is used as a supplement for RAM, similar to the page file in MS Windows.<br /><br />
+
+	  Don't worry about all the subvolumes created, these are just technicalities of the Btrfs filesystem, and not "real" partitions, that normal users should need to worry about.<br /><br />
+
+	  If you're performing a dual boot installation, pay extra attention, to make sure everything is as desired.<br /><br />
+
+	  Note that Linux labels disks/partitions using the following scheme - <i>sda1</i> is first partition on the first disk, <i>sdb3</i> is the third partition on the second disk, and so forth. Partitions that will be formatted are written in red text.</td>
+	</tr>
+</table><br />
+
+
+
+<div class="os3">Clock and Time Zone</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-time.png" rel="thumbnail"><img src="images/installation/dvd/inst-timeb.png" alt="inst-time" class="pic" /></a></td>
+		<td valign="top">Set the timezone here.<br /><br />If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if you dual boot with MS Windows set it to local time.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Desktop Selection</div>
+	<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
+		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. KDE is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide.<br /><br />
+
+		Under "Other" you can select LXDE, Xfce, minimal graphical environment (IceWM) and even a text based system which is useful for servers.</td>
+	</tr>
+</table><br />
+
+
+
+
+
+<div class="os3">Create New User</div>
+<table>
+	<tr>
+	<td width="205" valign="top"><a href="images/installation/dvd/inst-user.png" rel="thumbnail"><img src="images/installation/dvd/inst-userb.png" alt="inst-user" class="pic" /></a></td>
+	<td valign="top">Now it's time to create your user. Note that by default the root user (administrator) password will be the same as the password for the normal user.<br /><br />
+
+	If you want the added security of a separate root password, consider unchecking that checkbox. You may also want to consider disabling autologin to prevent people from easily accessing your system and data.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Installation Settings</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-overview.png" rel="thumbnail"><img src="images/installation/dvd/inst-overviewb.png" alt="inst-overview" class="pic" /></a></td>
+		<td valign="top">Double check that everything is as desired - this is the point of no return!</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Actual Installation</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-inst.png" rel="thumbnail"><img src="images/installation/dvd/inst-instb.png" alt="inst-inst" class="pic" /></a></td>
+		<td valign="top">Now the actual installation is performed. When it's done the system will reboot and be ready to use.<br /><br />
+
+Have a lot of fun with openSUSE!
+
+
+		</td>
+	</tr>
+</table><br />
+
+
+<!--
+<div class="os3">Automatic Configuration</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-autoconfig.png" rel="thumbnail"><img src="images/installation/dvd/inst-autoconfigb.png" alt="inst-inst" class="pic" /></a></td>
+		<td valign="top">After installation is performed, the system will restart and perform autoconfiguration.<br /><br />
+
+		And finally your brand new openSUSE system will start. Congratulations, and have a lot of fun with openSUSE!
+
+		</td>
+	</tr>
+</table><br /><br />
+-->
+
+
+
+<!--
+
+<div class="os2">4.3 Live DVD/USB Installation</div>
+When you're ready to install, insert the DVD/USB and (re)boot the computer.<br /><br />
+
+The Live DVD/USB provides two different installation modes, you can install directly from the boot menu, or you can boot the system and install from the desktop while the system is running, by clicking on the install icon on the desktop. There is only a visual difference between the two modes of installation. It's recommended to try booting the live system  before installing to see if your hardware components are supported.<br /><br />
+
+<div class="os3">Language and License</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/live/live-welcome.png" rel="thumbnail"><img src="images/installation/live/live-welcomeb.png" alt="live-welcome" class="pic" /></a></td>
+		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.<br /><br /> 
+		Check that language and keyboard layout are as desired.</td>
+	</tr>
+	</table><br />
+
+
+<div class="os3">Clock and Time Zone</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/live/live-time.png" rel="thumbnail"><img src="images/installation/live/live-timeb.png" alt="live-time" class="pic" /></a></td>
+		<td valign="top">Set the timezone here.<br /><br />If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if you dual boot with MS Windows set it to local time.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Partitioning</div>
+	<table>
+	<tr>
+	<td width="205" valign="top"><a href="images/installation/live/live-partition.png" rel="thumbnail"><img src="images/installation/live/live-partitionb.png" alt="live-partition" class="pic" /></a></td>
+	<td valign="top">By default openSUSE will propose to create three new partitions / (root) for system files, /home/ for personal files of users and swap which is used as a supplement for RAM, similar to the page file in MS Windows.<br /><br />
+
+	  If you're performing a dual boot installation, be extra careful here.<br /><br />
+
+	  Note that Linux labels disks/partitions using the following scheme - <i>sda1</i> is first partition on the first disk, <i>sdb3</i> is the third partition on the second disk, and so forth. Partitions that will be formatted are written in red text.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Create New User</div>
+<table>
+	<tr>
+	    <td width="205" valign="top"><a href="images/installation/live/live-user.png" rel="thumbnail"><img src="images/installation/live/live-userb.png" alt="live-user" class="pic" /></a></td>
+	    <td valign="top">Now it's time to create your user. Note that by default the root user (administrator) password will be the same as the password for the normal user.<br /><br />
+
+	If you want the added security of a separate root password, consider unchecking that checkbox. You may also want to consider disabling autologin to prevent people from easily accessing your system and data.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Installation Settings</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/live/live-settings.png" rel="thumbnail"><img src="images/installation/live/live-settingsb.png" alt="live-settings" class="pic" /></a></td>
+		<td valign="top">Double check that everything is as desired - this is the point of no return!</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Actual Installation</div>
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/live/live-installation.png" rel="thumbnail"><img src="images/installation/live/live-installationb.png" alt="live-installation" class="pic" /></a></td>
+		<td valign="top">Now the actual installation is performed.</td>
+	</tr>
+</table><br />
+
+
+<div class="os3">Automatic Configuration</div>
+<table>
+	<tr>
+	    <td width="205" valign="top"><a href="images/installation/live/live-done.png" rel="thumbnail"><img src="images/installation/live/live-doneb.png" alt="live-done" class="pic" /></a></td>
+	    <td valign="top">When all packages are installed, the system needs to reboot from the harddrive.<br /><br />
+
+		You can either remove the DVD/USB during the reboot process or leave it in and select <i>Boot from harddisk</i> at the boot menu.<br /><br />
+
+	    After the reboot, the system will perform automatic configuration.<br /><br />
+
+	    Afterwards your brand new openSUSE system will start. Congratulations, and have a lot of fun with openSUSE!</td>
+	</tr>
+</table><br />
+-->
+
+
+
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+	<tbody>
+	<tr>
+		<td style="width: 50%;"><div style="text-align: center;"><a href="acquisition.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
+		<td style="width: 50%;"><div style="text-align: center;"><a href="kde.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
+	</tr>
+</tbody>
+</table>
+
+
+
+<?php include 'footer.php'; ?>
