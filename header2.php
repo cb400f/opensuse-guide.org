@@ -37,7 +37,7 @@
 
 
 <td align="center" valign="top" style="padding-top: 5px" width="33%">
-<div class="indholdtekst">Updated: 15 February, 2016</div><br />
+<div class="indholdtekst">Updated: 30 July, 2016</div><br />
 </td>
 
 
