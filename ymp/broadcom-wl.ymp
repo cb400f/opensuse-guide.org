@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metapackage xmlns:os="http://opensuse.org/Standards/One_Click_Install" xmlns="http://opensuse.org/Standards/One_Click_Install">
+    <group distversion="openSUSE 11.4">
+        <name>Broadcom-wl</name>
+        <summary>Proprietary driver for recent Broadcom wlan chips</summary>
+        <description>Proprietary Broadcom wlan driver for bcm4311, bcm4312, bcm4313, bcm4321, bcm4322, bcm43224, bcm43225, bcm43227 and bcm43228</description>
+        <remainSubscribed/>
+        <repositories>
+            <repository recommended="true" format="auto">
+                <name>Packman Repository</name>
+                <summary>Packman Software Repository</summary>
+                <description>Packman build software packages to enable users to easily install and remove software on Linux. More specifically, they do so for software that is not shipped as part of distributions or that are shipped as an outdated version.</description>
+                <url>http://packman.inode.at/suse/openSUSE_11.4/</url>
+            </repository>            
+        </repositories>
+        <software>
+            <item recommended="true">
+                <name>broadcom-wl</name>
+                <summary>Wireless driver for Broadcom 43xx series of chips.</summary>
+                <description>These packages contain Broadcom's IEEE 802.11a/b/g/n hybrid Linux® device driver for use with Broadcom's BCM4311-, BCM4312-, BCM4321-, and BCM4322-based hardware.
+		NOTE: You must read the LICENSE.TXT file before using this software.</description>
+            </item>
+            <item recommended="true">
+                <name>broadcom-wl-kmp-default</name>
+                <summary>Wireless driver for Broadcom 43xx series of chips</summary>
+                <description>These packages contain Broadcom's IEEE 802.11a/b/g/n hybrid Linux® device driver for use with Broadcom's BCM4311-, BCM4312-, BCM4321-, and BCM4322-based hardware.
+		NOTE: You must read the LICENSE.TXT file before using this software.</description>
+            </item>
+            <item recommended="true">
+                <name>broadcom-wl-kmp-desktop</name>
+                <summary>Wireless driver for Broadcom 43xx series of chips</summary>
+                <description>These packages contain Broadcom's IEEE 802.11a/b/g/n hybrid Linux® device driver for use with Broadcom's BCM4311-, BCM4312-, BCM4321-, and BCM4322-based hardware.
+		NOTE: You must read the LICENSE.TXT file before using this software.</description>
+            </item>	    
+        </software>
+    </group>
+    <group distversion="openSUSE 11.3">
+        <name>Broadcom-wl</name>
+        <summary>Proprietary driver for recent Broadcom wlan chips</summary>
+        <description>Proprietary Broadcom wlan driver for bcm4311, bcm4312, bcm4313, bcm4321, bcm4322, bcm43224, bcm43225, bcm43227 and bcm43228</description>
+        <remainSubscribed/>
+        <repositories>
+            <repository recommended="true" format="auto">
+                <name>Packman Repository</name>
+                <summary>Packman Software Repository</summary>
+                <description>Packman build software packages to enable users to easily install and remove software on Linux. More specifically, they do so for software that is not shipped as part of distributions or that are shipped as an outdated version.</description>
+                <url>http://packman.inode.at/suse/openSUSE_11.3/</url>
+            </repository>           
+        </repositories>
+                <software>
+            <item recommended="true">
+                <name>broadcom-wl</name>
+                <summary>Wireless driver for Broadcom 43xx series of chips.</summary>
+                <description>These packages contain Broadcom's IEEE 802.11a/b/g/n hybrid Linux® device driver for use with Broadcom's BCM4311-, BCM4312-, BCM4321-, and BCM4322-based hardware.
+		NOTE: You must read the LICENSE.TXT file before using this software.</description>
+            </item>
+            <item recommended="true">
+                <name>broadcom-wl-kmp-default</name>
+                <summary>Wireless driver for Broadcom 43xx series of chips</summary>
+                <description>These packages contain Broadcom's IEEE 802.11a/b/g/n hybrid Linux® device driver for use with Broadcom's BCM4311-, BCM4312-, BCM4321-, and BCM4322-based hardware.
+		NOTE: You must read the LICENSE.TXT file before using this software.</description>
+            </item>
+            <item recommended="true">
+                <name>broadcom-wl-kmp-desktop</name>
+                <summary>Wireless driver for Broadcom 43xx series of chips</summary>
+                <description>These packages contain Broadcom's IEEE 802.11a/b/g/n hybrid Linux® device driver for use with Broadcom's BCM4311-, BCM4312-, BCM4321-, and BCM4322-based hardware.
+		NOTE: You must read the LICENSE.TXT file before using this software.</description>
+            </item>	    
+        </software>
+	</group>
+    </metapackage>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metapackage xmlns:os="http://opensuse.org/Standards/One_Click_Install" xmlns="http://opensuse.org/Standards/One_Click_Install">
+    <!--
+        Maintained by the following authors:
+        * Francis Giannarios <francis@opensuse.org>
+        * Pascal Bleser <pascal.bleser@opensuse.org>
+
+        For modifications, please contact admin@opensuse.org
+        Last modification: 2011-05-05T19:37:06Z
+    -->
+    <group distversion="openSUSE 11.4">
+        <name>ATI/AMD Graphics Drivers</name>
+        <summary>Proprietary ATI/AMD Graphics Driver packages</summary>
+        <description>
+        This repository contains packages with the proprietary graphic card drivers from ATI/AMD.
+        Please note that their kernel modules infringe on the GNU General Public License the
+        Linux kernel is released under and, as such, are not supported by openSUSE.
+    </description>
+        <remainSubscribed/>
+        <repositories>
+            <repository recommended="true" format="rpm-md">
+                <name>ATI</name>
+		<summary>Proprietary ATI/AMD graphics driver</summary>
+                <description>Proprietary ATI/AMD graphics driver for HD2XXX and later</description>
+                <url>http://www2.ati.com/suse/11.4</url>
+            </repository>
+        </repositories>
+        <software>
+	    <item recommended="true">
+                <name>x11-video-fglrxG02</name>
+                <summary>X Window display driver for the ATI graphics accelerators</summary>
+                <description>Display driver files for the ATI Radeon HD 2000 and later. This package provides 2D display drivers, control panel source coude and hardware accelerated OpenGL.</description>
+            </item>
+        </software>
+    </group>
+    <group distversion="openSUSE 11.3">
+        <name>ATI/AMD Graphics Drivers</name>
+        <summary>Proprietary ATI/AMD Graphics Driver packages</summary>
+        <description>
+        This repository contains packages with the proprietary graphic card drivers from ATI/AMD.
+        Please note that their kernel modules infringe on the GNU General Public License the
+        Linux kernel is released under and, as such, are not supported by openSUSE.
+    </description>
+        <remainSubscribed/>
+        <repositories>
+            <repository recommended="true" format="rpm-md">
+                <name>ATI</name>
+		<summary>Proprietary ATI/AMD graphics driver</summary>
+                <description>Proprietary ATI/AMD graphics driver for HD2XXX and later</description>
+                <url>http://www2.ati.com/suse/11.3</url>
+            </repository>
+        </repositories>
+        <software>
+	    <item recommended="true">
+                <name>x11-video-fglrxG02</name>
+                <summary>X Window display driver for the ATI graphics accelerators</summary>
+                <description>Display driver files for the ATI Radeon HD 2000 and later. This package provides 2D display drivers, control panel source coude and hardware accelerated OpenGL.</description>
+            </item>
+        </software>
+    </group></metapackage>

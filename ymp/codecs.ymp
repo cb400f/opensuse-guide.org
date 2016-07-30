@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metapackage xmlns:os="http://opensuse.org/Standards/One_Click_Install" xmlns="http://opensuse.org/Standards/One_Click_Install">
+    <group distversion="openSUSE 11.4">
+        <name>Codecs for openSUSE KDE</name>
+        <summary>Extra Multimedia Codecs and Proprietary Software for KDE</summary>
+        <description>
+        An easy way to install a selection of popular multimedia codecs.
+    </description>
+        <remainSubscribed/>
+        <repositories>
+            <repository recommended="true" format="auto">
+                <name>Packman Repository</name>
+                <summary>Packman Software Repository</summary>
+                <description>Packman build software packages to enable users to easily install and remove software on Linux. More specifically, they do so for software that is not shipped as part of distributions or that are shipped as an outdated version.</description>
+                <url>http://ftp.gwdg.de/pub/linux/packman/suse/11.4/</url>
+            </repository>
+            <repository recommended="true" format="auto">
+                <name>libdvdcss repository</name>
+                <summary>Repository with libdvdcss</summary>
+                <description>Encrypted DVD support</description>
+                <url>http://opensuse-guide.org/repo/11.4/</url>
+            </repository>
+        </repositories>
+        <software>
+            <item recommended="true">
+                <name>libdvdcss2</name>
+                <summary>Select this to be able to play Encrypted DVDs.</summary>
+                <description>A simple library designed for accessing DVDs without having to bother about the decryption. Install this to be able to play Encrypted DVDs.</description>
+            </item>
+            <item recommended="true">
+                <name>libxine1-codecs</name>
+                <summary>This will allow you to play MP3s, DiVX, Quicktime, RealMedia etc.</summary>
+                <description>libxine is the beating heart of xine (a free gpl-licensed video player for unix-like systems) which among others provides support for decoding (and playing back) of many today available audio/video codecs, like mpeg-4 (DivX), mpeg-2 (DVD, SVCD), mpeg-1 (VCD), Quicktime and RealMedia just to name a few.</description>
+            </item>            
+            <item recommended="true">
+                <name>k3b-codecs</name>
+                <summary>Extra Multimedia Codecs for K3b</summary>
+                <description>This package extends the opensuse package with some codecs. K3b is a CD burning application that supports Ogg Vorbis, MP3 audio files, DVD burning, CDDB, and much more.</description>
+            </item>                        
+            <item recommended="true">
+                <name>ffmpeg</name>
+                <summary>Hyper fast MPEG1/MPEG4/H263/RV and AC3/MPEG audio encoder</summary>
+                <description>Hyper fast MPEG1/MPEG4/H263/RV and AC3/MPEG audio encoder.</description>
+            </item>            
+            <item recommended="true">
+                <name>lame</name>
+                <summary>LAME adds support for encoding audio data into the MP3 format</summary>
+                <description>LAME is an educational tool to be used for learning about MP3 encoding.  The goal of the LAME project is to use the open source model to improve the psycho acoustics, noise shaping and speed of MP3.  Another goal of the LAME project is to use these improvements for the basis of a patent free audio compression codec for the GNU project.</description>
+            </item>            
+            <item recommended="true">
+                <name>gstreamer-0_10-ffmpeg</name>
+                <summary>GStreamer FFmpeg plug-in</summary>
+                <description>GStreamer FFmpeg plug-in contains one plugin with a set of elements using the FFmpeg library code. It contains most popular decoders as well as very fast colorspace conversion elements.</description>
+            </item>            
+            <item recommended="true">
+                <name>gstreamer-0_10-plugins-bad</name>
+                <summary>GStreamer Bad Plug-ins</summary>
+                <description>GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared to the rest. They might be close to being good quality, but they're missing something - be it a good code review, some documentation, a set of tests, a real live maintainer, or some actual wide use.</description>
+            </item>
+            <item recommended="true">
+                <name>gstreamer-0_10-plugins-ugly</name>
+                <summary>GStreamer Ugly Plug-ins</summary>
+                <description>GStreamer Ugly Plug-ins is a set of plug-ins that have good quality and correct functionality, but distributing them might pose problems. The license on either the plug-ins or the supporting libraries might not be how we'd like. The code might be widely known to present patent problems.</description>
+            </item>           
+        </software>
+    </group>
+        <group distversion="openSUSE 11.3">
+        <name>Codecs for openSUSE KDE</name>
+        <summary>Extra Multimedia Codecs and Proprietary Software for KDE</summary>
+        <description>
+        An easy way to install a selection of popular multimedia codecs.
+    </description>
+        <remainSubscribed/>
+        <repositories>
+            <repository recommended="true" format="auto">
+                <name>Packman Repository</name>
+                <summary>Packman Software Repository</summary>
+                <description>Packman build software packages to enable users to easily install and remove software on Linux. More specifically, they do so for software that is not shipped as part of distributions or that are shipped as an outdated version.</description>
+                <url>http://ftp.gwdg.de/pub/linux/packman/suse/11.3/</url>
+            </repository>
+            <repository recommended="true" format="auto">
+                <name>libdvdcss repository</name>
+                <summary>Repository with libdvdcss</summary>
+                <description>Encrypted DVD support</description>
+                <url>http://opensuse-guide.org/repo/11.3/</url>
+            </repository>
+        </repositories>
+        <software>
+            <item recommended="true">
+                <name>libdvdcss</name>
+                <summary>Select this to be able to play Encrypted DVDs.</summary>
+                <description>A simple library designed for accessing DVDs without having to bother about the decryption. Install this to be able to play Encrypted DVDs.</description>
+            </item>
+            <item recommended="true">
+                <name>libxine1-codecs</name>
+                <summary>This will allow you to play MP3s, DiVX, Quicktime, RealMedia etc.</summary>
+                <description>libxine is the beating heart of xine (a free gpl-licensed video player for unix-like systems) which among others provides support for decoding (and playing back) of many today available audio/video codecs, like mpeg-4 (DivX), mpeg-2 (DVD, SVCD), mpeg-1 (VCD), Quicktime and RealMedia just to name a few.</description>
+            </item>            
+            <item recommended="true">
+                <name>k3b-codecs</name>
+                <summary>Extra Multimedia Codecs for K3b</summary>
+                <description>This package extends the opensuse package with some codecs. K3b is a CD burning application that supports Ogg Vorbis, MP3 audio files, DVD burning, CDDB, and much more.</description>
+            </item>                        
+            <item recommended="true">
+                <name>ffmpeg</name>
+                <summary>Hyper fast MPEG1/MPEG4/H263/RV and AC3/MPEG audio encoder</summary>
+                <description>Hyper fast MPEG1/MPEG4/H263/RV and AC3/MPEG audio encoder.</description>
+            </item>            
+            <item recommended="true">
+                <name>lame</name>
+                <summary>LAME adds support for encoding audio data into the MP3 format</summary>
+                <description>LAME is an educational tool to be used for learning about MP3 encoding.  The goal of the LAME project is to use the open source model to improve the psycho acoustics, noise shaping and speed of MP3.  Another goal of the LAME project is to use these improvements for the basis of a patent free audio compression codec for the GNU project.</description>
+            </item>            
+            <item recommended="true">
+                <name>gstreamer-0_10-ffmpeg</name>
+                <summary>GStreamer FFmpeg plug-in</summary>
+                <description>GStreamer FFmpeg plug-in contains one plugin with a set of elements using the FFmpeg library code. It contains most popular decoders as well as very fast colorspace conversion elements.</description>
+            </item>            
+            <item recommended="true">
+                <name>gstreamer-0_10-plugins-bad</name>
+                <summary>GStreamer Bad Plug-ins</summary>
+                <description>GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared to the rest. They might be close to being good quality, but they're missing something - be it a good code review, some documentation, a set of tests, a real live maintainer, or some actual wide use.</description>
+            </item>
+            <item recommended="true">
+                <name>gstreamer-0_10-plugins-ugly</name>
+                <summary>GStreamer Ugly Plug-ins</summary>
+                <description>GStreamer Ugly Plug-ins is a set of plug-ins that have good quality and correct functionality, but distributing them might pose problems. The license on either the plug-ins or the supporting libraries might not be how we'd like. The code might be widely known to present patent problems.</description>
+            </item>           
+        </software>
+    </group>
+            </metapackage>
