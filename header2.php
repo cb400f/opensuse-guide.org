@@ -31,7 +31,12 @@
 <table width="100%">
 <tr>
 
-<td valign="top" style="padding-top: 5px" width="60%">
+<td align="left" valign="top" style="padding-top: 5px" width="33%">
+<div class="indholdtekst">Derivatives:&nbsp;<a href="http://dafter.co.nf/wp/" class="indholdtekst" target="_blank">Arabic</a>|<a href="https://victorhck.gitlab.io/guia_openSUSE/" class="indholdtekst" target="_blank">Spanish</a></div>
+</td>
+
+
+<td align="center" valign="top" style="padding-top: 5px" width="33%">
 <div class="indholdtekst">Updated: 15 February, 2016</div><br />
 </td>
 
@@ -40,7 +45,8 @@
 
 
 
-<td align="right" width="40%" valign="top">
+
+<td align="right" width="33%" valign="top">
 <!-- start of freefind search box html -->
   <table cellpadding="0" cellspacing="0" border="0">
     <tr>
