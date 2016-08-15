@@ -9,17 +9,16 @@ This chapter describes three different methods for installing the packages neede
 By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).<br /><br />
 
 
-<!--
+
 <div class="os2">13.1 Codec Installation with 1-Click</div>
 
-Temporarily not available for technical reasons.<br /><br /><br />
 
 
 Click on the button below to install multmedia codecs with 1-click install.<br /><br />
 
 
 <center><a href="http://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center><br />
--->
+
 
 
 <!--
@@ -34,14 +33,16 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 <center><a href="images/screenshots/conflict.png" rel="thumbnail"><img src="images/screenshots/conflictb.png" alt="conflict" class="pic" /></a></center><br />
 -->
 
+<!--
 
 <div class="os2">13.1 Codec Installation with YaST Software Management</div>
 
 1) First add/enable the repositories with YaST Software Repositories:<br />
 
 <ul>
-<li><b>Packman Repository</b></li>
+<li><b>Packman Repository</b></li>-->
 <!-- <li><b>Non-OSS Respository</b></li> -->
+<!--
 <li><b>libdvdcss repository</b> (skip if you don't need DVD playback)</li>
 </ul>
 
@@ -75,7 +76,7 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 <li><b>phonon-backend-gstreamer</b></li>
 <li><b>phonon4qt5-backend-gstreamer</li>
 </ul><br />
-
+-->
 
 
 
@@ -133,15 +134,20 @@ To install codecs using the terminal instead, do these steps:<br /><br />
 </table>
 </div><br />
 
-1) Add the needed repositories (skip the dvd repo if you don't need DVD playback):
+1) Add the needed repositories:
 <div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.1/ packman</div>
 <div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.1/ dvd</div><br />
 
-2) Then install the necessary packages (skip libdvdcss2 if you don't need DVD playback):
-<div class="clroot">zypper install k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs flash-player libdvdcss2</div><br />
+2) Then install the necessary packages:
+<div class="clroot">zypper install k3b-codecs ffmpeg lame packman-gstreamer-meta-package</div><br />
 
-3) Now remove these packages:
-<div class="clroot">zypper remove phonon-backend-gstreamer phonon4qt5-backend-gstreamer</div><br />
+You will be asked if you want to allow vendor change for some packages - allow it.<br /><br />
+
+<div class="os2">13.3 Still not working?</div>
+If you still experience problems playing video and music with Dragon Player and Amarok respectively, try deleting the GStreamer cache by deleting the content of <b>/home/username/.cache/gstreamer-1.0/</b> in the Dolphin file manager or by running this command:
+<div class="cl">rm ~/.cache/gstreamer-1.0/*</div><br />
+
+
 
 <!--
 Add the needed repositories (skip the dvd repo if you don't need DVD playback):
