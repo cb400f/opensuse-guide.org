@@ -1,21 +1,20 @@
 <?php include 'header.php'; ?>
-<title>13. Multimedia Codecs - Install Support For MP3, DVD, WMA, WMV, MOV etc.</title>
+<title>13. Multimedia Codecs - Install Support for restricted codecs including MP3, DVD, WMA, WMV, MOV etc.</title>
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
 
-<div class="os1">13. Multimedia Codecs</div>
-This chapter describes three different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with Dragon (video) and Amarok (audio). You can use manual installation with graphical software or use the command line - whichever method you prefer.<br /><br />
+
+
+<div class="heading1">13. Multimedia Codecs</div>
+This chapter describes two different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with Dragon (video) and Amarok (audio). You can use manual 1-click installation or use the command line - whichever method you prefer.<br /><br />
 
 By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).<br /><br />
 
 
 
-<div class="os2">13.1 Codec Installation with 1-Click</div>
-
-
+<div class="heading2">13.1 Codec Installation with 1-Click</div>
 
 Click on the button below to install multmedia codecs with 1-click install.<br /><br />
-
 
 <center><a href="http://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center><br />
 
@@ -26,7 +25,7 @@ Click on the button below to install multmedia codecs with 1-click install.<br /
 -->
 
 <!--
-Note, if you get a warning dialog like this don't panic! Simply select the proper option, to either allow changing the vendor for some packages from <i>openSUSE</i> to <i>Packman</i>, or possibly to downgrade a package (usually the same package version, only with a lower build number) then click <i>OK -- Try Again</i>.<br /><br />
+Note, if you get a warning dialog like this don't panic! Simply select the proper option, to either allow changing the vendor for some packages from <i>openSUSE</i> to <i>Packman</i>, or possibly to downgrade a package (usually the same package version, only with a lower build number) then click <i>OK - Try Again</i>.<br /><br />
 -->
 
 <!--
@@ -35,7 +34,7 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 
 <!--
 
-<div class="os2">13.1 Codec Installation with YaST Software Management</div>
+<div class="heading2">13.1 Codec Installation with YaST Software Management</div>
 
 1) First add/enable the repositories with YaST Software Repositories:<br />
 
@@ -80,9 +79,6 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 
 
 
-
-
-
 <!--
 You can install the packages manually instead if you prefer.<br /><br />
 
@@ -120,7 +116,9 @@ Then install the following packages with YaST Software Management:<br />
 </ul>
 -->
 
-<div class="os2">13.2 Codec Installation in the Terminal</div>
+
+
+<div class="heading2">13.2 Codec Installation in the Terminal</div>
 To install codecs using the terminal instead, do these steps:<br /><br />
 
 <div class="tip">
@@ -135,41 +133,19 @@ To install codecs using the terminal instead, do these steps:<br /><br />
 </div><br />
 
 1) Add the needed repositories:
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.1/ packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.1/ dvd</div><br />
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.2/ packman</div>
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.2/ dvd</div><br />
 
 2) Then install the necessary packages:
-<div class="clroot">zypper install k3b-codecs ffmpeg lame packman-gstreamer-meta-package</div><br />
+<div class="clroot">zypper install k3b-codecs ffmpeg lame packman-gstreamer-meta-package libdvdcss2</div><br />
 
-You will be asked if you want to allow vendor change for some packages - allow it.<br /><br />
+3) You will be asked if you want to allow vendor change for some packages - allow it.<br /><br />
 
-<div class="os2">13.3 Still not working?</div>
+
+
+<div class="heading2">13.3 Still not working?</div>
 If you still experience problems playing video and music with Dragon Player and Amarok respectively, try deleting the GStreamer cache by deleting the content of <b>/home/username/.cache/gstreamer-1.0/</b> in the Dolphin file manager or by running this command:
 <div class="cl">rm ~/.cache/gstreamer-1.0/*</div><br />
-
-
-
-<!--
-Add the needed repositories (skip the dvd repo if you don't need DVD playback):
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.1/Essentials/ packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.1/ dvd</div><br />
-
-
-Then install the necessary packages (skip libdvdcss2 if you don't need DVD playback):
-<div class="clroot">zypper install k3b-codecs ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2</div>
-
-You will be asked if you want to allow vendor change for some packages - allow it.<br /><br />
-
-Finally ensure that you have a consistent set of packages from the Packman Repository:
-<div class="clroot">zypper dup --from http://packman.inode.at/suse/openSUSE_Leap_42.1/Essentials/</div>
-
-You will be asked if you want to allow vendor change for some packages - allow it.<br /><br />
-
-If you still experience problems try removing the GStreamer cache and reboot your system:
-<div class="cl">rm -rf ~/.cache/gstreamer-1.0/</div><br />
--->
-
-
 
 
 
@@ -181,6 +157,5 @@ If you still experience problems try removing the GStreamer cache and reboot you
 	</tr>
 </tbody>
 </table>
-
 
 <?php include 'footer.php'; ?>

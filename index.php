@@ -3,7 +3,7 @@
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
 
-<div class="os1">1. Introduction</div>
+<div class="heading1">1. Introduction</div>
 The purpose of this guide is to provide new users with everything they need to know to get started using openSUSE Leap as a home user/small office desktop operating system - quickly and easily. <br /><br /> 
 
 Reading this guide should save you <i>a lot</i> of time in the long run. The appendix at the end is targetted at particularly enthusiastic readers.<br /><br />
@@ -12,7 +12,7 @@ Note that this guide is not officially related to the <a href="http://www.opensu
 
 Have a lot of fun!<br /><br />
 
-<div class="os2">1.1 About openSUSE Leap</div>
+<div class="heading2">1.1 About openSUSE Leap</div>
 openSUSE Leap is a PC operating system based on GNU and Linux. It's a free/open source and gratis alternative to e.g. Microsoft Windows with many advantages. openSUSE Leap is suitable for laptops, desktops, netbooks, servers and multimedia center PCs at home or in small offices.<br /><br />
 
 openSUSE Leap is among the leading GNU/Linux distributions and is also one of the oldest existing ones. openSUSE Leap uses a core system from SUSE Linux Enterprise but with up-to-date hardware support, desktop environments and graphical applications. Every year a major service pack is released and every 3-4 years there is a major new release where also the core system will be upgraded.<br /><br />
@@ -21,7 +21,7 @@ For experienced and adventurous GNU/Linux users who want to take risks with thei
 
 openSUSE Leap is developed openly and transparently by community volunteers working together with SUSE employees.<br /><br />
 
-<div class="os2">1.2 This Guide in Other Languages (Derivative Works)</div>
+<div class="heading2">1.2 This Guide in Other Languages (Derivative Works)</div>
 <ul>
 <li><a href="http://dafter.co.nf/wp/" target="_blank">Arabic by Sadig Osman</a></li>
 <li><a href="https://victorhck.gitlab.io/guia_openSUSE/" target="_blank">Spanish by victorhck</a></li>

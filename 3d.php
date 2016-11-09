@@ -3,32 +3,19 @@
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
 
-<div class="os1">15. Graphics Drivers</div>
+<div class="heading1">15. Graphics Drivers</div>
 Note that there's no need to install the below non-free video drivers, if the free drivers used by default work for your needs.<br /><br />
 
-<!--
-<div class="obs">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
-<td>Before proceeding make sure your system is fully updated.</td>
-</tr>
-</tbody>
-</table>
-</div><br />
--->
+
 
 <!-- nvidia KMPs start -->
 
 
 
-
-
-<div class="os2">15.1 Nvidia</div>
+<div class="heading2">15.1 Nvidia</div>
 This section describes two different ways of installing the proprietary Nvidia graphics driver, either using 1-click installation or using the terminal.<br /><br />
 
-<div class="os3">15.1.1 Install the Nvidia Driver with 1-Click Installation</div>
+<div class="heading3">15.1.1 Install the Nvidia Driver with 1-Click Installation</div>
 Click on the button corresponding to your Nvidia graphics card to install the driver with 1-click install.<br /><br />
 
 
@@ -46,11 +33,12 @@ This driver covers Nvidia graphics card roughly from 2007 or older. Including Ge
 Afterwards reboot the computer.<br /><br />
 
 
-<div class="os3">15.1.2 Install the Nvidia Driver in the Terminal</div>
+
+<div class="heading3">15.1.2 Install the Nvidia Driver in the Terminal</div>
 You can install the Nvidia driver in the terminal. <u>By using this method you don't need to know your graphics card model or series</u>.<br /><br />
 
 First add the repository:
-<div class="clroot">zypper addrepo -f http://download.nvidia.com/opensuse/leap/42.1 nvidia</div><br />
+<div class="clroot">zypper addrepo -f http://download.nvidia.com/opensuse/leap/42.2 nvidia</div><br />
 
 The following command should automatically install the correct driver for your card:<br />
 
@@ -60,40 +48,23 @@ When installation is done reboot the computer.<br /><br />
 
 
 
-<!-- nvidia KMP slut -->
+<!-- nvidia KMP end -->
 <!-- ati KMP start -->
 
 
-<div class="os2">15.2 ATI/AMD</div>
-Click the button to launch 1-click install of the proprietary ATI driver for Radeon HD5000 cards or later.<br /><br />
 
+<div class="heading2">15.2 ATI/AMD</div>
+The free software drivers included by default should work pretty well for most. A proprietary driver does exist, but it is no longer being developed by AMD, instead they are working on improving the free drivers. Read more here:<br/>
 
-<center><a href="http://geeko.ioda.net/mirror/amd-fglrx/ymp/amd-ati-fglrx64.ymp"><img src="images/oneclick/ati.png" alt="ymp" class="pic" /></a></center><br />
-
-
-<!--
-<center><a href="data:text/x-suse-ymu,http://opensuse-guide.org/ymp/ati.ymp"><img src="images/oneclick/ati.png" alt="ati ymp" class="pic" /></a></center><br />
--->
-<!--
-Afterwards reboot your computer.<br /><br />
+<a href="https://lizards.opensuse.org/2016/10/15/proprietary-amdati-catalyst-fglrx-15-12-rpms-released-for-leap-42-2/" target="_blank">https://lizards.opensuse.org/2016/10/15/proprietary-amdati-catalyst-fglrx-15-12-rpms-released-for-leap-42-2/</a><br /><br />
 
 
 
-<div class="os3">15.2.1 Install ATI Driver in the Terminal</div>
-You can install the ATI driver in the terminal instead if you prefer.<br /><br />
+<!-- ati KMP end -->
 
-First add the repository:
-<div class="clroot">zypper addrepo -f http://www2.ati.com/suse/11.4 ati</div><br />
 
-Then install the driver:
-<div class="clroot">zypper install x11-video-fglrxG02</div><br />
 
-Finally reboot.<br /><br />
--->
-
-<!-- ati KMP slut -->
-
-<div class="os2">15.3 Intel</div>
+<div class="heading2">15.3 Intel</div>
 The 3D drivers for Intel graphics cards are free software, and can therefore be included in openSUSE out of the box. No additional installation or configuration is needed.<br /><br />
 
 
@@ -105,6 +76,5 @@ The 3D drivers for Intel graphics cards are free software, and can therefore be 
 	</tr>
 </tbody>
 </table>
-
 
 <?php include 'footer.php'; ?>

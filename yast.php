@@ -3,10 +3,10 @@
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
 
-<div class="os1"><a name="yast" class="os1">9. Administrator Settings (YaST)</a></div>
+
+
+<div class="heading1"><a name="yast" class="heading1">9. Administrator Settings (YaST)</a></div>
 YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.<br /><br /> 
-
-
 
 <center><a href="images/screenshots/yast-controlcenter.png" rel="thumbnail"><img src="images/screenshots/yast-controlcenterb.png" alt="yast" class="pic" /></a></center><br />
 
@@ -22,7 +22,6 @@ In YaST you can perform almost any system task, with powerful graphical modules,
 <li>Enable NTP daemon</li>
 <li>And much, much more...</li>
 </ul>
-
 
 <b>Additional YaST modules</b><br />
 A lot more YaST modules are available than the ones included in the default installation (read about installing packages in the next chapter). Some notable modules not installed by default are:
@@ -47,16 +46,15 @@ A lot more YaST modules are available than the ones included in the default inst
 </div><br />
 
 
-<div class="os2">9.1 YaST in the Terminal</div>
+
+<div class="heading2">9.1 YaST in the Terminal</div>
 The YaST modules can also be used in a terminal (ncurses mode) - this is very useful for servers with no graphical environment running, for remote access via SSH, or in case your graphical environment fails.<br /><br />
 
 Simply run <i>yast</i> as root in a terminal.<br />
 
 <div class="clroot">yast</div><br />
 
-
 <center><a href="images/screenshots/yast-ncurses.png" rel="thumbnail"><img src="images/screenshots/yast-ncursesb.png" alt="yast-ncurses" class="pic" /></a></center><br />
-
 
 Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to quit).<br /><br />
 

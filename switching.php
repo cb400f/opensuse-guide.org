@@ -4,11 +4,13 @@
 <?php include 'menu.php'; ?> 
 
 
-<div class="os1">2. Switching to GNU/Linux</div>
+
+<div class="heading1">2. Switching to GNU/Linux</div>
 Switching to a new and very different operating system is quite an endeavour - of course you don't have to switch entirely, nothing prevents you from using multiple operating systems - even on the same computer. This chapter describes some of the things to consider before venturing into the wonderful world of GNU/Linux.<br /><br />
 
 
-<div class="os2">2.1 Why use GNU/Linux?</div>
+
+<div class="heading2">2.1 Why use GNU/Linux?</div>
 There are many reasons why millions of people enjoy using GNU/Linux - they can be either of a technical, financial, ethical or philosophical nature depending on each person's personal views. Here's a list of some of the most common reasons for choosing GNU/Linux:<br />
 
 <ul>
@@ -41,7 +43,9 @@ There are many reasons why millions of people enjoy using GNU/Linux - they can b
 
 <center><img src="images/pics/hardware.gif" alt="hardware" /></center>
 
-<div class="os2">2.2 Challenges of switching</div>
+
+
+<div class="heading2">2.2 Challenges of switching</div>
 While there are many advantages of using GNU/Linux, it can also be challenging to switch to something new and different and less mainstream.<br />
 
 <ul>
@@ -51,7 +55,9 @@ While there are many advantages of using GNU/Linux, it can also be challenging t
 	<li><b>Harder to get help</b> - Often friends, family and co-workers won't be able to help you with GNU/Linux related issues, so you'll need to get help online, which is often not as effective as getting help "on-site" from a friend.</li>
 </ul>
 
-<div class="os2">2.3 Strategy</div>
+
+
+<div class="heading2">2.3 Strategy</div>
 Since switching is not always easy, here's some advise:
 
 <ul>
@@ -60,61 +66,61 @@ Since switching is not always easy, here's some advise:
 	<li><b>Get help</b> - Don't be afraid to ask for help online or elsewhere.</li>
 </ul>
 
-<div class="os3">2.3.1 GNU/Linux Apps on MS Windows and Mac OSX</div>
+<div class="heading3">2.3.1 GNU/Linux Apps on MS Windows and Mac OSX</div>
 If you start using applications available for GNU/Linux in your familiar environment, switching later will be that much easier. These are some examples of gratis applications available for both GNU/Linux and MS Windows for common tasks - most of them are available for Mac OSX too.<br /><br />
 
 <table width="98%">
 	<tr>
-		<td class="lillebold">Free software</td>
-		<td class="lillebold"></td>
-		<td class="lillebold">Non-free software</td>
+        <td class="small-bold">Free software</td>
+        <td class="small-bold"></td>
+        <td class="small-bold">Non-free software</td>
 	</tr>
-
 	<tr>
-		<td valign="top">
-		<a href="http://www.mozilla.org/firefox/" target="_blank">Firefox</a> (Web Browser)<br />
-		<a href="http://www.mozilla.org/thunderbird/" target="_blank">Thunderbird</a> (E-mail Client)<br />
-		<a href="http://www.seamonkey-project.org/" target="_blank">SeaMonkey</a> (Internet Application Suite)<br />
-		<a href="http://www.pidgin.im/" target="_blank">Pidgin</a> (Instant Messaging)<br />
-		<a href="http://filezilla-project.org/" target="_blank">FileZilla</a> (FTP Client)<br />
-		<a href="http://qbittorrent.sourceforge.net/" target="_blank">qBittorent</a> (Bittorrent Client)<br />
-		<a href="http://www.qutecom.org/" target="_blank">QuteCom</a> (VoIP)<br />
-		<a href="http://www.linphone.org/" target="_blank">Linphone</a> (VoIP)<br />
-		<a href="http://gpodder.org/" target="_blank">gPodder</a> (Podcast Manager)<br />
-		<a href="http://bluegriffon.org/" target="_blank">BlueGriffon</a> (HTML Editor)<br />
-		<a href="http://gimp-win.sourceforge.net/" target="_blank">GIMP</a> (Advanced Image Editing)<br />
-		<a href="http://www.inkscape.org" target="_blank">Inkscape</a> (Vector Graphics)<br />
-		<a href="http://hugin.sourceforge.net/" target="_blank">Hugin</a> (Panorama Photo Stitcher)<br />
-		<a href="http://www.libreoffice.org/" target="_blank">LibreOffice</a> (Office Suite)<br />
-		<a href="http://www.scribus.net/" target="_blank">Scribus</a> (Desktop Publishing)<br />
-		<a href="http://gnucash.org/" target="_blank">GnuCash</a> (Personal/small business accounting)<br />
-		</td>
+	<td valign="top">
+	<a href="http://www.mozilla.org/firefox/" target="_blank">Firefox</a> (Web Browser)<br />
+	<a href="http://www.mozilla.org/thunderbird/" target="_blank">Thunderbird</a> (E-mail Client)<br />
+	<a href="http://www.seamonkey-project.org/" target="_blank">SeaMonkey</a> (Internet Application Suite)<br />
+	<a href="http://www.pidgin.im/" target="_blank">Pidgin</a> (Instant Messaging)<br />
+	<a href="http://filezilla-project.org/" target="_blank">FileZilla</a> (FTP Client)<br />
+	<a href="http://qbittorrent.sourceforge.net/" target="_blank">qBittorent</a> (Bittorrent Client)<br />
+	<a href="http://www.qutecom.org/" target="_blank">QuteCom</a> (VoIP)<br />
+	<a href="http://www.linphone.org/" target="_blank">Linphone</a> (VoIP)<br />
+	<a href="http://gpodder.org/" target="_blank">gPodder</a> (Podcast Manager)<br />
+	<a href="http://bluegriffon.org/" target="_blank">BlueGriffon</a> (HTML Editor)<br />
+	<a href="http://gimp-win.sourceforge.net/" target="_blank">GIMP</a> (Advanced Image Editing)<br />
+	<a href="http://www.inkscape.org" target="_blank">Inkscape</a> (Vector Graphics)<br />
+	<a href="http://hugin.sourceforge.net/" target="_blank">Hugin</a> (Panorama Photo Stitcher)<br />
+	<a href="http://www.libreoffice.org/" target="_blank">LibreOffice</a> (Office Suite)<br />
+	<a href="http://www.scribus.net/" target="_blank">Scribus</a> (Desktop Publishing)<br />
+	<a href="http://gnucash.org/" target="_blank">GnuCash</a> (Personal/small business accounting)<br />
+	</td>
 	
 	<td valign="top">
-		<a href="http://www.abisource.com/" target="_blank">Abiword</a> (Simple Word Processor)<br />
-		<a href="http://sourceforge.net/projects/free-cad/" target="_blank">FreeCAD</a> (3D CAD)<br />
-		<a href="http://librecad.org/" target="_blank">LibreCAD</a> (2D CAD)<br />
-		<a href="http://www.blender.org" target="_blank">Blender</a> (3D Animation)<br />
-		<a href="http://calibre-ebook.com/" target="_blank">Calibre</a> (E-book manager)<br />
-		<a href="http://www.videolan.org/" target="_blank">VLC</a> (Media Player)<br />
-		<a href="http://smplayer.sourceforge.net/" target="_blank">SMPlayer</a> (Video Player)<br />
-		<a href="http://www.umplayer.com/" target="_blank">UMPlayer</a> (Video Player)<br />
-		<a href="http://www.clementine-player.org/" target="_blank">Clementine</a> (Audio Player)<br />
-		<a href="http://audacity.sourceforge.net/" target="_blank">Audacity</a> (Audio Editing)<br />
-		<a href="http://lmms.sourceforge.net/" target="_blank">LMMS</a> (Music Creation)<br />
-		<a href="http://kid3.sourceforge.net" target="_blank">Kid3</a> (Music Tagger)<br />
-		<a href="http://edu.kde.org/marble/download.php" target="_blank">Marble</a> (Desktop Globe)<br />
-		<a href="http://gramps-project.org/" target="_blank">Gramps</a> (Genealogical Research/Family Tree)<br />
-		<a href="http://www.stellarium.org/" target="_blank">Stellarium</a> (Planetarium)<br />		
+	<a href="http://www.abisource.com/" target="_blank">Abiword</a> (Simple Word Processor)<br />
+	<a href="http://sourceforge.net/projects/free-cad/" target="_blank">FreeCAD</a> (3D CAD)<br />
+	<a href="http://librecad.org/" target="_blank">LibreCAD</a> (2D CAD)<br />
+	<a href="http://www.blender.org" target="_blank">Blender</a> (3D Animation)<br />
+	<a href="http://calibre-ebook.com/" target="_blank">Calibre</a> (E-book manager)<br />
+	<a href="http://www.videolan.org/" target="_blank">VLC</a> (Media Player)<br />
+	<a href="http://smplayer.sourceforge.net/" target="_blank">SMPlayer</a> (Video Player)<br />
+	<a href="http://www.clementine-player.org/" target="_blank">Clementine</a> (Audio Player)<br />
+	<a href="http://audacity.sourceforge.net/" target="_blank">Audacity</a> (Audio Editing)<br />
+	<a href="http://lmms.sourceforge.net/" target="_blank">LMMS</a> (Music Creation)<br />
+	<a href="http://kid3.sourceforge.net" target="_blank">Kid3</a> (Music Tagger)<br />
+	<a href="http://edu.kde.org/marble/download.php" target="_blank">Marble</a> (Desktop Globe)<br />
+	<a href="http://gramps-project.org/" target="_blank">Gramps</a> (Genealogical Research/Family Tree)<br />
+	<a href="https://edu.kde.org/kstars/#download" target="_blank">KStars</a> (Planetarium)<br />
+	<a href="http://www.stellarium.org/" target="_blank">Stellarium</a> (Planetarium)<br />		
 	</td>
+	
 	<td valign="top">
-		<a href="http://opera.com/" target="_blank">Opera</a> (Web Browser)<br />
-		<a href="https://www.google.com/chrome" target="_blank">Google Chrome</a> (Web Browser)<br />
-		<a href="http://www.skype.com" target="_blank">Skype</a> (VoIP)<br />
-		<a href="http://earth.google.com/" target="_blank">Google Earth</a> (Maps)<br />
-		<a href="http://www.adobe.com" target="_blank">Adobe Reader</a> (PDF Reader)<br />
-		<a href="http://www.desura.com/" target="_blank">Desura</a> (Distribution service for games)<br />
-		<a href="http://www.3ds.com/products/draftsight/free-cad-software/" target="_blank">Draftsight</a> (CAD)<br />
+	<a href="http://opera.com/" target="_blank">Opera</a> (Web Browser)<br />
+	<a href="https://www.google.com/chrome" target="_blank">Google Chrome</a> (Web Browser)<br />
+	<a href="http://www.skype.com" target="_blank">Skype</a> (VoIP)<br />
+	<a href="http://earth.google.com/" target="_blank">Google Earth</a> (Maps)<br />
+	<a href="http://www.adobe.com" target="_blank">Adobe Reader</a> (PDF Reader)<br />
+	<a href="http://www.desura.com/" target="_blank">Desura</a> (Distribution service for games)<br />
+	<a href="http://www.3ds.com/products/draftsight/free-cad-software/" target="_blank">Draftsight</a> (CAD)<br />
 	</td>
 	</tr>
 </table><br />
@@ -135,7 +141,5 @@ On Mac OSX you can additionally install KDE applications and lots and lots of ot
 	</tr>
 </tbody>
 </table>
-
-
 
 <?php include 'footer.php'; ?>

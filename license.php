@@ -14,12 +14,11 @@
 
 <hr align="center" width="99%" />
 
-<div class="os3">GNU Free Documentation License<br />
+<div class="heading3">GNU Free Documentation License<br />
 Version 1.3, 3 November 2008</div>
 
 <div class="normal">Copyright © 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc. <a href="http://fsf.org/" target="_blank">http://fsf.org</a><br />
 Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.<br /><br />
-
 
 0. PREAMBLE<br />
 The purpose of this License is to make a manual, textbook, or other functional and useful document "free" in the sense of freedom: to assure everyone the effective freedom to copy and redistribute it, with or without modifying it, either commercially or noncommercially. Secondarily, this License preserves for the author and publisher a way to get credit for their work, while not being considered responsible for modifications made by others.<br /><br />
@@ -165,6 +164,7 @@ If you have Invariant Sections without Cover Texts, or some other combination of
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.</div><br />
 
 
+
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
 	<tr>
@@ -173,6 +173,5 @@ If your document contains nontrivial examples of program code, we recommend rele
 	</tr>
 </tbody>
 </table>
-
 
 <?php include 'footer.php'; ?>
