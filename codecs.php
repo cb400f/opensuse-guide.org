@@ -19,6 +19,16 @@ Click on the button below to install multmedia codecs with 1-click install.<br /
 
 <center><a href="http://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center><br />
 
+<div class="tip">
+<table>
+<tbody>
+<tr>
+<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td>If a conflict dialog appears, select to install the packages <i>with</i> Vendor Change.</td>
+</tr>
+</tbody>
+</table>
+</div><br />
 
 
 <div class="heading2">13.2 Codec Installation in the Terminal</div>
