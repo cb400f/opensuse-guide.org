@@ -1,7 +1,9 @@
 <?php include 'header.php'; ?>
-<title>1. Introduction - Beginner's Guide to openSUSE Leap 42.1 / SUSE Linux</title>
+<title>1. Introduction - Beginner's Guide to openSUSE Leap 42.2 / SUSE Linux</title>
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
+
+
 
 <div class="heading1">1. Introduction</div>
 The purpose of this guide is to provide new users with everything they need to know to get started using openSUSE Leap as a home user/small office desktop operating system - quickly and easily. <br /><br /> 
@@ -12,6 +14,8 @@ Note that this guide is not officially related to the <a href="http://www.opensu
 
 Have a lot of fun!<br /><br />
 
+
+
 <div class="heading2">1.1 About openSUSE Leap</div>
 openSUSE Leap is a PC operating system based on GNU and Linux. It's a free/open source and gratis alternative to e.g. Microsoft Windows with many advantages. openSUSE Leap is suitable for laptops, desktops, netbooks, servers and multimedia center PCs at home or in small offices.<br /><br />
 
@@ -21,11 +25,14 @@ For experienced and adventurous GNU/Linux users who want to take risks with thei
 
 openSUSE Leap is developed openly and transparently by community volunteers working together with SUSE employees.<br /><br />
 
+
+
 <div class="heading2">1.2 This Guide in Other Languages (Derivative Works)</div>
 <ul>
 <li><a href="http://dafter.co.nf/wp/" target="_blank">Arabic by Sadig Osman</a></li>
 <li><a href="https://victorhck.gitlab.io/guia_openSUSE/" target="_blank">Spanish by victorhck</a></li>
 </ul>
+
 
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
@@ -36,7 +43,5 @@ openSUSE Leap is developed openly and transparently by community volunteers work
 	</tr>
 </tbody>
 </table>
-
-
 
 <?php include 'footer.php'; ?>
