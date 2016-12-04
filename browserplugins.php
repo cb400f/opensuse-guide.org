@@ -28,7 +28,7 @@ Install the package <b>flash-player</b>, if you need Flash support for some onli
 Installing Flash in the terminal:
 
 <div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.2/ packman</div><br />
-<div class="clroot">zypper install flash-player</div><br /><br />
+<div class="clroot">zypper install freshplayerplugin</div><br /><br />
 
 
 

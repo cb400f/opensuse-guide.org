@@ -8,7 +8,7 @@
 <div class="heading1">5. KDE Plasma Workspace</div>
 The KDE Plasma workspace is one of the first things you'll see when you boot openSUSE Leap for the first time. The desktop workspace consists of the desktop itself, menus, panels, file management and window management.<br /><br />
 
-
+The KDE Plasma Workspace is very highly configurable. If there is something you don't like, you can almost certainly configure it to your liking.<br /><br />
 
 <div class="heading2">5.1 The Desktop</div>
 The desktop is not very different from other desktop environments you may be familiar with - you have a panel on the bottom, a launch menu which is opened in the lower left corner.<br /><br />
