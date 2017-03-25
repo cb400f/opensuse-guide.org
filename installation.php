@@ -102,7 +102,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 	  Don't worry about all the subvolumes created, these are just technicalities of the Btrfs filesystem, and not "real" partitions, that normal users should need to worry about.<br /><br />
 
-	  If you're performing a dual boot installation, pay extra attention, to make sure everything is as desired.<br /><br />
+	  Always check that the partitioning proposal is what you want, and if you're performing a dual boot installation, pay extra attention, to make sure everything is as desired.<br /><br />
 
 	  Note that Linux labels disks/partitions using the following scheme - <i>sda1</i> is first partition on the first disk, <i>sdb3</i> is the third partition on the second disk, and so forth. Partitions that will be formatted are written in red text.</td>
 	</tr>

@@ -136,7 +136,6 @@ You can also contribute to the Packman project - which provides a very important
 
 <div class="heading3">E.2.8 Code</div>
 If you're a programmer you can contribute code to fix bugs or add features e.g. in YaST or other components developed by the openSUSE project itself - and of course if you contribute code to upstream projects, openSUSE will benefit from this too - eventually. You can find the source code for various openSUSE components here in publically accessible version control systems:<br />
-<a href="https://gitorious.org/opensuse" target="_blank">https://gitorious.org/opensuse</a><br />
 <a href="https://github.com/openSUSE" target="_blank">https://github.com/openSUSE</a><br />
 <a href="https://github.com/yast/" target="_blank">https://github.com/yast/</a><br /><br />
 

@@ -60,7 +60,7 @@ You can get support on mailing lists, see:<br />
 <div class="heading2">A.5 Documentation</div>
 
 Reading the manuals is always a good idea. You can find the official openSUSE manuals in PDF, EPUB and HTML format here:<br />
-<a href="http://activedoc.opensuse.org/" target="_blank">http://activedoc.opensuse.org/</a><br /><br />
+<a href="http://doc.opensuse.org/" target="_blank">http://doc.opensuse.org/</a><br /><br />
 
 Many applications come with a handbook, often you can access it by pressing <i>F1</i>. Usually packages also include documentation which is normally installed to the location <i>/usr/share/doc/</i>.<br /><br />
 

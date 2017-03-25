@@ -213,7 +213,7 @@ Open a file with <i>vim /path/to/file</i>. Example:<br />
 
 Press <b>i</b> to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press <b>Esc</b> to leave insert mode and return to command mode. Now type <b>:x</b> which is the command for exit and save. To quit without saving any changes use <b>:q!</b>.<br /><br />
 
-You might consider installing a simpler text based editor, e.g. <i>nano</i>.<br /><br />
+Vim is quite advanced, you might consider installing a simpler text based editor, e.g. try <i>nano</i>.<br /><br />
 
 <div class="heading2">8.4 Further reading</div>
 If you want to learn more about using the terminal there are many resources available on the internet, here are a couple of links.<br />

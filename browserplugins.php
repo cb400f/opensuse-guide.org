@@ -6,7 +6,7 @@
 
 
 <div class="heading1">14. Browser Plugins</div>
-Many websites require various browser plugins to be installed to function as expected. Here are some plugins that you may want to install.<br /><br /> 
+Many websites require various browser plugins to be installed to function as expected. Here are some plugins that you may want to install. Only install these plugins if you need them, as they can impact performance and security while browsing the internet.<br /><br /> 
 
 
 <div class="tip">
@@ -23,7 +23,7 @@ Many websites require various browser plugins to be installed to function as exp
 
 
 <div class="heading2">14.1 Adobe Flash</div>
-Install the package <b>flash-player</b>, if you need Flash support for some online videos, games and other things (<i>Packman Repository</i> is required).<br /><br />
+Install the package <b>freshplayerplugin</b>, if you need Flash support for some online videos, games and other things (<i>Packman Repository</i> is required).<br /><br />
 
 Installing Flash in the terminal:
 

@@ -54,9 +54,7 @@ When installation is done reboot the computer.<br /><br />
 
 
 <div class="heading2">15.2 ATI/AMD</div>
-The free software drivers included by default should work pretty well for most. A proprietary driver does exist, but it is no longer being developed by AMD, instead they are working on improving the free drivers. Read more here:<br/>
-
-<a href="https://lizards.opensuse.org/2016/10/15/proprietary-amdati-catalyst-fglrx-15-12-rpms-released-for-leap-42-2/" target="_blank">https://lizards.opensuse.org/2016/10/15/proprietary-amdati-catalyst-fglrx-15-12-rpms-released-for-leap-42-2/</a><br /><br />
+The free software drivers included by default should work very well for most.<br /><br />
 
 
 

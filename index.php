@@ -17,7 +17,7 @@ Have a lot of fun!<br /><br />
 
 
 <div class="heading2">1.1 About openSUSE Leap</div>
-openSUSE Leap is a PC operating system based on GNU and Linux. It's a free/open source and gratis alternative to e.g. Microsoft Windows with many advantages. openSUSE Leap is suitable for laptops, desktops, netbooks, servers and multimedia center PCs at home or in small offices.<br /><br />
+openSUSE Leap is a PC operating system based on GNU and Linux. It's a free/open source and gratis alternative to e.g. Microsoft Windows with many advantages. openSUSE Leap is suitable for laptops, desktops, netbooks, servers and multimedia center PCs at home or in small offices. You can also run openSUSE on your <a href="https://en.opensuse.org/Portal:ARM" target="_blank">ARM</a> or <a href="https://en.opensuse.org/Portal:PowerPC" target="_blank">PPC</a> computer, but that is not covered by this guide.<br /><br />
 
 openSUSE Leap is among the leading GNU/Linux distributions and is also one of the oldest existing ones. openSUSE Leap uses a core system from SUSE Linux Enterprise but with up-to-date hardware support, desktop environments and graphical applications. Every year a major service pack is released and every 3-4 years there is a major new release where also the core system will be upgraded.<br /><br />
 
