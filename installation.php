@@ -84,16 +84,6 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 
 
-<div class="heading3">Installation Options</div>
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-mode.png" rel="thumbnail"><img src="images/installation/dvd/inst-modeb.png" alt="inst-mode" class="pic" /></a></td>
-		<td valign="top">Here you choose to add online repositories or include add-on products, usually will just click "Next". Online repositories can be added in the installed system later.</td>
-	</tr>
-</table><br />
-
-
-
 <div class="heading3">Partitioning</div>
 <table>
 	<tr>
@@ -121,13 +111,13 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 
 
-<div class="heading3">Desktop Selection</div>
+<div class="heading3">User Interface</div>
 	<table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
-		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. KDE is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide.<br /><br />
+		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. KDE is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME or a text based server installation.<br /><br />
 
-		Under "Other" you can select Xfce or minimal graphical environment (IceWM).</td>
+		Under "Custom" you can manually select different patterns, including lightweight desktop environments Xfce and LXDE.
 	</tr>
 </table><br />
 

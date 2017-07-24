@@ -31,7 +31,7 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 </div><br />
 
 2) Afterwards make sure all your multimedia packages are coming from the Packman Repository:
-<div class="path">Start YaST Software Management => Click on View => Click on Repositories => Select the Packman Repository => Click "Switch system packages"</div><br />
+<div class="path">Start YaST Software Management => Click on View => Click on Repositories => Select the Packman Repository => Click "Switch system packages" => Click "Accept"</div><br />
 
 <center><a href="images/screenshots/packman-vendorchange.png" rel="thumbnail"><img src="images/screenshots/packman-vendorchangeb.png" alt="packman_vendor_change" class="pic" /></a></center><br /><br />
 
@@ -52,16 +52,16 @@ To install codecs using the terminal instead, do these steps:<br /><br />
 </div><br />
 
 1) Add the needed repositories:
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.2/ packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.2/ dvd</div><br />
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.3/ packman</div>
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.3/ dvd</div><br />
 
 2) Then install the necessary packages:
-<div class="clroot">zypper install k3b-codecs ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2</div><br />
+<div class="clroot">zypper install ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2</div><br />
 
 You will be asked if you want to allow vendor change for some packages - allow it.<br /><br />
 
 3) Make sure all your multimedia packages are coming from the Packman Repository: 
-<div class="clroot">zypper dup --from http://packman.inode.at/suse/openSUSE_Leap_42.2/</div>
+<div class="clroot">zypper dup --from http://packman.inode.at/suse/openSUSE_Leap_42.3/</div>
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>

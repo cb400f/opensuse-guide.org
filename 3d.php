@@ -38,7 +38,7 @@ Afterwards reboot the computer.<br /><br />
 You can install the Nvidia driver in the terminal. <u>By using this method you don't need to know your graphics card model or series</u>.<br /><br />
 
 First add the repository:
-<div class="clroot">zypper addrepo -f http://download.nvidia.com/opensuse/leap/42.2 nvidia</div><br />
+<div class="clroot">zypper addrepo -f https://download.nvidia.com/opensuse/leap/42.3 nvidia</div><br />
 
 The following command should automatically install the correct driver for your card:<br />
 

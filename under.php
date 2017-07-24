@@ -135,7 +135,7 @@ The main system log can be viewed with the YaST module <i>systemd-journal</i> or
 
 Read up on journalctl to use it effectively.<br /><br />
 
-<div class="heading2">C.8 Troubleshooting</div>
+<div class="heading2">C.7 Troubleshooting</div>
 Here are some basic troubleshooting tips for GNU/Linux in case an application crashes or won't start at all.
 
 <ul>

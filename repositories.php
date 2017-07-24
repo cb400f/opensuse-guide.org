@@ -97,13 +97,13 @@ Updating installed packages from one repository to versions from a different rep
 If you wish, you can manage your repositories via a terminal too.<br /><br />
 
 Add a repository with auto-refresh enabled <i>zypper addrepo -f [URL] [Alias]</i>. Example:
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.2/ packman</div><br />
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.3/ packman</div><br />
 
 Disable a repository <i>zypper modifyrepo -d [URL|Alias]</i>. Example:
 <div class="clroot">zypper modifyrepo -d Packman</div><br />
 
 Remove a repository <i>zypper removerepo [URL|Alias]</i>. Example:
-<div class="clroot">zypper removerepo http://packman.inode.at/suse/openSUSE_Leap_42.2/</div><br />
+<div class="clroot">zypper removerepo http://packman.inode.at/suse/openSUSE_Leap_42.3/</div><br />
 
 List configured repositories, showing  details (priorities, URL, etc.):
 <div class="cl">zypper repos -d</div><br />
