@@ -26,10 +26,6 @@ This driver covers any Nvidia graphics card newer than 2008 or so. Including GeF
 
 <center><a href="http://opensuse-community.org/nvidia_gf8.ymp"><img src="images/oneclick/nvidia-gf8.png" alt="ymp" class="pic" /></a></center><br />
 
-This driver covers Nvidia graphics card roughly from 2007 or older. Including GeForce 6 and 7.<br /><br />
-
-<center><a href="http://opensuse-community.org/nvidia-gf6_gf7.ymp"><img src="images/oneclick/nvidia-gf6.png" alt="ymp" class="pic" /></a></center><br />
-
 Afterwards reboot the computer.<br /><br />
 
 
@@ -38,11 +34,11 @@ Afterwards reboot the computer.<br /><br />
 You can install the Nvidia driver in the terminal. <u>By using this method you don't need to know your graphics card model or series</u>.<br /><br />
 
 First add the repository:
-<div class="clroot">zypper addrepo -f https://download.nvidia.com/opensuse/leap/42.3 nvidia</div><br />
+<div class="clroot">zypper addrepo -f https://download.nvidia.com/opensuse/leap/15.0 nvidia</div><br />
 
 The following command should automatically install the correct driver for your card:<br />
 
-<div class="clroot">zypper install-new-recommends</div><br />
+<div class="clroot">zypper install-new-recommends --repo https://download.nvidia.com/opensuse/leap/15.0</div><br />
 
 When installation is done reboot the computer.<br /><br />
 

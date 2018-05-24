@@ -8,7 +8,7 @@
 <div class="heading1">5. KDE Plasma Workspace</div>
 The KDE Plasma workspace is one of the first things you'll see when you boot openSUSE Leap for the first time. The desktop workspace consists of the desktop itself, menus, panels, file management and window management.<br /><br />
 
-The KDE Plasma Workspace is very highly configurable. If there is something you don't like, you can almost certainly configure it to your liking.<br /><br />
+The KDE Plasma Workspace is very highly configurable. If there is something you don't like, you can almost certainly configure it to your liking. It is also extremely feature rich, mentioned below are just the most basic features.<br /><br />
 
 <div class="heading2">5.1 The Desktop</div>
 The desktop is not very different from other desktop environments you may be familiar with - you have a panel on the bottom, a launch menu which is opened in the lower left corner.<br /><br />
@@ -36,23 +36,7 @@ To add a shortcut for an application on the desktop or in the panel you can do t
 <div class="path">Find the application in the menu => Right click the entry => Click "Add to panel" or "Add to desktop"</div><br />
 
 
-
-<div class="heading3">5.1.2 Widgets</div>
-The KDE Plasma Desktop is centered around widgets and containments. The desktop and the panel are containments in which widgets can be placed. The menu, the system tray etc. are simply widgets. Lots and lots of other widgets are available.<br /><br />
-
-To manipulate widgets the widgets need to be unlocked.
-<div class="path">Right click the desktop => Either "Lock Widgets" or "Unlock Widgets".</div><br />
-
-It's very useful to keep the widgets locked when you are not configuring your desktop, this way you don't get things popping up when you hover over them and you don't risk accidentally moving or removing widgets.<br /><br />
-
-To add widgets:
-<div class="path">Right click the desktop => Add widgets => Drag widgets to the desktop or panel</div><br />
-
-<center><a href="images/screenshots/widgets.png" rel="thumbnail"><img src="images/screenshots/widgetsb.png" alt="widgets" class="pic" /></a></center><br /><br />
-
-
-
-<div class="heading3">5.1.3 Virtual Desktops</div>
+<div class="heading3">5.1.2 Virtual Desktops</div>
 To avoid your desktop getting cluttered with windows you can use virtual desktops to organize your applications and be more productive. In the panel you'll find a small grid, this is the desktop pager, use it to switch between your virtual desktops.<br /><br />
 
 <center><img src="images/screenshots/pager.png" alt="pager" class="pic" /></center><br />
@@ -101,7 +85,19 @@ For an advanced and customizable system monitor, including network graphs etc. r
 
 
 
-<div class="heading2">5.5 Desktop Effects</div>
+<div class="heading2">5.5 Widgets</div>
+The KDE Plasma Desktop is centered around widgets and containments. The desktop and the panel are containments in which widgets can be placed. The menu, the system tray etc. are simply widgets. Lots and lots of other widgets are available.<br /><br />
+
+To add widgets:
+<div class="path">Right click the desktop => Add widgets => Drag widgets to the desktop or panel</div><br />
+
+To configure, move, resize widgets etc., click to open the toolbox in the top right corner of the desktop. This requires widgets to be unlocked.
+<div class="path">Right click the desktop => Either "Lock Widgets" or "Unlock Widgets".</div><br />
+
+<center><a href="images/screenshots/widgets.png" rel="thumbnail"><img src="images/screenshots/widgetsb.png" alt="widgets" class="pic" /></a></center><br /><br />
+
+
+<div class="heading2">5.6 Desktop Effects</div>
 The KDE window manager has built-in support for 3D desktop effects. A basic, unobtrusive selection of effects will be enabled out of the box if you have the proper hardware and driver support in place. Try pressing <i>Ctrl+F8</i> or <i>Ctrl+F9</i> for example.<br /><br />
 
 You can disable or enable other/more effects in Systemsettings.<br /><br />

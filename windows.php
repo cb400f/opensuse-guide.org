@@ -39,11 +39,7 @@ No configuration is needed to access files shared by others. Simply:
 
 <center><a href="images/screenshots/smb-dolph.png" rel="thumbnail"><img src="images/screenshots/smb-dolphb.png" alt="smb-dolphin" class="pic" /></a></center><br />
 
-If you don't know the IP-address of the share, you can <i>browse</i> the local network by simply entering <i>smb:/</i> in the Dolphin location bar. However, this will only work if you configure the firewall first.<br />
-<div class="path">Go to YaST =&gt; Security and Users  =&gt; Firewall =&gt; Allowed Services =&gt; Select "Samba Client" and "Netbios Server" in the "Service to allow" combobox and add them</div><br />
-
-<center><a href="images/screenshots/firewall-samba.png" rel="thumbnail"><img src="images/screenshots/firewall-sambab.png" alt="firewall-samba" class="pic" /></a></center><br />
-
+If you don't know the IP-address of the share you want to access, you can <i>browse</i> the local network by simply entering <i>smb:/</i> in the Dolphin location bar. However, this will only work if you configure or (temporarily) disable the firewall first. More instructions coming soon...<br /><br />
 
 
 <div class="heading3">12.2.2 Sharing Your Files</div>

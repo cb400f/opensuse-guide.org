@@ -6,7 +6,7 @@
 
 
 <div class="heading1">8. Terminal</div>
-Almost anything can be done graphically on a modern GNU/Linux distribution like openSUSE, but to really become a self-reliant user and to truly take advantage of the power of your GNU/Linux operating system, you should at least know a few terminal basics - it's not difficult at all!<br /><br />
+Almost any task can be performed graphically on a modern GNU/Linux distribution such as openSUSE, but to really become a self-reliant user and to truly take advantage of the power of your GNU/Linux operating system, you should at least know a few terminal basics - it's not difficult at all!<br /><br />
 
 There are thousands of commands you can run, each with a number of different options. So this chapter is just a small teaser describing the most common commands.<br /><br />
 
@@ -152,7 +152,7 @@ Rebooting.<br />
 
 Start, stop, restart or get status of system services (start|stop|restart|status). Examples:<br />
 <div class="clroot">systemctl restart network</div>
-<div class="clroot">systemctl stop SuSEfirewall2_init</div>
+<div class="clroot">systemctl stop firewalld</div>
 <div class="clroot">systemctl start apache2</div>
 <div class="clroot">systemctl status smb</div><br />
 

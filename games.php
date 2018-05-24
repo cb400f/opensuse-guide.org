@@ -20,7 +20,7 @@ Not all major, mainstream games run natively on GNU/Linux, but there are still p
 Some games are included in the official openSUSE repositories, but the Games repository on the openSUSE Build Service includes a lot more games. You can easily add this repository via the list of Community Repositories as described in the chapter about <a href="repositories.php">Software Repositories</a><br /><br />
 
 Or add the games repository using the command line:
-<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_42.3/ games</div><br />
+<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.0/ games</div><br />
 
 
 

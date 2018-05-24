@@ -48,10 +48,9 @@ Of course the openSUSE community is also present on all the major social media:<
 
 
 
-<div class="heading3">E.1.5 Yearly Conference</div>
-The openSUSE community meets twice a year for annual openSUSE conferences in Europa and North America respectively. Which is a great opportunity to meet other community members.<br />
-<a href="http://conference.opensuse.org" target="_blank">http://conference.opensuse.org</a><br />
-<a href="http://summit.opensuse.org/" target="_blank">http://summit.opensuse.org/</a><br /><br />
+<div class="heading3">E.1.5 Conferences and events</div>
+The openSUSE community meets regularly on different continents. This is a great opportunity to meet other community members.<br />
+<a href="https://events.opensuse.org/" target="_blank">https://events.opensuse.org/</a><br /><br />
 
 
 
@@ -147,13 +146,7 @@ openSUSE needs fast and reliable mirrors to host ISOs and repositories in all pa
 
 
 
-<div class="heading3">E.2.10 Respins</div>
-Create customized ISO respins and openSUSE derivatives.<br />
-<a href="http://susestudio.com" target="_blank">http://susestudio.com</a><br /><br />
-
-
-
-<div class="heading3">E.2.11 Funds</div>
+<div class="heading3">E.2.10 Funds</div>
 Development of free software also needs money and you can help by donating money to your favourite projects or joining some organizations, like e.g.:<br />
 <a href="http://jointhegame.kde.org/" target="_blank">http://jointhegame.kde.org/</a><br />
 <a href="http://www.fsf.org/associate/" target="_blank">http://www.fsf.org/associate/</a><br />

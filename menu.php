@@ -7,7 +7,7 @@
     <a href="installation.php" class="content-text">4. Installation</a><br />
 
 <div class="content-title">The Fundamentals</div>
-    <a href="kde.php" class="content-text">5. KDE Workspace</a><br />
+    <a href="kde.php" class="content-text">5. KDE Plasma Workspace</a><br />
     <a href="apps.php" class="content-text">6. Apps for Common Tasks</a><br />
     <a href="security.php" class="content-text">7. Security and Root</a><br />
     <a href="command.php" class="content-text">8. Terminal</a><br />

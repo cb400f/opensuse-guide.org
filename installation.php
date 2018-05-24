@@ -115,7 +115,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 	<table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
-		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. KDE is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME or a text based server installation.<br /><br />
+		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. The KDE Plasma Workspace is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME desktop or a text based server installation.<br /><br />
 
 		Under "Custom" you can manually select different patterns, including lightweight desktop environments Xfce and LXDE.
 	</tr>
