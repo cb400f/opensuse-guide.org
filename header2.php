@@ -23,15 +23,13 @@
 
 <!-- title start -->
 
-
-
 <div id="frame" class="normal">
 
 <table width="100%">
 <tr>
 
 <td align="left" valign="top" style="padding-top: 5px" width="33%">
-<div class="content-text">Derivatives:&nbsp;<a href="http://dafter.co.nf/wp/" class="content-text" target="_blank">Arabic</a>&nbsp;|&nbsp;<a href="https://victorhck.gitlab.io/guia_openSUSE/" class="content-text" target="_blank">Spanish</a></div>
+<div class="content-text">Derivatives:&nbsp;<a href="https://victorhck.gitlab.io/guia_openSUSE/" class="content-text" target="_blank">Spanish</a></div>
 </td>
 
 

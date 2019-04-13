@@ -27,10 +27,11 @@ openSUSE Leap is developed openly and transparently by community volunteers work
 
 
 
-<div class="heading2">1.2 This Guide in Other Languages (Derivative Works)</div>
+<div class="heading2">1.2 Translations or Modified Versions</div>
+The sources of this guide are available for everyone on <a href="https://github.com/cb400f/opensuse-guide.org/" target="_blank">GitHub</a> under the GNU Free Documentation License. This makes it easy to create your own modified or translated version. Current known active derivative versions are:
+
 <ul>
-<li><a href="http://dafter.co.nf/wp/" target="_blank">Arabic by Sadig Osman</a></li>
-<li><a href="https://victorhck.gitlab.io/guia_openSUSE/" target="_blank">Spanish by victorhck</a></li>
+<li><a href="https://victorhck.gitlab.io/guia_openSUSE/" target="_blank">Spanish version by victorhck</a></li>
 </ul>
 
 
