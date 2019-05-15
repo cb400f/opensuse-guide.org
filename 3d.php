@@ -19,12 +19,20 @@ This section describes two different ways of installing the proprietary Nvidia g
 Click on the button corresponding to your Nvidia graphics card to install the driver with 1-click install.<br /><br />
 
 
-This driver covers any Nvidia graphics card from Geforce 400 series and later.<br /><br />
-<center><a href="http://opensuse-community.org/nvidia.ymp"><img src="images/oneclick/nvidia_gf400.png" alt="ymp" class="pic" /></a></center><br />
+One click for <b>Geforce 600 series and later</b>. <a href="https://www.nvidia.com/Download/driverResults.aspx/145182/en-us" target="_blank">See supported products<a/>.<br /><br />
 
-This driver covers any Nvidia graphics card newer than 2008 or so. Including GeForce 8, GeForce 100-, 200- and 300-series.<br /><br />
+<a href="http://opensuse-community.org/nvidia_G05.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
 
-<center><a href="http://opensuse-community.org/nvidia_gf8.ymp"><img src="images/oneclick/nvidia-gf8.png" alt="ymp" class="pic" /></a></center><br />
+
+One click for <b>Geforce 400 series and later</b>. <a href="https://www.nvidia.com/Download/driverResults.aspx/142567/en-us" target="_blank">See supported products<a/>.<br /><br />
+
+<a href="http://opensuse-community.org/nvidia_G04.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
+
+
+One click for <b>GeForce 8xxx and later</b>. <a href="https://www.nvidia.com/Download/driverResults.aspx/135161/en-us" target="_blank">See supported products<a/>.<br /><br />
+
+<a href="http://opensuse-community.org/nvidia_G03.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
+
 
 Afterwards reboot the computer.<br /><br />
 
