@@ -83,6 +83,15 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 </table><br />
 
 
+<div class="heading3">User Interface</div>
+	<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
+		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. The KDE Plasma Workspace is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME desktop or a text based server installation etc.<br /><br />
+		
+	</tr>
+</table><br />
+
 
 <div class="heading3">Partitioning</div>
 <table>
@@ -90,9 +99,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 	  <td width="205" valign="top"><a href="images/installation/dvd/inst-disk.png" rel="thumbnail"><img src="images/installation/dvd/inst-diskb.png" alt="inst-disk" class="pic" /></a></td>
 	  <td valign="top">By default openSUSE will propose to create three new partitions / (root) for system files, /home/ for personal files of users and swap which is used as a supplement for RAM, similar to the page file in MS Windows.<br /><br />
 
-	  Don't worry about all the subvolumes created, these are just technicalities of the Btrfs filesystem, and not "real" partitions, that normal users should need to worry about.<br /><br />
-
-	  Always check that the partitioning proposal is what you want, and if you're performing a dual boot installation, pay extra attention, to make sure everything is as desired.<br /><br />
+	   Always check that the partitioning proposal is what you want, and if you're performing a dual boot installation, pay extra attention, to make sure everything is as desired.<br /><br />
 
 	  Note that Linux labels disks/partitions using the following scheme - <i>sda1</i> is first partition on the first disk, <i>sdb3</i> is the third partition on the second disk, and so forth. Partitions that will be formatted are written in red text.</td>
 	</tr>
@@ -111,15 +118,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 
 
-<div class="heading3">User Interface</div>
-	<table>
-	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
-		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. The KDE Plasma Workspace is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME desktop or a text based server installation.<br /><br />
 
-		Under "Custom" you can manually select different patterns, including lightweight desktop environments Xfce and LXDE.
-	</tr>
-</table><br />
 
 
 

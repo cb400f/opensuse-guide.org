@@ -6,7 +6,7 @@
 
 
 <div class="heading1">13. Multimedia Codecs</div>
-This chapter describes two different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with the default media players Dragon and VLC. You can use manual 1-click installation or use the command line - whichever method you prefer.<br /><br />
+This chapter describes two different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with the default media player VLC as well as playing online videos in Firefox. You can use manual 1-click installation or use the command line - whichever method you prefer.<br /><br />
 
 By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).<br /><br />
 
@@ -52,16 +52,16 @@ To install codecs using the terminal instead, do these steps:<br /><br />
 </div><br />
 
 1) Add the needed repositories:
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.0/ packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.0/ dvd</div><br />
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.1/ packman</div>
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.1/ dvd</div><br />
 
 2) Then install the necessary packages:
-<div class="clroot">zypper install ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2 vlc-codecs</div><br />
-
-You will be asked if you want to allow vendor change for some packages - allow it (usually means picking solution 1 of the offered solutions).<br /><br />
+<div class="clroot">zypper install --allow-vendor-change ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice56 libavdevice58 libdvdcss2 vlc-codecs</div><br />
 
 3) Make sure all your multimedia packages are coming from the Packman Repository: 
-<div class="clroot">zypper dup --from http://packman.inode.at/suse/openSUSE_Leap_15.0/</div>
+<div class="clroot">zypper dup --allow-vendor-change --from http://packman.inode.at/suse/openSUSE_Leap_15.1/</div>
+
+
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>

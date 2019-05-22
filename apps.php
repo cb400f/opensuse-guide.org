@@ -42,13 +42,13 @@ Alternatives to consider: Calligra, Abiword, Gnumeric<br /><br />
 
 
 
-<div class="heading2">6.3 Play multimedia with VLC or Dragon</div>
-The default installation includes VLC which plays music and video as well as the Dragon video player.<br /><br />
+<div class="heading2">6.3 Play multimedia with VLC</div>
+The default installation includes VLC Media Player which plays music and video.<br /><br />
 
-<center><a href="images/screenshots/vlc.png" rel="thumbnail"><img src="images/screenshots/vlcb.png" alt="amarok" class="pic" /></a></center><br />
+<center><a href="images/screenshots/vlc.png" rel="thumbnail"><img src="images/screenshots/vlcb.png" alt="vlc" class="pic" /></a></center><br />
 
 Alternatives to consider for music: Amarok, Elisa, Clementine, JuK, Qmmp<br />
-Alternatives to consider for video: SMPlayer, mpv, Kaffeine<br /><br />
+Alternatives to consider for video: SMPlayer, mpv, Kaffeine, Dragon<br /><br />
 
 
 <div class="heading2">6.4 Image Editing with GIMP</div>

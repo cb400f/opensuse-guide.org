@@ -25,7 +25,7 @@ However, a few things differ significantly from most other desktop environments:
 
 
 <div class="heading3">5.1.1 The Launch Menu</div>
-The launch menu is opened by clicking the icon in the bottom left corner of the screen or pressing the Super key or Alt+F1. On the bottom there's a search box and at the top left are your favourite applications. You can add and remove applications from favourites by right clicking them.<br /><br />
+The launch menu is opened by clicking the icon in the bottom left corner of the screen or pressing the Super key or Alt+F1. If you start typing a search field will appear on the top. You can add and remove applications to/from favourites by right clicking items in the menu.<br /><br />
 
 <center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center><br />
 
