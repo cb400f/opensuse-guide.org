@@ -32,6 +32,8 @@ The sources of this guide are available for everyone on <a href="https://github.
 
 <ul>
 <li><a href="https://victorhck.gitlab.io/guia_openSUSE/" target="_blank">Spanish version by victorhck</a></li>
+<li><a href="https://opensuse-guide.linwin.su/15.1/" target="_blank">Russian version by Sergey Mironov</a></li>
+<li><a href="https://alionetasso.github.io/opensuse-guide-fr/introduction" target="_blank">French version by Sébastien "sogal" Poher</a></li>
 </ul>
 
 

@@ -5,7 +5,7 @@
 
 
 
-<div class="heading1"><a name="yast" class="heading1">9. Administrator Settings (YaST)</a></div>
+<div class="heading1">9. Administrator Settings (YaST)</div>
 YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.<br /><br /> 
 
 <center><a href="images/screenshots/yast-controlcenter.png" rel="thumbnail"><img src="images/screenshots/yast-controlcenterb.png" alt="yast" class="pic" /></a></center><br />
