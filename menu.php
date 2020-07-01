@@ -32,7 +32,8 @@
 
 
 <br /><br />
+<!--
 <center><a href="https://en.opensuse.org/Portal:15.2"><img src="http://counter.opensuse.org/small" border="0" alt="countdown" /></a></center><br />
-
+-->
 </div>
 
