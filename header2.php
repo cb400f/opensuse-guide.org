@@ -34,7 +34,7 @@
 
 
 <td align="center" valign="top" style="padding-top: 5px" width="33%">
-<a href="https://github.com/cb400f/opensuse-guide.org/commits/master" class="content-text" target="_blank">Updated: 30 June, 2019</a>
+<a href="https://github.com/cb400f/opensuse-guide.org/commits/master" class="content-text" target="_blank">Updated: 2 July, 2020</a>
 </td>
 
 

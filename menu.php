@@ -30,9 +30,9 @@
     <a href="contribute.php" class="content-text">E: Getting Involved</a><br />
     <a href="license.php" class="content-text">GNU Free Documentation License</a>
 
-<!--
+
 <br /><br />
-<center><a href="https://en.opensuse.org/Portal:15.1"><img src="http://counter.opensuse.org/small" border="0" alt="countdown" /></a></center><br />
--->
+<center><a href="https://en.opensuse.org/Portal:15.2"><img src="http://counter.opensuse.org/small" border="0" alt="countdown" /></a></center><br />
+
 </div>
 

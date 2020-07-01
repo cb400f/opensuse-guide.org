@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<title>1. Introduction - Beginner's Guide to openSUSE Leap 15.1 / SUSE Linux</title>
+<title>1. Introduction - Beginner's Guide to openSUSE Leap 15.2 / SUSE Linux</title>
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
 
