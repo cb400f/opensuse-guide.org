@@ -21,17 +21,17 @@ Click on the button corresponding to your Nvidia graphics card to install the dr
 
 One click for <b>Geforce 600 series and later</b>. <a href="https://www.nvidia.com/Download/driverResults.aspx/145182/en-us" target="_blank">See supported products<a/>.<br /><br />
 
-<a href="http://opensuse-community.org/nvidia_G05.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
+<a href="data:text/x-suse-ymu,http://opensuse-community.org/nvidia_G05.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
 
 
 One click for <b>Geforce 400 series and later</b>. <a href="https://www.nvidia.com/Download/driverResults.aspx/142567/en-us" target="_blank">See supported products<a/>.<br /><br />
 
-<a href="http://opensuse-community.org/nvidia_G04.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
+<a href="data:text/x-suse-ymu,http://opensuse-community.org/nvidia_G04.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
 
 
 One click for <b>GeForce 8xxx and later</b>. <a href="https://www.nvidia.com/Download/driverResults.aspx/135161/en-us" target="_blank">See supported products<a/>.<br /><br />
 
-<a href="http://opensuse-community.org/nvidia_G03.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
+<a href="data:text/x-suse-ymu,http://opensuse-community.org/nvidia_G03.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
 
 
 Afterwards reboot the computer.<br /><br />
