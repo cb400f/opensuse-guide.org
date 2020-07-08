@@ -24,7 +24,19 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 <tbody>
 <tr>
 <td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>If a conflict dialog appears, select to install the packages <i>with</i> Vendor Change.</td>
+<td>These 1-Click Installers currently only work with the <b>Firefox web browser</b>.</td>
+</tr>
+</tbody>
+</table>
+</div><br />
+
+
+<div class="tip">
+<table>
+<tbody>
+<tr>
+<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td>If a conflict dialog appears, select to install the packages <b><i>with</i> Vendor Change</b>.</td>
 </tr>
 </tbody>
 </table>

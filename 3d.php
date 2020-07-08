@@ -19,6 +19,18 @@ This section describes two different ways of installing the proprietary Nvidia g
 Click on the button corresponding to your Nvidia graphics card to install the driver with 1-click install.<br /><br />
 
 
+<div class="tip">
+<table>
+<tbody>
+<tr>
+<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td>These 1-Click Installers currently only work with the <b>Firefox web browser</b>.</td>
+</tr>
+</tbody>
+</table>
+</div><br />
+
+
 One click for <b>Geforce 600 series and later</b>. <a href="https://www.nvidia.com/Download/driverResults.aspx/145182/en-us" target="_blank">See supported products<a/>.<br /><br />
 
 <a href="data:text/x-suse-ymu,http://opensuse-community.org/nvidia_G05.ymp"><img src="images/oneclick/nvidia.png" alt="ymp" class="pic" /></a><br /><br />
