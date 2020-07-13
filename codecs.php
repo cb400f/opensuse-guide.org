@@ -17,7 +17,7 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 
 1) Click on the button below to add the necessary repositories and install the required packages with 1-click install.<br /><br />
 
-<center><a href="data:text/x-suse-ymu,http://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center><br />
+<center><a href="https://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center><br />
 
 <div class="tip">
 <table>
