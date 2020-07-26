@@ -29,8 +29,20 @@ There are companies selling openSUSE in a (German language) box with support, an
 
 <center><img src="images/pics/box.png" alt="box" /></center><br />
 
+<div class="heading2">3.4 Buy a PC with openSUSE Pre-Installed</div>
+Some vendors offer some or all of their laptops or PCs with openSUSE pre-installed. This way you know the hardware works with GNU/Linux, you save the trouble of downloading and installing openSUSE yourself and you support GNU/Linux friendly vendors.<br /><br /> 
 
-<div class="heading2">3.4 The Source Code</div>
+
+For example check out these vendors:<br/>
+<a href="https://www.tuxedocomputers.com" target="_blank">https://www.tuxedocomputers.com</a><br />
+<a href="https://www.thinkpenguin.com/" target="_blank">https://www.thinkpenguin.com/</a><br />
+<a href="https://slimbook.es/" target="_blank">https://slimbook.es/</a><br /><br />
+
+
+<center><img src="images/pics/laptop.png" alt="laptop" /></center><br />
+
+
+<div class="heading2">3.5 The Source Code</div>
 You can find the source code for all the free packages in openSUSE here, in the form of source RPM files:<br />
 <a href="http://download.opensuse.org/source/distribution/leap/15.2/repo/oss/src/" target="_blank">http://download.opensuse.org/source/distribution/leap/15.2/repo/oss/src/</a>
 <br /><br />
