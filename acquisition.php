@@ -9,7 +9,7 @@ Here are some of the ways of acquiring openSUSE.<br /><br />
 
 <div class="heading2">3.1 Download It</div>
 You can download openSUSE free of charge. Just go to:<br />
-<a href="http://software.opensuse.org/" target="_blank">http://software.opensuse.org/</a><br /><br />
+<a href="https://get.opensuse.org/leap/" target="_blank">https://get.opensuse.org/leap/</a><br /><br />
 
 The full DVD (4.7 GB) provides the most smooth and complete experience. You don't have to use a DVD, it can also be put on a USB stick (see next chapter).<br /><br />
 
