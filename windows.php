@@ -107,10 +107,7 @@ CrossOver is not gratis. It's specialised in running a select few of the major M
 
 
 <div class="heading3">12.3.3 Dual Boot</div>
-As mentioned in the <i>Installation</i> chapter, it's relatively simple to run GNU/Linux and MS Windows on the same computer. If your only need a few applications that you rarely use, maybe it's worth it to reboot into MS Windows now and then, when you need to use these particular apps.<br /><br />
-
-When you install a dual boot system, your MS Windows disks/partitions should be mounted under <i>/windows/C/</i>, <i>/windows/D/</i> etc. If not, you can assign mountpoints (folders in which the drives should be mounted) with YaST => System => Partitioner. By default partitions formatted with the NTFS file system will be read-only. To make them writable for the normal user you have to edit the respective entries in <i>/etc/fstab</i> and replace <i>fmask=113,dmask=002</i> with <i>umask=0002</i>.<br /><br />
-
+As mentioned in the <i>Installation</i> chapter, it's relatively simple to run GNU/Linux and MS Windows on the same computer. If you only need a few applications that you rarely use, maybe it's worth it to reboot into MS Windows now and then, when you need to use these particular apps.<br /><br />
 
 
 <div class="heading3">12.3.4 Virtualisation</div>

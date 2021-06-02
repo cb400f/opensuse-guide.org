@@ -49,7 +49,6 @@ You can also use the desktop grid effect to get a big overview of your virtual d
 The default file manager is Dolphin.You can find it as one of the favourites in the launch menu or in the "System" category. It should be very intuitive. USB sticks and other removable media will automatically appear in the left pane of Dolphin.<br />
 <div class="path">Launch Menu => System => Dolphin</div><br />
 
-You can also find Dolphin as one of the favourites in the launch menu.<br /><br /> 
 
 <center><a href="images/screenshots/dolphin.png" rel="thumbnail"><img src="images/screenshots/dolphinb.png" alt="dolphin" class="pic" /></a></center><br />
 

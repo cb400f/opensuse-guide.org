@@ -75,7 +75,7 @@ With a bit of luck the developer/vendor website will have an RPM file for openSU
 If the website doesn't have an RPM for openSUSE, it will most likely have a so-called <i>tarball</i>. Tarballs (*.tar.gz, *.tar.bz2) are simply compressed archives similar to ZIP and RAR files. To uncompress a tarball:
 <div class="path">Open the Dolphin file manager =&gt; Navigate to the tarball =&gt; Right click =&gt; Extract Archive</div><br />
 
-The tarball might contain binaries that just need to be ran, or it might contain source code which needs to be compiled to run on your system - this can be very complicated, and requires you to first install various developer tools. There's no one standard way to install tarball content, but instructions should always be included in the tarball in files called INSTALL, README or similar - or you should be able to find installation instructions on the website where you downloaded the tarball.<br /><br />
+The tarball might contain binaries that just need to be run, or it might contain source code which needs to be compiled to run on your system - this can be very complicated, and requires you to first install various developer tools. There's no one standard way to install tarball content, but instructions should always be included in the tarball in files called INSTALL, README or similar - or you should be able to find installation instructions on the website where you downloaded the tarball.<br /><br />
 
 
 

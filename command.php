@@ -51,7 +51,7 @@ This is just a very small selection of commands to give you an idea of how thing
 <tbody>
 <tr>
 <td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Commands written in <u>red</u> need to be ran as root.</td>
+<td>Commands written in <u>red</u> need to be run as root.</td>
 </tr>
 </tbody>
 </table>
@@ -83,7 +83,7 @@ Moving or renaming a file<br />
 
 <div class="heading3">8.2.2 System Monitoring</div>
 
-Running processes and consumpition of system resources. Press <b>'Q'</b> to exit.<br />
+Running processes and consumption of system resources. Press <b>'Q'</b> to exit.<br />
 <div class="cl">top </div><br />
 
 Disk space usage<br />
@@ -217,6 +217,7 @@ Vim is quite advanced, you might consider installing a simpler text based editor
 
 <div class="heading2">8.4 Further reading</div>
 If you want to learn more about using the terminal there are many resources available on the internet, here are a couple of links.<br />
+<a href="https://www.guru99.com/unix-linux-tutorial.html" target="_blank">https://www.guru99.com/unix-linux-tutorial.html</a><br />
 <a href="http://linuxcommand.org/" target="_blank">http://linuxcommand.org/</a><br />
 <a href="http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html" target="_blank">http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html</a><br /><br />
 

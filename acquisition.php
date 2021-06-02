@@ -44,7 +44,7 @@ For example check out these vendors:<br/>
 
 <div class="heading2">3.5 The Source Code</div>
 You can find the source code for all the free packages in openSUSE here, in the form of source RPM files:<br />
-<a href="http://download.opensuse.org/source/distribution/leap/15.2/repo/oss/src/" target="_blank">http://download.opensuse.org/source/distribution/leap/15.2/repo/oss/src/</a>
+<a href="http://download.opensuse.org/source/distribution/leap/15.3/repo/oss/src/" target="_blank">http://download.opensuse.org/source/distribution/leap/15.3/repo/oss/src/</a>
 <br /><br />
 
 

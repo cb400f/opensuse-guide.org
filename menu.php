@@ -18,9 +18,8 @@
 <div class="content-title">Setup</div>
     <a href="windows.php" class="content-text">12. MS Windows Interop</a><br />
     <a href="codecs.php" class="content-text">13. Multimedia Codecs</a><br />  
-    <a href="browserplugins.php" class="content-text">14. Browser Plugins</a><br />
-    <a href="3d.php" class="content-text">15. Graphics Drivers</a><br />
-    <a href="wlan.php" class="content-text">16. Wifi</a><br />
+    <a href="3d.php" class="content-text">14. Graphics Drivers</a><br />
+    <a href="wlan.php" class="content-text">15. Wifi</a><br />
 
 <div class="content-title">Appendix</div>
     <a href="help.php" class="content-text">A: Help and Docs</a><br />
@@ -30,10 +29,10 @@
     <a href="contribute.php" class="content-text">E: Getting Involved</a><br />
     <a href="license.php" class="content-text">GNU Free Documentation License</a>
 
-
+<!--
 <br /><br />
 
 <center><a href="https://en.opensuse.org/Portal:15.3"><img src="http://counter.opensuse.org/small" border="0" alt="countdown" /></a></center><br />
-
+-->
 </div>
 

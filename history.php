@@ -110,7 +110,7 @@ SUSE was founded on September 2, 1992 in Germany, under the name Gesellschaft f&
 
 In 2005 the openSUSE project was started with the goal of opening up development and involve the community more.<br /><br />
 
-In 2010 Novell was acquired by Attachmate. The deal was finalized in April 2011, and one of the first actions of Attachmate was to split SUSE into a separate business unit independant of Novell, and move SUSE headquarters back to Nuremberg, Germany. In 2014 Micro Focus merged with Attachmate, but this did not affect SUSE nor the openSUSE Project.<br /><br />
+In 2010 Novell was acquired by Attachmate. The deal was finalized in April 2011, and one of the first actions of Attachmate was to split SUSE into a separate business unit independant of Novell, and move SUSE headquarters back to Nuremberg, Germany. In 2014 Micro Focus merged with Attachmate, but this did not affect SUSE nor the openSUSE Project. In 2019 Micro Focus sold SUSE to Swedish private equity firm EQT Partners, again this had little or no direct effect on the openSUSE project.<br /><br />
 
 In 2014 the development branch openSUSE Factory was stabilized enough to become a usable rolling relese distribution, called openSUSE Tumbleweed. openSUSE Tumbleweed forms the base for SUSE Linux Enterprise Server and Desktop (SLES and SLED). This again lead to changes in the stable openSUSE releases and the creation of openSUSE Leap in 2015, which uses SUSE Linux Enterprise for the core system, and has a form of long term support with major yearly service packs and major releases only happening every 3-4 years.<br /><br />
 

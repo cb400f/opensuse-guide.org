@@ -43,15 +43,6 @@ The official repositories are pre-configured, but many unofficial repositories e
 The easiest and safest way to add repositories is using the list of online community repositories in YaST. This provides you with a selection of popular and quite safe repositories to choose from:
 <div class="path">YaST => Software => Software Repositories => Click on "Add" => Select "Community Repositories" and click "Next"</div><br />
 
-<center><video src="video/repos114.ogv" controls>  
-
-<center><a href="images/screenshots/community-repos.png" rel="thumbnail"><img src="images/screenshots/community-reposb.png" alt="repos" class="pic" /></a></center><br />
-
-<b>Your web browser does not support the HTML5 video element and/or Ogg Theora format.<br />
-Try Firefox, Konqueror or Opera.</b><br /><br />
-
-<a href="video/repos-full.ogv">Download video for local viewing (4.3 MB)</a>
-</video></center>  <br /><br />
 
 Note that the <i>openSUSE BuildService</i> is a service for the community to build and share packages. <i>openSUSE BuildService repositories are unofficial and unsupported</i>. Use at your own risk.<br /><br />
 
@@ -80,8 +71,8 @@ Additionally I recommend adding the following <i>unofficial</i> repositories fro
 <tbody>
 <tr>
 <td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Still missing a package?<br /><br />You can search for packages/repositories on the openSUSE BuildService here:<br />
-<a href="http://software.opensuse.org/search" target="_blank">http://software.opensuse.org/search</a><br /><br />This package search engine also includes the Packman repository:<br /><a href="http://webpinstant.com" target="_blank">http://webpinstant.com</a><br /><br />Remember to add unofficial repositories with care!</td>
+<td>Still missing a package? You can search for packages/repositories on the openSUSE BuildService here:<br />
+<a href="http://software.opensuse.org/" target="_blank">http://software.opensuse.org/</a><br /></td>
 </tr>
 </tbody>
 </table>
@@ -97,13 +88,13 @@ Updating installed packages from one repository to versions from a different rep
 If you wish, you can manage your repositories via a terminal too.<br /><br />
 
 Add a repository with auto-refresh enabled <i>zypper addrepo -f [URL] [Alias]</i>. Example:
-<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.2/ packman</div><br />
+<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/ packman</div><br />
 
 Disable a repository <i>zypper modifyrepo -d [URL|Alias]</i>. Example:
 <div class="clroot">zypper modifyrepo -d Packman</div><br />
 
 Remove a repository <i>zypper removerepo [URL|Alias]</i>. Example:
-<div class="clroot">zypper removerepo http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.2/</div><br />
+<div class="clroot">zypper removerepo http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/</div><br />
 
 List configured repositories, showing  details (priorities, URL, etc.):
 <div class="cl">zypper repos -d</div><br />

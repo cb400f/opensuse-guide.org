@@ -3,7 +3,7 @@
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
 
-<div class="heading1">15. Graphics Drivers</div>
+<div class="heading1">14. Graphics Drivers</div>
 Note that there's no need to install the below non-free video drivers, if the free drivers used by default work for your needs.<br /><br />
 
 
@@ -12,7 +12,7 @@ Note that there's no need to install the below non-free video drivers, if the fr
 
 
 
-<div class="heading2">15.1 Nvidia</div>
+<div class="heading2">14.1 Nvidia</div>
 This section describes two different ways of installing the proprietary Nvidia graphics driver, either using 1-click installation or using the terminal.<br /><br />
 
 <div class="heading3">15.1.1 Install the Nvidia Driver with 1-Click Installation</div>
@@ -46,15 +46,15 @@ Afterwards reboot the computer.<br /><br />
 
 
 
-<div class="heading3">15.1.2 Install the Nvidia Driver in the Terminal</div>
+<div class="heading3">14.1.2 Install the Nvidia Driver in the Terminal</div>
 You can install the Nvidia driver in the terminal. <u>By using this method you don't need to know your graphics card model or series</u>.<br /><br />
 
 First add the repository:
-<div class="clroot">zypper addrepo -f https://download.nvidia.com/opensuse/leap/15.2 nvidia</div><br />
+<div class="clroot">zypper addrepo -f https://download.nvidia.com/opensuse/leap/15.3 nvidia</div><br />
 
 The following command should automatically install the correct driver for your card:<br />
 
-<div class="clroot">zypper install-new-recommends --repo https://download.nvidia.com/opensuse/leap/15.2</div><br />
+<div class="clroot">zypper install-new-recommends --repo https://download.nvidia.com/opensuse/leap/15.3</div><br />
 
 When installation is done reboot the computer.<br /><br />
 
@@ -65,8 +65,9 @@ When installation is done reboot the computer.<br /><br />
 
 
 
-<div class="heading2">15.2 ATI/AMD</div>
-The free software drivers included by default should work very well for most.<br /><br />
+<div class="heading2">14.2 ATI/AMD</div>
+The free software drivers included by default should work very well for most. For some newer cards you may need a proprietary driver, see:<br />
+<a href="https://en.opensuse.org/SDB:AMDGPU-PRO">https://en.opensuse.org/SDB:AMDGPU-PRO</a><br /><br />
 
 
 
@@ -74,14 +75,14 @@ The free software drivers included by default should work very well for most.<br
 
 
 
-<div class="heading2">15.3 Intel</div>
+<div class="heading2">14.3 Intel</div>
 The 3D drivers for Intel graphics cards are free software, and can therefore be included in openSUSE out of the box. No additional installation or configuration is needed.<br /><br />
 
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
 	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="browserplugins.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
+		<td style="width: 50%;"><div style="text-align: center;"><a href="codecs.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
 		<td style="width: 50%;"><div style="text-align: center;"><a href="wlan.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
 	</tr>
 </tbody>

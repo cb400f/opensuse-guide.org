@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<title>1. Introduction - Beginner's Guide to openSUSE Leap 15.2 / SUSE Linux</title>
+<title>1. Introduction - Beginner's Guide to openSUSE Leap 15.3 / SUSE Linux</title>
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
 
@@ -10,7 +10,7 @@ The purpose of this guide is to provide new users with everything they need to k
 
 Reading this guide should save you <i>a lot</i> of time in the long run. The appendix at the end is targetted at particularly enthusiastic readers.<br /><br />
 
-Note that this guide is not officially related to the <a href="http://www.opensuse.org" target="_blank">openSUSE project</a> nor <a href="http://www.suse.com" target="_blank">SUSE LINUX Products GmbH</a> nor Micro Focus International.<br /><br />
+Note that this guide is not officially related to the <a href="http://www.opensuse.org" target="_blank">openSUSE project</a> nor <a href="http://www.suse.com" target="_blank"> SUSE Software Solutions Germany GmbH</a>.<br /><br />
 
 Have a lot of fun!<br /><br />
 
@@ -32,7 +32,6 @@ The sources of this guide are available for everyone on <a href="https://github.
 
 <ul>
 <li><a href="https://victorhck.gitlab.io/guia_openSUSE/" target="_blank">Spanish version by victorhck</a></li>
-<li><a href="https://opensuse-guide.linwin.su/15.1/" target="_blank">Russian version by Sergey Mironov</a></li>
 <li><a href="https://alionetasso.github.io/opensuse-guide-fr/introduction" target="_blank">French version by Sébastien "sogal" Poher</a></li>
 </ul>
 
