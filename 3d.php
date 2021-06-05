@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<title>15. Graphics Drivers - Install Nvidia or ATI/AMD 3D Driver</title>
+<title>14. Graphics Drivers - Install Nvidia or ATI/AMD 3D Driver</title>
 <?php include 'header2.php'; ?>
 <?php include 'menu.php'; ?> 
 
@@ -15,7 +15,7 @@ Note that there's no need to install the below non-free video drivers, if the fr
 <div class="heading2">14.1 Nvidia</div>
 This section describes two different ways of installing the proprietary Nvidia graphics driver, either using 1-click installation or using the terminal.<br /><br />
 
-<div class="heading3">15.1.1 Install the Nvidia Driver with 1-Click Installation</div>
+<div class="heading3">14.1.1 Install the Nvidia Driver with 1-Click Installation</div>
 Click on the button corresponding to your Nvidia graphics card to install the driver with 1-click install.<br /><br />
 
 
