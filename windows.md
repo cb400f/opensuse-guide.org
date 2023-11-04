@@ -4,12 +4,14 @@ title: 12. MS Windows Interoperability - Using openSUSE With Windows Network, Do
 permalink: /windows
 ---
 
-<div class="heading1">12. MS Windows Interoperability</div>
+# 12. MS Windows Interoperability
+
 The PC world is dominated by Microsoft, and they're not exactly known for making interoperability easy. Despite this, it's possible to interoperate fairly seamlessly in most cases. This chapter addresses the most common issues.<br /><br />
 
 
 
-<div class="heading2">12.1 Office Documents</div>
+## 12.1 Office Documents
+
 LibreOffice defaults to the Open Document Format (*.odt, *.ods, *.odp, etc.) which is an open standard. This format is partially supported by Microsoft Office >= 2007 Service Pack 2. Or you can suggest to your MS Windows and Mac OSX using contacts to install LibreOffice, as it's freely available for those platforms too.<br /><br />
 
 LibreOffice can also read and write the Microsoft Office formats (*.doc, *.xls,*.ppt, *.docx, *.xlsx, *.pptx etc.) quite well - as well as a wide range of other formats.<br /><br />
@@ -27,12 +29,14 @@ LibreOffice can also read and write the Microsoft Office formats (*.doc, *.xls,*
 
 
 
-<div class="heading2">12.2 Windows Network</div>
+## 12.2 Windows Network
+
 For sharing resources on a local network with MS Windows machines the Samba service is used.<br /><br />
 
 
 
-<div class="heading3">12.2.1 Accessing Shares</div>
+### 12.2.1 Accessing Shares
+
 No configuration is needed to access files shared by others. Simply:
 <div class="path">Launch the Dolphin file manager => Click the location bar or press Ctrl+L for an editable location bar => Enter 'smb://[ip-address]'</div><br />
 
@@ -41,7 +45,8 @@ No configuration is needed to access files shared by others. Simply:
 If you don't know the IP-address of the share you want to access, you can <i>browse</i> the local network by simply entering <i>smb:/</i> in the Dolphin location bar. However, this will only work if you configure or (temporarily) disable the firewall first. More instructions coming soon...<br /><br />
 
 
-<div class="heading3">12.2.2 Sharing Your Files</div>
+### 12.2.2 Sharing Your Files
+
 To share <i>your</i> files with MS Windows users, Mac OSX users or other GNU/Linux users on the local network you must configure the Samba Server (make sure the packages <i>yast2-samba-server</i> and <i>samba</i> are installed). You only need to perform the first three steps the first time you want share a folder.<br /><br />
 
 <b>1) </b><br />
@@ -61,7 +66,8 @@ Add shares by clicking the "Add" button and specifying the directories you want 
 
 
 
-<div class="heading2">12.3 Running MS Windows Applications</div>
+## 12.3 Running MS Windows Applications
+
 High quality, native GNU/Linux applications exist for almost any purpose, but it's possible that you're dependent on a MS Windows-only application for some job. These are your options in such a case.<br /><br />
 
 <div class="note">
@@ -77,7 +83,8 @@ High quality, native GNU/Linux applications exist for almost any purpose, but it
 
 
 
-<div class="heading3">12.3.1 Wine</div>
+### 12.3.1 Wine
+
 Wine (Wine Is Not an Emulator) is an application that enables you to run many MS Windows applications, you can install wine with YaST or zypper.
 
 Wine is a command line application, the syntax is:
@@ -99,15 +106,18 @@ The Wine project keeps a database for sharing experiences of running application
 
 
 
-<div class="heading3">12.3.2 CrossOver</div>
+### 12.3.2 CrossOver
+
 CrossOver is not gratis. It's specialised in running a select few of the major MS Windows applications - mostly office related.<br />
 <a href="https://www.codeweavers.com/products/cxlinux/" target="_blank">https://www.codeweavers.com/products/cxlinux/</a><br /><br />
 
 
 
-<div class="heading3">12.3.3 Dual Boot</div>
+### 12.3.3 Dual Boot
+
 As mentioned in the <i>Installation</i> chapter, it's relatively simple to run GNU/Linux and MS Windows on the same computer. If you only need a few applications that you rarely use, maybe it's worth it to reboot into MS Windows now and then, when you need to use these particular apps.<br /><br />
 
 
-<div class="heading3">12.3.4 Virtualisation</div>
+### 12.3.4 Virtualisation
+
 It's possible to run MS Windows on top of GNU/Linux inside a <i>virtual machine</i>, using software such as VirtualBox, KVM, Xen or VMware. This is somewhat advanced, and requires some computer power.<br /><br />

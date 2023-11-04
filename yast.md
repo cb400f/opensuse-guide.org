@@ -4,7 +4,8 @@ title: 9. Administrator Settings (YaST) - Introduction to the YaST Setup Tool
 permalink: /yast
 ---
 
-<div class="heading1">9. Administrator Settings (YaST)</div>
+# 9. Administrator Settings (YaST)
+
 YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.<br /><br />
 
 <center><a href="images/screenshots/yast-controlcenter.png" rel="thumbnail"><img src="images/screenshots/yast-controlcenterb.png" alt="yast" class="pic" /></a></center><br />
@@ -46,7 +47,8 @@ A lot more YaST modules are available than the ones included in the default inst
 
 
 
-<div class="heading2">9.1 YaST in the Terminal</div>
+## 9.1 YaST in the Terminal
+
 The YaST modules can also be used in a terminal (ncurses mode) - this is very useful for servers with no graphical environment running, for remote access via SSH, or in case your graphical environment fails.<br /><br />
 
 Simply run <i>yast</i> as root in a terminal.<br />

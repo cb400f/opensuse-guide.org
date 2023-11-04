@@ -4,7 +4,8 @@ title: 8. Terminal - Running Commands and Using the Command Line Interface on op
 permalink: /command
 ---
 
-<div class="heading1">8. Terminal</div>
+# 8. Terminal
+
 Almost any task can be performed graphically on a modern GNU/Linux distribution such as openSUSE, but to really become a self-reliant user and to truly take advantage of the power of your GNU/Linux operating system, you should at least know a few terminal basics - it's not difficult at all!<br /><br />
 
 There are thousands of commands you can run, each with a number of different options. So this chapter is just a small teaser describing the most common commands.<br /><br />
@@ -29,20 +30,24 @@ The <i>command</i> <b>ls</b> displays a list of files, the <i>option</i> <b>-l</
 
 
 
-<div class="heading2">8.1 Useful Shortcuts</div><br />
+## 8.1 Useful Shortcuts
 
-<div class="heading3">Tab-key</div>
+### Tab-key
+
 The tab-key is increcibly useful, if possible it will auto-complete commands and arguments, which helps you work faster and avoid typos.<br /><br />
 
-<div class="heading3">Ctrl+Shift+V</div>
+### Ctrl+Shift+V
+
 Paste from the clipboard.<br /><br />
 
-<div class="heading3">Ctrl+C</div>
+### Ctrl+C
+
 This shortcut stops any operation you may have started.<br /><br />
 
 
 
-<div class="heading2">8.2 Examples of Basic Commands</div>
+## 8.2 Examples of Basic Commands
+
 This is just a very small selection of commands to give you an idea of how things work.<br /><br />
 
 <div class="tip">
@@ -58,7 +63,7 @@ This is just a very small selection of commands to give you an idea of how thing
 
 
 
-<div class="heading3">8.2.1 File Management</div>
+### 8.2.1 File Management
 
 Changing directory<br />
 <div class="cl">cd /home/user/directoryname/</div><br />
@@ -80,7 +85,7 @@ Moving or renaming a file<br />
 
 
 
-<div class="heading3">8.2.2 System Monitoring</div>
+### 8.2.2 System Monitoring
 
 Running processes and consumption of system resources. Press <b>'Q'</b> to exit.<br />
 <div class="cl">top </div><br />
@@ -93,7 +98,7 @@ Memory consumption<br />
 
 
 
-<div class="heading3">8.2.3 Network</div>
+### 8.2.3 Network
 
 Find out your IP-address<br />
 <div class="cl">ip a</div><br />
@@ -106,7 +111,8 @@ Find out your DNS servers<br />
 
 
 
-<div class="heading3">8.2.4 Man Pages and Help</div>
+### 8.2.4 Man Pages and Help
+
 Almost all commands have an accompanying manual page describing how to use the command and the available options. For example type:
 <div class="cl">man cp</div><br />
 
@@ -117,7 +123,8 @@ If a command does not have a man page, try <i>--help</i> instead, example:
 
 
 
-<div class="heading3">8.2.5 Becoming Root</div>
+### 8.2.5 Becoming Root
+
 To switch to the root user to perform system administration tasks, type:<br />
 <div class="cl">su -</div>
 
@@ -142,7 +149,8 @@ To run a single command as root use:
 
 
 
-<div class="heading3">8.2.6 System Tasks</div>
+### 8.2.6 System Tasks
+
 Shutting down.<br />
 <div class="clroot">systemctl shutdown</div><br />
 
@@ -161,7 +169,8 @@ Enable or disable a service from starting at every boot. Examples:
 
 
 
-<div class="heading3">8.2.7 The Kernel</div>
+### 8.2.7 The Kernel
+
 Find out your kernel version and flavour.<br />
 <div class="cl">uname -r</div><br />
 
@@ -179,7 +188,7 @@ Unloading a kernel module.<br />
 
 
 
-<div class="heading3">8.2.8 Hardware Information</div>
+### 8.2.8 Hardware Information
 
 The command hwinfo can provide you with information about almost any hardware, some examples:<br />
 <div class="clroot">hwinfo --short --wlan</div>
@@ -193,7 +202,8 @@ List USB devices:
 
 
 
-<div class="heading2">8.3 Editing Text Files</div>
+## 8.3 Editing Text Files
+
 Editing configuration files or other text files can be done like this using the vim editor, which is installed by default.<br /><br />
 
 Open a file with <i>vim /path/to/file</i>. Example:<br />
@@ -214,7 +224,8 @@ Press <b>i</b> to enter insert mode (you will see "-- INSERT --" at the bottom).
 
 Vim is quite advanced, you might consider installing a simpler text based editor, e.g. try <i>nano</i>.<br /><br />
 
-<div class="heading2">8.4 Further reading</div>
+## 8.4 Further reading
+
 If you want to learn more about using the terminal there are many resources available on the internet, here are a couple of links.<br />
 <a href="https://www.guru99.com/unix-linux-tutorial.html" target="_blank">https://www.guru99.com/unix-linux-tutorial.html</a><br />
 <a href="http://linuxcommand.org/" target="_blank">http://linuxcommand.org/</a><br />

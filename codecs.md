@@ -4,7 +4,8 @@ title: 13. Multimedia Codecs - Install Support for restricted codecs including M
 permalink: /codecs
 ---
 
-<div class="heading1">13. Multimedia Codecs</div>
+# 13. Multimedia Codecs
+
 This chapter describes two different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with the default media player VLC as well as playing online videos in Firefox. You can use manual 1-click installation or use the command line - whichever method you prefer.<br /><br />
 
 By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).<br /><br />
@@ -12,7 +13,7 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 
 
 
-<div class="heading2">13.1 Codec Installation with 1-Click</div>
+## 13.1 Codec Installation with 1-Click
 
 1) Click on the button below to add the necessary repositories and install the required packages with 1-click install.<br /><br />
 
@@ -48,7 +49,8 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 
 
 
-<div class="heading2">13.2 Codec Installation in the Terminal</div>
+## 13.2 Codec Installation in the Terminal
+
 To install codecs using the terminal instead, do these steps:<br /><br />
 
 <div class="tip">

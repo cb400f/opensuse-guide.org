@@ -4,21 +4,24 @@ title: 11. Software Repositories - Adding and Managing Package Repositories
 permalink: /repositories
 ---
 
-<div class="heading1">11. Software Repositories</div>
+# 11. Software Repositories
+
 As mentioned in the previous chapter, the package manager installs software by fetching packages from software repositories, therefore the software available for easy installation via the package manager depends on the configured repositories.<br /><br />
 
 A software repository is a collection of RPM packages (the openSUSE packaging format) and metadata for the available packages. Usually repositories are on online servers, but it can also be on a CD/DVD or on other media.<br /><br />
 
 
 
-<div class="heading2">11.1 Managing Repositories</div>
+## 11.1 Managing Repositories
+
 Respositories can be added, removed and configured via YaST, in the module called Software Repositories.<br /><br />
 
 <center><a href="images/screenshots/yast-repos.png" rel="thumbnail"><img src="images/screenshots/yast-reposb.png" alt="repos" class="pic" /></a></center><br />
 
 
 
-<div class="heading3">11.1.1 Adding Repositories</div>
+### 11.1.1 Adding Repositories
+
 The official repositories are pre-configured, but many unofficial repositories exist and can be added too.<br /><br />
 
 <div class="note">
@@ -47,7 +50,8 @@ Note that the <i>openSUSE BuildService</i> is a service for the community to bui
 
 
 
-<div class="heading3">11.1.2 Recommended Repositories</div>
+### 11.1.2 Recommended Repositories
+
 You should always have the four <i>official</i> repositories (which are configured out of the box).<br/>
 
 <ul>
@@ -79,11 +83,13 @@ Additionally I recommend adding the following <i>unofficial</i> repositories fro
 
 
 
-<div class="heading3">11.1.3 Vendor Change Updates</div>
+### 11.1.3 Vendor Change Updates
+
 Updating installed packages from one repository to versions from a different repository with a different <i>vendor</i>, is a little bit complicated. Read about it here:<br />
 <a href="http://en.opensuse.org/SDB:Vendor_change_update" target="_blank">http://en.opensuse.org/SDB:Vendor_change_update</a><br /><br />
 
-<div class="heading2">11.2 Repository Management in the Terminal</div>
+## 11.2 Repository Management in the Terminal
+
 If you wish, you can manage your repositories via a terminal too.<br /><br />
 
 Add a repository with auto-refresh enabled <i>zypper addrepo -f [URL] [Alias]</i>. Example:

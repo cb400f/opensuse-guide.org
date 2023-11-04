@@ -4,12 +4,14 @@ title: 10. Installing Software - Install Programs With the Package Manager
 permalink: /installpackage
 ---
 
-<div class="heading1">10. Installing Software</div>
+# 10. Installing Software
+
 Software installation is generally incredibly easy on openSUSE. There's a package manager, which lets you install and remove packages very easily - it's comparable to the app stores found on many modern smart phones.<br /><br />
 
 
 
-<div class="heading2">10.1 Using the package manager</div>
+## 10.1 Using the package manager
+
 Simply open YaST Software Management.<br /><br />
 
 <center><video src="video/installpackage114.ogv" controls>  
@@ -37,7 +39,8 @@ Now search for the package you want, select it for installation and click Accept
 
 
 
-<div class="heading3">10.1.1 Using 1-click Installation</div>
+### 10.1.1 Using 1-click Installation
+
 When browsing openSUSE related websites, you're likely to come across buttons such as this one:<br /><br />
 
 <center><img class="pic" alt="oneclick" src="images/pics/oneclick.png" /></center><br />
@@ -46,14 +49,16 @@ When browsing openSUSE related websites, you're likely to come across buttons su
 
 
 
-<div class="heading2">10.2 Other Installation Methods</div>
+## 10.2 Other Installation Methods
+
 Most users will find everything they need and more in the package manager - especially if a few additional software repositories are added (see next chapter). But not all software is packaged and provided via repositories, and non-free software usually can't be legally redistributed via the package manager because of license restrictions.<br /><br />
 
 In these cases you'll need to go to the developer/vendor website and download and install the software manually - but <b>always</b> look for an openSUSE package in repositories first - and make sure you only download and install software from trusted sources.<br /><br />
 
 
 
-<div class="heading3">10.2.1 RPM file</div>
+### 10.2.1 RPM file
+
 With a bit of luck the developer/vendor website will have an RPM file for openSUSE. To install a single, downloaded RPM file:
 <div class="path">Open the Dolphin file manager =&gt; Navigate to the RPM file =&gt; Right Click it => Open With... => Install/Remove Software</div><br />
 
@@ -70,7 +75,8 @@ With a bit of luck the developer/vendor website will have an RPM file for openSU
 
 
 
-<div class="heading3">10.2.2 Tarball</div>
+### 10.2.2 Tarball
+
 If the website doesn't have an RPM for openSUSE, it will most likely have a so-called <i>tarball</i>. Tarballs (*.tar.gz, *.tar.bz2) are simply compressed archives similar to ZIP and RAR files. To uncompress a tarball:
 <div class="path">Open the Dolphin file manager =&gt; Navigate to the tarball =&gt; Right click =&gt; Extract Archive</div><br />
 
@@ -78,7 +84,8 @@ The tarball might contain binaries that just need to be run, or it might contain
 
 
 
-<div class="heading2">10.3 Package Management in the Terminal</div>
+## 10.3 Package Management in the Terminal
+
 If you wish, you can install and remove packages via a terminal too.<br /><br />
 
 To search for a package run <i>zypper search [search term]</i>. Example:
@@ -98,19 +105,22 @@ Or for help on indvidual commands use for example:
 
 
 
-<div class="heading3">10.3.1 Using 1-click in the Terminal</div>
+### 10.3.1 Using 1-click in the Terminal
+
 You can actually use 1-click installation in the terminal too, the syntax is <i>OCICLI [URL]</i>, Example:
 <div class="clroot">OCICLI http://opensuse-community.org/nvidia.ymp</div><br />
 
 
 
-<div class="heading3">10.3.2 Manually downloaded RPM file</div>
+### 10.3.2 Manually downloaded RPM file
+
 To install a manually downloaded RPM file, run:
 <div class="clroot">zypper install /path/to/manually/downloaded.rpm</div><br />
 
 
 
-<div class="heading3">10.3.3 RPM Queries</div>
+### 10.3.3 RPM Queries
+
 You can get a lot of useful information about installed packages from the RPM database very easily.<br /><br />
 
 Check which version is installed. Example:

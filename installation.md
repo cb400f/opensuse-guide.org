@@ -4,17 +4,20 @@ title: 4. Installation - Howto Install openSUSE on Your Computer
 permalink: /installation
 ---
 
-<div class="heading1">4. Installation</div>
+# 4. Installation
+
 This is just a brief description of openSUSE installation. For more thorough help see the official documentation.<br /><br />
 
 
 
-<div class="heading2">4.1 Before Installation</div>
+## 4.1 Before Installation
+
 Before starting there are a few things you should be aware of.<br /><br />
 
 
 
-<div class="heading3">4.1.1 System Minimum Requirements</div>
+### 4.1.1 System Minimum Requirements
+
 <ul>
     <li><b>CPU:</b> AMD64 or Intel64 processor</li>
     <li><b>RAM:</b> 1 GB physical RAM (2 GB recommended)</li>
@@ -24,39 +27,46 @@ Before starting there are a few things you should be aware of.<br /><br />
 
 
 
-<div class="heading3">4.1.2a Burning the ISOs to a DVD</div>
+### 4.1.2a Burning the ISOs to a DVD
+
 When you burn the downloaded ISO files to a DVD it's important to remember to burn them as ISOs/images with your CD/DVD writer software, or the media won't be bootable.<br /><br />
 
 
 
-<div class="heading3">4.1.2b Creating a USB stick</div>
+### 4.1.2b Creating a USB stick
+
 The ISO can also be put on an USB stick, see instructions for this for for MS Windows, Apple MacOS, openSUSE and other GNU/Linux here:<br />
 <a href="https://en.opensuse.org/Create_installation_USB_stick" target="_blank">https://en.opensuse.org/Create_installation_USB_stick</a></li><br /> <br />
 
 
 
-<div class="heading3">4.1.3 BIOS Setup</div>
+### 4.1.3 BIOS Setup
+
 If your computer won't boot from the DVD or USB media, check that the computer BIOS is configured to boot from CD/DVD or USB.<br /><br />
 
 
 
-<div class="heading3">4.1.4 Dual Boot (openSUSE and MS Windows on the same computer)</div>
+### 4.1.4 Dual Boot (openSUSE and MS Windows on the same computer)
+
 Having openSUSE and MS Windows installed on the same computer is usually fairly simple if MS Windows was installed first. During installation openSUSE will detect MS Windows and the bootloader will display a menu on each startup letting you choose whether to boot openSUSE or MS Windows.<br /><br />
 
 openSUSE needs to be installed on a separate partition/disk. It's recommended to free up space beforehand using a partitioning tool that you're familiar with. But you can also let the openSUSE installer resize your MS Windows partitions - it's strongly recommended to defragment the MS Windows partition before doing so.<br /><br />
 
 
 
-<div class="heading3">4.1.5 Connect Network Cable and Turn on Peripherals</div>
+### 4.1.5 Connect Network Cable and Turn on Peripherals
+
 If you connect your network cable and turn on your printer and other peripherals before commencing the installation, there's a good chance of them being autodetected and configured.<br /><br />
 
 
 
-<div class="heading2">4.2 The Installation Process</div>
+## 4.2 The Installation Process
+
 When you're ready, insert the DVD or USB stick and (re)start the computer.<br /><br />
 
 
-<div class="heading3">Start Installation</div>
+### Start Installation
+
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/grub.png" rel="thumbnail"><img src="images/installation/dvd/grubb.png" alt="grub" class="pic" /></a></td>
@@ -67,7 +77,8 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 
 
-<div class="heading3">Language, Keyboard and Licence</div>
+### Language, Keyboard and Licence
+
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-welcome.png" rel="thumbnail"><img src="images/installation/dvd/inst-welcomeb.png" alt="welcome" class="pic" /></a></td>
@@ -77,7 +88,8 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 </table><br />
 
 
-<div class="heading3">User Interface</div>
+### User Interface
+
 	<table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
@@ -87,7 +99,8 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 </table><br />
 
 
-<div class="heading3">Partitioning</div>
+### Partitioning
+
 <table>
 	<tr>
 	  <td width="205" valign="top"><a href="images/installation/dvd/inst-disk.png" rel="thumbnail"><img src="images/installation/dvd/inst-diskb.png" alt="inst-disk" class="pic" /></a></td>
@@ -102,7 +115,8 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 
 
-<div class="heading3">Clock and Time Zone</div>
+### Clock and Time Zone
+
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-time.png" rel="thumbnail"><img src="images/installation/dvd/inst-timeb.png" alt="inst-time" class="pic" /></a></td>
@@ -116,7 +130,8 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 
 
-<div class="heading3">Create New User</div>
+### Create New User
+
 <table>
 	<tr>
 	<td width="205" valign="top"><a href="images/installation/dvd/inst-user.png" rel="thumbnail"><img src="images/installation/dvd/inst-userb.png" alt="inst-user" class="pic" /></a></td>
@@ -128,7 +143,8 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 
 
-<div class="heading3">Installation Settings</div>
+### Installation Settings
+
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-overview.png" rel="thumbnail"><img src="images/installation/dvd/inst-overviewb.png" alt="inst-overview" class="pic" /></a></td>
@@ -138,7 +154,8 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 
 
 
-<div class="heading3">Actual Installation</div>
+### Actual Installation
+
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-inst.png" rel="thumbnail"><img src="images/installation/dvd/inst-instb.png" alt="inst-inst" class="pic" /></a></td>

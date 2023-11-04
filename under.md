@@ -4,12 +4,14 @@ title: "Appendix C: Under the Hood - A Look at What's Happening Under the Surfac
 permalink: /under
 ---
 
-<div class="heading1">Appendix C: Under the Hood</div>
+# Appendix C: Under the Hood
+
 The purpose of this chapter is to give the reader a quick look and basic idea of what's going on beneath the surface of the openSUSE GNU/Linux operating system.<br /><br />
 
 
 
-<div class="heading2">C.1 Main System Components</div>
+## C.1 Main System Components
+
 Any modern computer operating system is a very large and complicated contraption - and GNU/Linux distributions are no exception. The Linux kernel is just one of many components. The figure below shows the core components and what their respective roles are.<br /><br />
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
@@ -25,7 +27,8 @@ Any modern computer operating system is a very large and complicated contraption
 
 
 
-<div class="heading2">C.2 File Tree</div>
+## C.2 File Tree
+
 Most users will hardly ever need to work outside their home folder, but nevertheless it's probably a good idea to have a basic idea about the how the file hierarchy works.<br /><br />
 
 On GNU/Linux you only have <i>one</i> file tree, unlike e.g. Microsoft Windows which has a different file tree for each filesystem/partition - on GNU/Linux separate filesystems/partitions are <i>mounted</i> in folders within a single file tree. The root folder for the file tree is "<b>/</b>" and paths are written using forward slashes.<br /><br />
@@ -50,14 +53,16 @@ In MS Windows a comparable path might look like this:<br />
 Normal users only have write permission in their <b>/home/</b> folder, and rarely have any need to work outside of that.<br /><br />
 
 
-<div class="heading2">C.3 Hidden Files</div>
+## C.3 Hidden Files
+
 Files and folders starting with '.' (dot) are hidden. You can make them visible in Dolphin file manager via the keyboard shortcut <b>Alt+.</b> or <b>View -&gt; Show Hidden Files</b> in the menubar.<br /><br />
 
 Applications store the user settings and data in hidden folders in the users home folder, e.g. <b>/home/<i>username</i>/.mozilla/</b> or <b>/home/<i>username</i>/.config/vlc/</b> etc. If you uninstall/reinstall an application the settings and data will remain in the home folder. To "reset" an application, you just rename or (re)move the settings and/or data hidden in your home folder.<br /><br />
 
 
 
-<div class="heading2">C.4 Important Config Files</div>
+## C.4 Important Config Files
+
 In GNU/Linux configurations and settings are usually stored in human-readable plain text files. Almost any configuration can be done graphically via YaST or various other GUI applications, but nevertheless it can be useful to know the location of some key config files.<br /><br />
 
 System wide configurations are mainly stored in <b>/etc/</b>, user settings are stored in hidden files in the home folder for the individual user.<br /><br />
@@ -100,7 +105,8 @@ System wide configurations are mainly stored in <b>/etc/</b>, user settings are 
 </table><br />
 
 
-<div class="heading2">C.5 Logs</div>
+## C.5 Logs
+
 In case of problems it's good to know the location of the main log files, most are kept in <b>/var/log/</b>.<br /><br />
 
 <table class="table">
@@ -125,7 +131,8 @@ The main system log can be viewed with the YaST module <i>systemd-journal</i> or
 
 Read up on journalctl to use it effectively.<br /><br />
 
-<div class="heading2">C.6 Troubleshooting</div>
+## C.6 Troubleshooting
+
 Here are some basic troubleshooting tips for GNU/Linux in case an application crashes or won't start at all.
 
 <ul>

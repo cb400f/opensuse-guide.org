@@ -4,7 +4,8 @@ title: 'Appendix A: Help and Docs - Support and Documentation for openSUSE'
 permalink: /help
 ---
 
-<div class="heading1">Appendix A: Help and Docs</div>
+# Appendix A: Help and Docs
+
 This guide is just a brief introduction to some of the basics, so it's likely you're going to need additional help at some point. Nothing beats getting help from a friend face-to-face and on-site, but that's often not an option, so thankfully there are many places where you can get help from openSUSE users online - which method to choose depends on your personal preference.<br /><br />
 
 <div class="tip">
@@ -20,12 +21,14 @@ This guide is just a brief introduction to some of the basics, so it's likely yo
 
 
 
-<div class="heading2">A.1 Search the Web</div>
+## A.1 Search the Web
+
 In most cases you'll easily find the answer to your question with a simple search using your favourite web search engine.<br /><br />
 
 
 
-<div class="heading2">A.2 Forums</div>
+## A.2 Forums
+
 You can ask for help on the official web forums.<br />
 <a href="http://forums.opensuse.org" target="_blank">http://forums.opensuse.org</a><br /><br />
 
@@ -37,7 +40,8 @@ And there's a forum for the LibreOffice office suite too:<br />
 
 
 
-<div class="heading2">A.3 IRC</div>
+## A.3 IRC
+
 You can get help in realtime using IRC (Internet Relay Chat). The IRC-client Konversation is installed by default and preconfigured to join the <a href="irc://irc.opensuse.org/opensuse" class="button" title="join #suse on freenode">#suse</a> channel on the Freenode IRC network.<br /><br />
 
 <center><a href="images/screenshots/konversation.png" rel="thumbnail"><img src="images/screenshots/konversationb.png" alt="konversation" class="pic" /></a></center><br />
@@ -50,13 +54,14 @@ IRC channels also exist for support in many other languages than English. See th
 
 
 
-<div class="heading2">A.4 Mailinglists</div>
+## A.4 Mailinglists
+
 You can get support on mailing lists, see:<br />
 <a href="http://en.opensuse.org/openSUSE:Mailing_lists" target="_blank">http://en.opensuse.org/openSUSE:Mailing_lists</a><br /><br />
 
 
 
-<div class="heading2">A.5 Documentation</div>
+## A.5 Documentation
 
 Reading the manuals is always a good idea. You can find the official openSUSE manuals in PDF, EPUB and HTML format here:<br />
 <a href="http://doc.opensuse.org/" target="_blank">http://doc.opensuse.org/</a><br /><br />
@@ -68,7 +73,8 @@ You'll find a lot of docs and howtos on the documentation portal on the wiki:<br
 
 
 
-<div class="heading2">A.6 Other Resources</div>
+## A.6 Other Resources
+
 There's a unified search for the openSUSE wiki, forums, mailinglists etc. on:<br />
 <a href="http://search.opensuse.org" target="_blank">http://search.opensuse.org</a>.<br /><br />
 
@@ -78,12 +84,14 @@ When asking for support online it can be very useful to share text (e.g. command
 
 
 
-<div class="heading2">A.7 Linux User Groups</div>
+## A.7 Linux User Groups
+
 There's likely to be a LUG in your vicinity, with mailinglists or forums and possibly meetings where you can get help face-to-face and meet other GNU/Linux users in "real life".<br /><br />
 
 
 
-<div class="heading2">A.8 Hardware</div>
+## A.8 Hardware
+
 GNU/Linux supports most hardware, but not all. Components that are very new on the market, or components with little marketshare, are most prone to causing problems. Here are some databases tracking support for various hardware types. It's recommended to research whether hardware is supported by GNU/Linux <i>before</i> making a purchase.<br /><br />
 
 <div class="tip">
@@ -117,7 +125,8 @@ GNU/Linux supports most hardware, but not all. Components that are very new on t
 
 
 
-<div class="heading2">A.8 General and in-depth knowledge</div>
+## A.8 General and in-depth knowledge
+
 If you really want to get deep knowledge of GNU/Linux on a serious level, consider reading some books. Technical book stores are loaded with GNU/Linux litterature and you might find something interesting in your local library too. You can also check out these websites, for gratis e-books:<br />
 <a href="http://tldp.org/" target="_blank">http://tldp.org/</a><br />
 <a href="http://en.flossmanuals.net" target="_blank">http://en.flossmanuals.net</a><br />
