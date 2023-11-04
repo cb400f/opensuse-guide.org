@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>7. Security and Root - Basic Security and Working as the Root User</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 7. Security and Root - Basic Security and Working as the Root User
+permalink: /security
+---
 
 <div class="heading1">7. Security and Root</div>
 openSUSE and GNU/Linux in general is a very secure operating system, but when using any computer on the internet one should always be careful.<br /><br />
@@ -82,14 +81,3 @@ openSUSE comes with a firewall included in the default installation ('firewalld'
 
 <div class="heading2">7.4 Virus and Spyware</div>
 There's no need to run a virus scanner or to scan for spyware. Malware spreading via the internet and infecting normal home user desktop systems are practically non-existant for GNU/Linux. Just make sure you yourself don't install and run software or scripts from untrusted sources, and you'll be safe.<br /><br />
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="apps.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="command.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

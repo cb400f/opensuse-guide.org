@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>10. Installing Software - Install Programs With the Package Manager</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 10. Installing Software - Install Programs With the Package Manager
+permalink: /installpackage
+---
 
 <div class="heading1">10. Installing Software</div>
 Software installation is generally incredibly easy on openSUSE. There's a package manager, which lets you install and remove packages very easily - it's comparable to the app stores found on many modern smart phones.<br /><br />
@@ -48,7 +47,7 @@ When browsing openSUSE related websites, you're likely to come across buttons su
 
 
 <div class="heading2">10.2 Other Installation Methods</div>
-Most users will find everything they need and more in the package manager - especially if a few additional software repositories are added (see next chapter). But not all software is packaged and provided via repositories, and non-free software usually can't be legally redistributed via the package manager because of license restrictions.<br /><br /> 
+Most users will find everything they need and more in the package manager - especially if a few additional software repositories are added (see next chapter). But not all software is packaged and provided via repositories, and non-free software usually can't be legally redistributed via the package manager because of license restrictions.<br /><br />
 
 In these cases you'll need to go to the developer/vendor website and download and install the software manually - but <b>always</b> look for an openSUSE package in repositories first - and make sure you only download and install software from trusted sources.<br /><br />
 
@@ -125,16 +124,3 @@ Find out which package a certain file belongs to. Example:
 
 Get various information about a package, including changelog. Example:
 <div class="cl">rpm -qi --changelog MozillaFirefox</div><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="yast.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="repositories.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

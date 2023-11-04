@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix D: History and Background - What is Free Software and Open Source and What is the History of openSUSE</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 'Appendix D: History and Background - What is Free Software and Open Source and What is the History of openSUSE'
+permalink: /history
+---
 
 <div class="heading1">Appendix D: History and Background</div>
 The purpose of this chapter is to give readers some insight into and background knowledge of the history and eco system of GNU/Linux and free/open source software in general.<br /><br />
@@ -60,7 +59,7 @@ The freedoms 1 and 3 require access to the source code of the program.<br /><br 
 <tbody>
 <tr>
 <td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>If you want to know more about free software, consider downloading this 
+<td>If you want to know more about free software, consider downloading this
 <a href="http://audio-video.gnu.org/video/20090122_richard_stallman.ogv" target="_blank">video of Richard M. Stallman speaking</a> (550 MB, Ogg Theora format)</td>
 </tr>
 </tbody>
@@ -79,7 +78,7 @@ The most widely used free software licence by far, is the GNU General Public Lic
 <div class="heading2">D.3 Linux and Linus Torvalds</div>
 By the late 1980s the GNU project had created an <a href="http://directory.fsf.org/GNU/" target="_blank">almost complete free Unix operating system</a>, but the kernel was causing problems.<br /><br />
 
-In 1991, independentantly of the GNU project, then 22-year old Finnish university student Linus Torvalds decided to write a Unix kernel that he could use at home. Later that year he announced the first release on a newsgroup, using these now immortal words: <i>"...I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)..."</i>.<br /><br /> 
+In 1991, independentantly of the GNU project, then 22-year old Finnish university student Linus Torvalds decided to write a Unix kernel that he could use at home. Later that year he announced the first release on a newsgroup, using these now immortal words: <i>"...I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)..."</i>.<br /><br />
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
@@ -94,7 +93,7 @@ In 1991, independentantly of the GNU project, then 22-year old Finnish universit
 
 The kernel was named Linux and soon it was licenced under the GNU GPL, and people started combining it with the GNU tools. A fully functional, free Unix-like operating system consisting of GNU plus Linux was reality!<br /><br />
 
-Today Linus Torvalds lives in the U.S. and continues to lead development of the Linux kernel - but he's no longer alone, today over a thousand developers contribute code to the kernel every year - some of which are volunteers contributing in their spare time, while others are employed by large corporations, such as IBM, Intel, Novell and Red Hat.<br /><br /> 
+Today Linus Torvalds lives in the U.S. and continues to lead development of the Linux kernel - but he's no longer alone, today over a thousand developers contribute code to the kernel every year - some of which are volunteers contributing in their spare time, while others are employed by large corporations, such as IBM, Intel, Novell and Red Hat.<br /><br />
 
 
 
@@ -118,10 +117,10 @@ In 2014 the development branch openSUSE Factory was stabilized enough to become 
 <tbody>
 	<tr>
 		<td style="width: 25%;"><div style="text-align: center;"><img style="border: 0px solid ; width: 148px; height: 140px;" alt="gnu" src="images/pics/gnu-head.jpg" /></div></td>
-	
+
 		<td style="width: 25%;"><div style="text-align: center;"><img style="width: 128px; height: 128px;" alt="tux" src="images/pics/linux.png" /></div></td>
 
-		<td style="width: 25%"><div style="text-align: center;"><img style="width: 120px; height: 141px;" alt="konqui" src="images/pics/konqui.png" /></div></td>	
+		<td style="width: 25%"><div style="text-align: center;"><img style="width: 120px; height: 141px;" alt="konqui" src="images/pics/konqui.png" /></div></td>
 
 		<td style="width: 25%"><div style="text-align: center;"><img style="width: 150px; height: 150px;" alt="geeko" src="images/pics/opensuse.jpg" /></div></td>
 	</tr>
@@ -177,21 +176,8 @@ However there are also many, many people working on free software in their spare
 	</ul>
 
 
-	
+
 <div class="heading3">D.6.3 Who is Using GNU/Linux?</div>
 Many people still perceive GNU/Linux as a small hobbyist operating system - and the marketshare on standard desktop PCs is quite small of course. Nevertheless a marketshare of about one percent, still adds up to millions and millions of people worldwide. No truly reliable measure of the marketshare or total number of users is possible, for something which is usually freely redistributable.<br /><br />
 
 However GNU/Linux is very widespread in other areas. A very large share of web servers and other servers run GNU/Linux. Facebook, Google and Yahoo build their entire infrastructures on GNU/Linux. GNU/Linux has been used everywhere from Antarctica to NASA using it in outer space. GNU/Linux is the preferred operating system for most of the world's <a href="https://www.top500.org/stats/" target="_blank">super computers</a>. And GNU/Linux is used <a href="http://linuxdevices.com/" target="_blank">embedded in devices</a> where people often don't even know it's there, such as mobile phones, TVs, e-book-readers, PDAs, routers, hard disk recorders, NAS devices, and more.<br /><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="under.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="contribute.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

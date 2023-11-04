@@ -1,12 +1,11 @@
-<?php include 'header.php'; ?>
-<title>11. Software Repositories - Adding and Managing Package Repositories</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 11. Software Repositories - Adding and Managing Package Repositories
+permalink: /repositories
+---
 
 <div class="heading1">11. Software Repositories</div>
-As mentioned in the previous chapter, the package manager installs software by fetching packages from software repositories, therefore the software available for easy installation via the package manager depends on the configured repositories.<br /><br /> 
+As mentioned in the previous chapter, the package manager installs software by fetching packages from software repositories, therefore the software available for easy installation via the package manager depends on the configured repositories.<br /><br />
 
 A software repository is a collection of RPM packages (the openSUSE packaging format) and metadata for the available packages. Usually repositories are on online servers, but it can also be on a CD/DVD or on other media.<br /><br />
 
@@ -20,7 +19,7 @@ Respositories can be added, removed and configured via YaST, in the module calle
 
 
 <div class="heading3">11.1.1 Adding Repositories</div>
-The official repositories are pre-configured, but many unofficial repositories exist and can be added too.<br /><br /> 
+The official repositories are pre-configured, but many unofficial repositories exist and can be added too.<br /><br />
 
 <div class="note">
 <table>
@@ -104,15 +103,3 @@ See <i>man zypper</i> for more.
 
 Or for help on indvidual commands use for example:
 <div class="cl">zypper addrepo --help</div><br />
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="installpackage.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="windows.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

@@ -1,12 +1,11 @@
-<?php include 'header.php'; ?>
-<title>9. Administrator Settings (YaST) - Introduction to the YaST Setup Tool</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 9. Administrator Settings (YaST) - Introduction to the YaST Setup Tool
+permalink: /yast
+---
 
 <div class="heading1">9. Administrator Settings (YaST)</div>
-YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.<br /><br /> 
+YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.<br /><br />
 
 <center><a href="images/screenshots/yast-controlcenter.png" rel="thumbnail"><img src="images/screenshots/yast-controlcenterb.png" alt="yast" class="pic" /></a></center><br />
 
@@ -57,16 +56,3 @@ Simply run <i>yast</i> as root in a terminal.<br />
 <center><a href="images/screenshots/yast-ncurses.png" rel="thumbnail"><img src="images/screenshots/yast-ncursesb.png" alt="yast-ncurses" class="pic" /></a></center><br />
 
 Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to quit).<br /><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="command.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="installpackage.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

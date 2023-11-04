@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>5. KDE Workspace - Use and Configure KDE on Desktop or Netbook</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 5. KDE Workspace - Use and Configure KDE on Desktop or Netbook
+permalink: /kde
+---
 
 <div class="heading1">5. KDE Plasma Workspace</div>
 The KDE Plasma workspace is one of the first things you'll see when you boot openSUSE Leap for the first time. The desktop workspace consists of the desktop itself, menus, panels, file management and window management.<br /><br />
@@ -55,10 +54,10 @@ The default file manager is Dolphin.You can find it as one of the favourites in 
 
 
 <div class="heading2">5.3 Configure Desktop (KDE Systemsettings)</div>
-The global KDE settings are gathered conveniently in one place. Here you can configure almost anything related to the KDE Plasma workspace including mouse behaviour, default applications, file associations etc. 
+The global KDE settings are gathered conveniently in one place. Here you can configure almost anything related to the KDE Plasma workspace including mouse behaviour, default applications, file associations etc.
 <div class="path">Launch Menu => Settings => Configure Desktop</div><br />
 
-You can also find Configure Desktop (systemsettings) as one of the favourites in the launch menu.<br /><br /> 
+You can also find Configure Desktop (systemsettings) as one of the favourites in the launch menu.<br /><br />
 
 <center><a href="images/screenshots/systemsettings.png" rel="thumbnail"><img src="images/screenshots/systemsettingsb.png" alt="systemsettings" class="pic" /></a></center><br />
 
@@ -104,16 +103,3 @@ You can disable or enable other/more effects in Systemsettings.<br /><br />
 <center><a href="images/screenshots/effects.png" rel="thumbnail"><img src="images/screenshots/effectsb.png" alt="effects" class="pic" /></a></center><br />
 
 The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shift+F12</i>.<br /><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="installation.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="apps.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
-<title>GNU Free Documentation License</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
+---
+layout: default
+title: GNU Free Documentation License
+permalink: /license
+---
 
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 	<tr>
@@ -162,16 +162,3 @@ If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts, replace 
 
 If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.</div><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="contribute.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

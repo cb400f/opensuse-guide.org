@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>4. Installation - Howto Install openSUSE on Your Computer</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 4. Installation - Howto Install openSUSE on Your Computer
+permalink: /installation
+---
 
 <div class="heading1">4. Installation</div>
 This is just a brief description of openSUSE installation. For more thorough help see the official documentation.<br /><br />
@@ -23,10 +22,10 @@ Before starting there are a few things you should be aware of.<br /><br />
     <li><b>Sound and Graphics Card:</b> Most modern cards are supported</li>
     </ul>
 
-    
-    
+
+
 <div class="heading3">4.1.2a Burning the ISOs to a DVD</div>
-When you burn the downloaded ISO files to a DVD it's important to remember to burn them as ISOs/images with your CD/DVD writer software, or the media won't be bootable.<br /><br /> 
+When you burn the downloaded ISO files to a DVD it's important to remember to burn them as ISOs/images with your CD/DVD writer software, or the media won't be bootable.<br /><br />
 
 
 
@@ -54,7 +53,7 @@ If you connect your network cable and turn on your printer and other peripherals
 
 
 <div class="heading2">4.2 The Installation Process</div>
-When you're ready, insert the DVD or USB stick and (re)start the computer.<br /><br /> 
+When you're ready, insert the DVD or USB stick and (re)start the computer.<br /><br />
 
 
 <div class="heading3">Start Installation</div>
@@ -72,7 +71,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-welcome.png" rel="thumbnail"><img src="images/installation/dvd/inst-welcomeb.png" alt="welcome" class="pic" /></a></td>
-		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.<br /><br /> 
+		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.<br /><br />
 		Check that language and keyboard layout are as desired.</td>
 	</tr>
 </table><br />
@@ -83,7 +82,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.<br />
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
 		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. The KDE Plasma Workspace is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME desktop or a text based server installation etc.<br /><br />
-		
+
 	</tr>
 </table><br />
 
@@ -151,16 +150,3 @@ Have a lot of fun with openSUSE!
 		</td>
 	</tr>
 </table><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="acquisition.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="kde.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

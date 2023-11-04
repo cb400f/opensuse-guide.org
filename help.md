@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix A: Help and Docs - Support and Documentation for openSUSE</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 'Appendix A: Help and Docs - Support and Documentation for openSUSE'
+permalink: /help
+---
 
 <div class="heading1">Appendix A: Help and Docs</div>
 This guide is just a brief introduction to some of the basics, so it's likely you're going to need additional help at some point. Nothing beats getting help from a friend face-to-face and on-site, but that's often not an option, so thankfully there are many places where you can get help from openSUSE users online - which method to choose depends on your personal preference.<br /><br />
@@ -26,7 +25,7 @@ In most cases you'll easily find the answer to your question with a simple searc
 
 
 
-<div class="heading2">A.2 Forums</div> 
+<div class="heading2">A.2 Forums</div>
 You can ask for help on the official web forums.<br />
 <a href="http://forums.opensuse.org" target="_blank">http://forums.opensuse.org</a><br /><br />
 
@@ -74,7 +73,7 @@ There's a unified search for the openSUSE wiki, forums, mailinglists etc. on:<br
 <a href="http://search.opensuse.org" target="_blank">http://search.opensuse.org</a>.<br /><br />
 
 When asking for support online it can be very useful to share text (e.g. commandline output) or screenshots showing your problem. The openSUSE pastebin makes this easy:<br />
-<a href="http://susepaste.org/" target="_blank">http://susepaste.org/</a> (text)<br /> 
+<a href="http://susepaste.org/" target="_blank">http://susepaste.org/</a> (text)<br />
 <a href="http://img.susepaste.org/" target="_blank">http://img.susepaste.org/</a> (images)<br /><br />
 
 
@@ -113,7 +112,7 @@ GNU/Linux supports most hardware, but not all. Components that are very new on t
 	<li><a href="http://www.linux1394.org/hcl.php" target="_blank">http://www.linux1394.org/hcl.php</a>  (FireWire)</li>
 	<li><a href="http://mxhaard.free.fr/spca5xx.html" target="_blank">http://mxhaard.free.fr/spca5xx.html</a> (Webcams)</li>
 	<li><a href="http://www.ideasonboard.org/uvc/#devices" target="_blank">http://www.ideasonboard.org/uvc/#devices</a> (Webcams)</li>
-	<li><a href="https://h-node.org/" target="_blank">https://h-node.org/</a> (General hardware working with free software)</li>	
+	<li><a href="https://h-node.org/" target="_blank">https://h-node.org/</a> (General hardware working with free software)</li>
 	</ul>
 
 
@@ -123,16 +122,3 @@ If you really want to get deep knowledge of GNU/Linux on a serious level, consid
 <a href="http://tldp.org/" target="_blank">http://tldp.org/</a><br />
 <a href="http://en.flossmanuals.net" target="_blank">http://en.flossmanuals.net</a><br />
 <a href="http://www.freetechbooks.com/" target="_blank">http://www.freetechbooks.com/</a><br /><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="wlan.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="games.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

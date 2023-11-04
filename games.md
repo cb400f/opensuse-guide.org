@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix B: Games - Playing Games on openSUSE</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 'Appendix B: Games - Playing Games on openSUSE'
+permalink: /games
+---
 
 <div class="heading1">Appendix B: Games</div>
 Not all major, mainstream games run natively on GNU/Linux, but there are still plenty of gaming options.<br /><br />
@@ -84,7 +83,7 @@ Numerous emulators exist, making it possible to run many old classic games of ot
   <li>MS DOS (DOSBox, DOSEMU)</li>
   <li>Nintendo (infones, bsnes, nestopia)</li>
   <li>Play Station (pcsx, pcsx2)</li>
-  
+
 </ul>
 
 <div class="tip">
@@ -97,16 +96,3 @@ Numerous emulators exist, making it possible to run many old classic games of ot
 </tbody>
 </table>
 </div><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="help.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="under.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

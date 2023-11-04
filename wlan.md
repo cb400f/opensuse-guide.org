@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>16. Wireless Driver Installation - Making Your Broadcom, Ralink etc. Wifi/Wlan Work</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 15. Wireless Driver Installation - Making Your Broadcom, Ralink etc. Wifi/Wlan Work
+permalink: /wlan
+---
 
 <div class="heading1">15. Wifi Driver Installation</div>
 Most of the time wifi will just work out of the box. In these cases you'll be able to configure your wireless card using the NetworkManagement widget which you should find running in your system tray.<br /><br />
@@ -44,16 +43,3 @@ Atheros are working with the Linux-kernel developers towards providing support f
 
 <div class="heading2">15.5 Intel Chipset</div>
 Intel are cooperating quite well with the Linux-kernel developers and all Intel wifi chips should just work.<br /><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="3d.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="help.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>

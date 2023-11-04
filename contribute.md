@@ -1,9 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix E: Getting Involved - Being a Part of the openSUSE Community and How to Contribute</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
-
+---
+layout: default
+title: 'Appendix E: Getting Involved - Being a Part of the openSUSE Community and How to Contribute'
+permalink: /contribute
+---
 
 <div class="heading1">Appendix E: Getting Involved</div>
 openSUSE is developed in the open, and everybody can join in - this means that you can help to create and shape openSUSE. If you wish to participate actively in openSUSE or other free software projects, there are plenty of things to do. Finding something that matches your interests, available time and your skills should be no problem at all.<br /><br />
@@ -41,7 +40,7 @@ The openSUSE project has its own social network where community members can comm
 <a href="https://connect.opensuse.org/" target="_blank">https://connect.opensuse.org/</a><br /><br />
 
 Of course the openSUSE community is also present on all the major social media:<br />
-<a href="https://twitter.com/openSUSE" target="_blank">https://twitter.com/openSUSE</a><br /> 
+<a href="https://twitter.com/openSUSE" target="_blank">https://twitter.com/openSUSE</a><br />
 <a href="http://www.facebook.com/pages/openSUSE/45393742283" target="_blank">http://www.facebook.com/pages/openSUSE/45393742283</a><br />
 <a href="https://plus.google.com/110312141834246266844/" target="_blank">https://plus.google.com/110312141834246266844/</a><br />
 <a href="http://www.linkedin.com/groups?home=&amp;gid=61388&amp;trk=anet_ug_hm" target="_blank">http://www.linkedin.com/groups?home=&amp;gid=61388&amp;trk=anet_ug_hm</a><br /><br />
@@ -74,7 +73,7 @@ You can buy merchandise and help market openSUSE that way:<br />
 
 
 
-<div class="heading3">E.2.3 Wiki and Documentation</div> 
+<div class="heading3">E.2.3 Wiki and Documentation</div>
 The openSUSE wiki is always in need of new articles, or cleanup of existing ones.<br />
 <a href="http://en.opensuse.org/openSUSE:Wiki_team" target="_blank">http://en.opensuse.org/openSUSE:Wiki_team</a><br /><br />
 
@@ -151,16 +150,3 @@ Development of free software also needs money and you can help by donating money
 <a href="http://jointhegame.kde.org/" target="_blank">http://jointhegame.kde.org/</a><br />
 <a href="http://www.fsf.org/associate/" target="_blank">http://www.fsf.org/associate/</a><br />
 <a href="http://fellowship.fsfe.org/" target="_blank">http://fellowship.fsfe.org/</a><br /><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="history.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="license.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
-
-<?php include 'footer.php'; ?>
