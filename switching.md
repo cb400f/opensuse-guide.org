@@ -103,7 +103,7 @@ If you start using applications available for GNU/Linux in your familiar environ
 	<a href="http://www.3ds.com/products/draftsight/free-cad-software/" target="_blank">Draftsight</a> (CAD)<br />
 	</td>
 	</tr>
-</table><br />
+</table>
 
 Many of the KDE applications (see later chapters), are also available for MS Windows and Mac OSX - however they are in an early stage on those platforms. See:
 

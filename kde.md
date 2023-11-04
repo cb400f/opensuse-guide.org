@@ -6,66 +6,63 @@ permalink: /kde
 
 # 5. KDE Plasma Workspace
 
-The KDE Plasma workspace is one of the first things you'll see when you boot openSUSE Leap for the first time. The desktop workspace consists of the desktop itself, menus, panels, file management and window management.<br /><br />
+The KDE Plasma workspace is one of the first things you'll see when you boot openSUSE Leap for the first time. The desktop workspace consists of the desktop itself, menus, panels, file management and window management.
 
-The KDE Plasma Workspace is very highly configurable. If there is something you don't like, you can almost certainly configure it to your liking. It is also extremely feature rich, mentioned below are just the most basic features.<br /><br />
+The KDE Plasma Workspace is very highly configurable. If there is something you don't like, you can almost certainly configure it to your liking. It is also extremely feature rich, mentioned below are just the most basic features.
 
 ## 5.1 The Desktop
 
-The desktop is not very different from other desktop environments you may be familiar with - you have a panel on the bottom, a launch menu which is opened in the lower left corner.<br /><br />
+The desktop is not very different from other desktop environments you may be familiar with - you have a panel on the bottom, a launch menu which is opened in the lower left corner.
 
 However, a few things differ significantly from most other desktop environments:
+
 <ul>
 <li>KDE uses <i>single click</i> to open and launch things by default</li>
 <!--<li>The content of the <i>~/Desktop/</i> folder is not scattered all over the desktop itself, but is instead organized inside a widget called Folder View</li>-->
 <li>By default the applications you have running when you shutdown will be started again in the next session</li>
 </ul>
 
-<center><a href="images/screenshots/desktop.png" rel="thumbnail"><img src="images/screenshots/desktopb.png" alt="desktop" class="pic" /></a></center><br />
-
-
+<center><a href="images/screenshots/desktop.png" rel="thumbnail"><img src="images/screenshots/desktopb.png" alt="desktop" class="pic" /></a></center>
 
 ### 5.1.1 The Launch Menu
 
-The launch menu is opened by clicking the icon in the bottom left corner of the screen or pressing the Super key or Alt+F1. If you start typing a search field will appear on the top. You can add and remove applications to/from favourites by right clicking items in the menu.<br /><br />
+The launch menu is opened by clicking the icon in the bottom left corner of the screen or pressing the Super key or Alt+F1. If you start typing a search field will appear on the top. You can add and remove applications to/from favourites by right clicking items in the menu.
 
-<center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center><br />
+<center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center>
 
 You can edit menu entries or add new ones like this:
-<div class="path">Right click the menu icon =&gt; Edit Applications...</div><br />
+
+<div class="path">Right click the menu icon =&gt; Edit Applications...</div>
 
 To add a shortcut for an application on the desktop or in the panel you can do this (requires widgets to be unlocked):
-<div class="path">Find the application in the menu => Right click the entry => Click "Add to panel" or "Add to desktop"</div><br />
 
+<div class="path">Find the application in the menu => Right click the entry => Click "Add to panel" or "Add to desktop"</div>
 
 ### 5.1.2 Virtual Desktops
 
-To avoid your desktop getting cluttered with windows you can use virtual desktops to organize your applications and be more productive. In the panel you'll find a small grid, this is the desktop pager, use it to switch between your virtual desktops.<br /><br />
+To avoid your desktop getting cluttered with windows you can use virtual desktops to organize your applications and be more productive. In the panel you'll find a small grid, this is the desktop pager, use it to switch between your virtual desktops.
 
-<center><img src="images/screenshots/pager.png" alt="pager" class="pic" /></center><br />
+<center><img src="images/screenshots/pager.png" alt="pager" class="pic" /></center>
 
-You can also use the desktop grid effect to get a big overview of your virtual desktops, try pressing <i>Ctrl+F8</i> (requires desktop effects support, see the paragraph on this topic below).<br /><br />
-
-
+You can also use the desktop grid effect to get a big overview of your virtual desktops, try pressing <i>Ctrl+F8</i> (requires desktop effects support, see the paragraph on this topic below).
 
 ## 5.2 File Management
 
-The default file manager is Dolphin.You can find it as one of the favourites in the launch menu or in the "System" category. It should be very intuitive. USB sticks and other removable media will automatically appear in the left pane of Dolphin.<br />
-<div class="path">Launch Menu => System => Dolphin</div><br />
+The default file manager is Dolphin.You can find it as one of the favourites in the launch menu or in the "System" category. It should be very intuitive. USB sticks and other removable media will automatically appear in the left pane of Dolphin.
 
+<div class="path">Launch Menu => System => Dolphin</div>
 
-<center><a href="images/screenshots/dolphin.png" rel="thumbnail"><img src="images/screenshots/dolphinb.png" alt="dolphin" class="pic" /></a></center><br />
-
-
+<center><a href="images/screenshots/dolphin.png" rel="thumbnail"><img src="images/screenshots/dolphinb.png" alt="dolphin" class="pic" /></a></center>
 
 ## 5.3 Configure Desktop (KDE Systemsettings)
 
 The global KDE settings are gathered conveniently in one place. Here you can configure almost anything related to the KDE Plasma workspace including mouse behaviour, default applications, file associations etc.
-<div class="path">Launch Menu => Settings => Configure Desktop</div><br />
 
-You can also find Configure Desktop (systemsettings) as one of the favourites in the launch menu.<br /><br />
+<div class="path">Launch Menu => Settings => Configure Desktop</div>
 
-<center><a href="images/screenshots/systemsettings.png" rel="thumbnail"><img src="images/screenshots/systemsettingsb.png" alt="systemsettings" class="pic" /></a></center><br />
+You can also find Configure Desktop (systemsettings) as one of the favourites in the launch menu.
+
+<center><a href="images/screenshots/systemsettings.png" rel="thumbnail"><img src="images/screenshots/systemsettingsb.png" alt="systemsettings" class="pic" /></a></center>
 
 <div class="tip">
 <table>
@@ -76,39 +73,36 @@ You can also find Configure Desktop (systemsettings) as one of the favourites in
 </tr>
 </tbody>
 </table>
-</div><br />
-
-
+</div>
 
 ## 5.4 System Activity / Task List
 
-Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press <i>Ctrl+Esc</i> to bring up the system activity window.<br /><br />
+Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press <i>Ctrl+Esc</i> to bring up the system activity window.
 
-<center><a href="images/screenshots/systemactivity.png" rel="thumbnail"><img src="images/screenshots/systemactivityb.png" alt="systemactivity" class="pic" /></a></center><br />
+<center><a href="images/screenshots/systemactivity.png" rel="thumbnail"><img src="images/screenshots/systemactivityb.png" alt="systemactivity" class="pic" /></a></center>
 
-For an advanced and customizable system monitor, including network graphs etc. run the program <i>ksysguard</i><br /><br />
-
-
+For an advanced and customizable system monitor, including network graphs etc. run the program <i>ksysguard</i>
 
 ## 5.5 Widgets
 
-The KDE Plasma Desktop is centered around widgets and containments. The desktop and the panel are containments in which widgets can be placed. The menu, the system tray etc. are simply widgets. Lots and lots of other widgets are available.<br /><br />
+The KDE Plasma Desktop is centered around widgets and containments. The desktop and the panel are containments in which widgets can be placed. The menu, the system tray etc. are simply widgets. Lots and lots of other widgets are available.
 
 To add widgets:
-<div class="path">Right click the desktop => Add widgets => Drag widgets to the desktop or panel</div><br />
+
+<div class="path">Right click the desktop => Add widgets => Drag widgets to the desktop or panel</div>
 
 To configure, move, resize widgets etc., click to open the toolbox in the top right corner of the desktop. This requires widgets to be unlocked.
-<div class="path">Right click the desktop => Either "Lock Widgets" or "Unlock Widgets".</div><br />
 
-<center><a href="images/screenshots/widgets.png" rel="thumbnail"><img src="images/screenshots/widgetsb.png" alt="widgets" class="pic" /></a></center><br /><br />
+<div class="path">Right click the desktop => Either "Lock Widgets" or "Unlock Widgets".</div>
 
+<center><a href="images/screenshots/widgets.png" rel="thumbnail"><img src="images/screenshots/widgetsb.png" alt="widgets" class="pic" /></a></center>
 
 ## 5.6 Desktop Effects
 
-The KDE window manager has built-in support for 3D desktop effects. A basic, unobtrusive selection of effects will be enabled out of the box if you have the proper hardware and driver support in place. Try pressing <i>Ctrl+F8</i> or <i>Ctrl+F9</i> for example.<br /><br />
+The KDE window manager has built-in support for 3D desktop effects. A basic, unobtrusive selection of effects will be enabled out of the box if you have the proper hardware and driver support in place. Try pressing <i>Ctrl+F8</i> or <i>Ctrl+F9</i> for example.
 
-You can disable or enable other/more effects in Systemsettings.<br /><br />
+You can disable or enable other/more effects in Systemsettings.
 
-<center><a href="images/screenshots/effects.png" rel="thumbnail"><img src="images/screenshots/effectsb.png" alt="effects" class="pic" /></a></center><br />
+<center><a href="images/screenshots/effects.png" rel="thumbnail"><img src="images/screenshots/effectsb.png" alt="effects" class="pic" /></a></center>
 
-The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shift+F12</i>.<br /><br />
+The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shift+F12</i>.

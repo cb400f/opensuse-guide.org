@@ -6,11 +6,12 @@ permalink: /yast
 
 # 9. Administrator Settings (YaST)
 
-YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.<br /><br />
+YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.
 
-<center><a href="images/screenshots/yast-controlcenter.png" rel="thumbnail"><img src="images/screenshots/yast-controlcenterb.png" alt="yast" class="pic" /></a></center><br />
+<center><a href="images/screenshots/yast-controlcenter.png" rel="thumbnail"><img src="images/screenshots/yast-controlcenterb.png" alt="yast" class="pic" /></a></center>
 
-<b>Default YaST modules</b><br />
+<b>Default YaST modules</b>
+
 In YaST you can perform almost any system task, with powerful graphical modules, e.g.:
 <ul>
 <li>Install and remove software (see next chapter)</li>
@@ -23,7 +24,8 @@ In YaST you can perform almost any system task, with powerful graphical modules,
 <li>And much, much more...</li>
 </ul>
 
-<b>Additional YaST modules</b><br />
+<b>Additional YaST modules</b>
+
 A lot more YaST modules are available than the ones included in the default installation (read about installing packages in the next chapter). Some notable modules not installed by default are:
 
 <ul>
@@ -43,18 +45,16 @@ A lot more YaST modules are available than the ones included in the default inst
 </tr>
 </tbody>
 </table>
-</div><br />
-
-
+</div>
 
 ## 9.1 YaST in the Terminal
 
-The YaST modules can also be used in a terminal (ncurses mode) - this is very useful for servers with no graphical environment running, for remote access via SSH, or in case your graphical environment fails.<br /><br />
+The YaST modules can also be used in a terminal (ncurses mode) - this is very useful for servers with no graphical environment running, for remote access via SSH, or in case your graphical environment fails.
 
-Simply run <i>yast</i> as root in a terminal.<br />
+Simply run <i>yast</i> as root in a terminal.
 
-<div class="clroot">yast</div><br />
+<div class="clroot">yast</div>
 
-<center><a href="images/screenshots/yast-ncurses.png" rel="thumbnail"><img src="images/screenshots/yast-ncursesb.png" alt="yast-ncurses" class="pic" /></a></center><br />
+<center><a href="images/screenshots/yast-ncurses.png" rel="thumbnail"><img src="images/screenshots/yast-ncursesb.png" alt="yast-ncurses" class="pic" /></a></center>
 
-Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to quit).<br /><br />
+Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to quit).
