@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3. Getting openSUSE - Howto Download or Buy openSUSE
-permalink: /acquisition/
+permalink: /acquisition
 ---
 
 # 3. Getting openSUSE
