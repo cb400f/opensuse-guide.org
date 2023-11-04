@@ -1,0 +1,53 @@
+- title: Getting Started
+  pages:
+  - title: 1. Introduction
+    link: introduction
+  - title: 2. Switching to GNU/Linux
+    link: switching
+  - title: 3. Getting openSUSE
+    link: acquisition
+  - title: 4. Installation
+    link: installation
+
+- title: The Fundamentals
+  pages:
+  - title: 5. KDE Plasma Workspace
+    link: kde
+  - title: 6. Apps for Common Tasks
+    link: apps
+  - title: 7. Security and Root
+    link: security
+  - title: 8. Terminal
+    link: command
+  - title: 9. Admin. Settings (YaST)
+    link: yast
+  - title: 10. Installing Software
+    link: installpackage
+  - title: 11. Software Repositories
+    link: repositories
+
+- title: Setup
+  pages:
+  - title: 12. MS Windows Interop
+    link: windows
+  - title: 13. Multimedia Codecs
+    link: codecs
+  - title: 14. Graphics Drivers
+    link: 3d
+  - title: 15. Wifi
+    link: wlan
+
+- title: Appendix
+  pages:
+  - title: "A: Help and Docs"
+    link: help
+  - title: "B: Games"
+    link: games
+  - title: "C. Under the Hood"
+    link: under
+  - title: "D. History and Background"
+    link: history
+  - title: "E: Getting Involved"
+    link: contribute
+  - title: GNU Free Documentation License
+    link: license

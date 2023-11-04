@@ -30,6 +30,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+  # JekyllRedirectFrom
+  # https://github.com/jekyll/jekyll-redirect-from
+  # Plugin that allows Jekyll posts and pages to have multiple URLs.
+  - jekyll-redirect-from
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

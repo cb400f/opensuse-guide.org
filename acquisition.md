@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 3. Getting openSUSE - Howto Download or Buy openSUSE
+permalink: /acquisition/
 ---
 
 # 3. Getting openSUSE
@@ -31,7 +32,7 @@ There are companies selling openSUSE in a (German language) box with support, an
 
 <http://en.opensuse.org/Buy_openSUSE>
 
-<center><img src="images/pics/box.png" alt="box" /></center>
+<center><img src="{{ site.baseurl | append: '/images/pics/box.png' | replace: '//', '/' }}" alt="box" /></center>
 
 ## 3.4 Buy a PC with openSUSE Pre-Installed
 
@@ -43,7 +44,7 @@ For example check out these vendors:
 - <https://slimbook.es/>
 - <https://www.thinkpenguin.com/>
 
-<center><img src="images/pics/laptop.png" alt="laptop" /></center>
+<center><img src="{{ site.baseurl | append: '/images/pics/laptop.png' | replace: '//', '/' }}" alt="laptop" /></center>
 
 ## 3.5 The Source Code
 
