@@ -62,7 +62,7 @@ html {
 	margin-bottom: 3px;
 }
 
-.heading3 {
+.heading3, h3 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
