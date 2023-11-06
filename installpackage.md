@@ -12,15 +12,7 @@ Software installation is generally incredibly easy on openSUSE. There's a packag
 
 Simply open YaST Software Management.
 
-<center><video src="video/installpackage114.ogv" controls>  
-
-<center><a href="images/screenshots/sw-single.png" rel="thumbnail"><img src="images/screenshots/sw-singleb.png" alt="sw-single" class="pic" /></a></center>
-
-<b>Your web browser does not support the HTML5 video element and/or Ogg Theora format.<br />
-Try Firefox, Konqueror or Opera.</b><br /><br />
-
-<a href="video/installpackage-full.ogv">Download video for local viewing (3.0 MB)</a>
-</video></center>  
+{% include video.html video="installpackage114" screenshot="sw-single" size="1.0 MB" %}
 
 Now search for the package you want, select it for installation and click Accept. The package manager will then fetch the RPM package from your configured software repositories - and install it including any dependencies. After installation is complete the application should appear in the launch menu (unless it's a command line program).
 

@@ -12,15 +12,7 @@ There are thousands of commands you can run, each with a number of different opt
 
 You'll find <i>Konsole</i> under System in the launch menu.
 
-<center><video src="video/konsole.ogv" controls>  
-
-<center><a href="images/screenshots/konsole.png" rel="thumbnail"><img src="images/screenshots/konsoleb.png" alt="konsole" class="pic" /></a></center>
-
-<b>Your web browser does not support the HTML5 video element and/or Ogg Theora format.<br />
-Try Firefox, Konqueror or Opera.</b><br /><br />
-
-<a href="video/konsole.ogv">Download video for local viewing (4.3 MB)</a>
-</video></center>  
+{% include video.html video="konsole" screenshot="konsole" size="4.5 MB" %}
 
 Using the command line is quite easy. Simply enter a command and possibly one or more options and one or more arguments and then press Enter. Example:
 

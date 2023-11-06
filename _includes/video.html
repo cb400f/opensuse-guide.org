@@ -1,0 +1,10 @@
+<center><video src="{{ site.baseurl | append: '/video/' | append: include.video | append: '.ogv' | replace: '//', '/' }}" controls>
+
+{% include screenshot.html image=include.screenshot %}
+
+<p><b>Your web browser does not support the HTML5 video element and/or Ogg Theora format.</b></p>
+
+<p><b>Try Firefox, Konqueror or Opera.</b></p>
+
+<p><a href="{{ site.baseurl | append: '/video/' | append: include.video | append: '.ogv' | replace: '//', '/' }}">Download video for local viewing ({{ include.size }})</a></p>
+</video></center>
