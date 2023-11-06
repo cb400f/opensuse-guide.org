@@ -24,16 +24,7 @@ Try Firefox, Konqueror or Opera.</b><br /><br />
 
 Now search for the package you want, select it for installation and click Accept. The package manager will then fetch the RPM package from your configured software repositories - and install it including any dependencies. After installation is complete the application should appear in the launch menu (unless it's a command line program).
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>The availability of software packages in the package manager depends on the configured <i>software repositories</i>. Read about software repositories in the next chapter.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="The availability of software packages in the package manager depends on the configured _software repositories_. Read about software repositories in the next chapter." %}
 
 ### 10.1.1 Using 1-click Installation
 
@@ -55,16 +46,7 @@ With a bit of luck the developer/vendor website will have an RPM file for openSU
 
 <div class="path">Open the Dolphin file manager =&gt; Navigate to the RPM file =&gt; Right Click it => Open With... => Install/Remove Software</div>
 
-<div class="note">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
-<td>Only install RPM files that are built specifically for (your version of) openSUSE.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include note.html note="Only install RPM files that are built specifically for (your version of) openSUSE." %}
 
 ### 10.2.2 Tarball
 

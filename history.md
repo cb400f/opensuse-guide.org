@@ -53,17 +53,7 @@ Free software doesn't mean free of charge, free software can be commercial. It r
 
 The freedoms 1 and 3 require access to the source code of the program.
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>If you want to know more about free software, consider downloading this
-<a href="http://audio-video.gnu.org/video/20090122_richard_stallman.ogv" target="_blank">video of Richard M. Stallman speaking</a> (550 MB, Ogg Theora format)</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="If you want to know more about free software, consider downloading this [video of Richard M. Stallman speaking](http://audio-video.gnu.org/video/20090122_richard_stallman.ogv) (550 MB, Ogg Theora format)" %}
 
 ### D.2.1 GNU GPL, Copyleft and Other Free Software Licenses
 

@@ -14,16 +14,7 @@ One of the reasons GNU/Linux is very secure is that you normally don't work with
 
 You'll be asked for the root password when installing packages or performing other administrative tasks outside of your /home/ folder. Unless you unchecked the checkbox during installation the root user has the same password as your normal user.
 
-<div class="note">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
-<td>Only work as root when it's required.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include note.html note="Only work as root when it's required." %}
 
 ### 7.1.1 Super User File Manager
 
@@ -37,16 +28,7 @@ The following command is used to switch to the root user in a terminal:
 
 <div class="cl">su -</div>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Nothing will appear on the screen while you type your password. This is intended.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Nothing will appear on the screen while you type your password. This is intended." %}
 
 To stop working as root, enter the following command:
 <div class="clroot">exit</div>

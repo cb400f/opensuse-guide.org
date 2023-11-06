@@ -16,27 +16,9 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 
 <center><a href="https://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>These 1-Click Installers currently only work with the <b>Firefox web browser</b>.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="These 1-Click Installers currently only work with the **Firefox web browser**." %}
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>If a conflict dialog appears, select to install the packages <b><i>with</i> Vendor Change</b>.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="If a conflict dialog appears, select to install the packages **_with_ Vendor Change**." %}
 
 2) Afterwards make sure all your multimedia packages are coming from the Packman Repository:
 
@@ -48,16 +30,7 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 
 To install codecs using the terminal instead, do these steps:
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Use Copy/Paste to avoid typos. To paste in Konsole right click mouse => Paste - or use <b>Ctrl+Shift+V</b>.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Use Copy/Paste to avoid typos. To paste in Konsole right click mouse => Paste - or use **Ctrl+Shift+V**." %}
 
 1) Add the needed repositories:
 

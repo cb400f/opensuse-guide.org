@@ -46,16 +46,7 @@ This shortcut stops any operation you may have started.
 
 This is just a very small selection of commands to give you an idea of how things work.
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Commands written in <u>red</u> need to be run as root.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Commands written in **red** need to be run as root." %}
 
 ### 8.2.1 File Management
 
@@ -139,16 +130,7 @@ To run a single command as root use:
 
 <div class="cl">su -c "[command]"</div>
 
-<div class="note">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
-<td>Do not work as root unless it's required.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include note.html note="Do not work as root unless it's required." %}
 
 ### 8.2.6 System Tasks
 
@@ -216,16 +198,7 @@ Editing configuration files or other text files can be done like this using the 
 Open a file with <i>vim /path/to/file</i>. Example:
 <div class="clroot">vim /etc/sysconfig/yast2</div>
 
-<div class="note">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
-<td>Root permissions are used in the example because <i>yast2</i> is a system configuration file - this is not generally required to edit files with vim.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include note.html note="Root permissions are used in the example because _yast2_ is a system configuration file - this is not generally required to edit files with vim." %}
 
 Press <b>i</b> to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press <b>Esc</b> to leave insert mode and return to command mode. Now type <b>:x</b> which is the command for exit and save. To quit without saving any changes use <b>:q!</b>.
 

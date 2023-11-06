@@ -64,16 +64,7 @@ You can also find Configure Desktop (systemsettings) as one of the favourites in
 
 {% include screenshot.html image="systemsettings" %}
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Don't confuse the KDE control center used for personal configuration of the KDE Workspace and KDE applications with the YaST control center used for administrator settings on a deeper level of the system (See later chapter about YaST).</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Don't confuse the KDE control center used for personal configuration of the KDE Workspace and KDE applications with the YaST control center used for administrator settings on a deeper level of the system (See later chapter about YaST)." %}
 
 ## 5.4 System Activity / Task List
 

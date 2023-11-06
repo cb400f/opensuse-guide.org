@@ -37,16 +37,7 @@ In MS Windows a comparable path might look like this:
 
 <b>C:\Documents and Settings\<i>username</i>\Desktop</b>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>In GNU/Linux filenames and folders are <b>case sensitive</b>.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="In GNU/Linux filenames and folders are **case sensitive**." %}
 
 Normal users only have write permission in their <b>/home/</b> folder, and rarely have any need to work outside of that.
 
@@ -137,13 +128,4 @@ Here are some basic troubleshooting tips for GNU/Linux in case an application cr
 <li>Check out relevant log files</li>
 </ul>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Reinstalling the software packages almost never solves anything, because the old settings and data will remain in hidden folders in the home folder.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Reinstalling the software packages almost never solves anything, because the old settings and data will remain in hidden folders in the home folder." %}

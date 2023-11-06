@@ -8,16 +8,7 @@ permalink: /help
 
 This guide is just a brief introduction to some of the basics, so it's likely you're going to need additional help at some point. Nothing beats getting help from a friend face-to-face and on-site, but that's often not an option, so thankfully there are many places where you can get help from openSUSE users online - which method to choose depends on your personal preference.
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Always give detailed problem descriptions, and provide relevant information, such as openSUSE version, desktop environment, relevant hardware components etc., when asking for help online - otherwise it's impossible to help you effectively.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Always give detailed problem descriptions, and provide relevant information, such as openSUSE version, desktop environment, relevant hardware components etc., when asking for help online - otherwise it's impossible to help you effectively." %}
 
 ## A.1 Search the Web
 
@@ -89,16 +80,7 @@ There's likely to be a LUG in your vicinity, with mailinglists or forums and pos
 
 GNU/Linux supports most hardware, but not all. Components that are very new on the market, or components with little marketshare, are most prone to causing problems. Here are some databases tracking support for various hardware types. It's recommended to research whether hardware is supported by GNU/Linux <i>before</i> making a purchase.
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Don't expect these databases to be 100% complete or up-to-date - and remember to contribute with your own findings.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Don't expect these databases to be 100% complete or up-to-date - and remember to contribute with your own findings." %}
 
 	<ul>
 	<li><a href="http://en.opensuse.org/Portal:Hardware" target="_blank">http://en.opensuse.org/Portal:Hardware</a></li>

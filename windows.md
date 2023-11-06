@@ -14,16 +14,7 @@ LibreOffice defaults to the Open Document Format (*.odt, *.ods, *.odp, etc.) whi
 
 LibreOffice can also read and write the Microsoft Office formats (*.doc, *.xls,*.ppt, *.docx, *.xlsx, *.pptx etc.) quite well - as well as a wide range of other formats.
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>If you come across Microsoft documents that LibreOffice doesn't render well, consider trying if you have better luck with the Calligra suite.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="If you come across Microsoft documents that LibreOffice doesn't render well, consider trying if you have better luck with the Calligra suite." %}
 
 ## 12.2 Windows Network
 
@@ -59,16 +50,7 @@ To share <i>your</i> files with MS Windows users, Mac OSX users or other GNU/Lin
 
 High quality, native GNU/Linux applications exist for almost any purpose, but it's possible that you're dependent on a MS Windows-only application for some job. These are your options in such a case.
 
-<div class="note">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
-<td>You should only run non-native applications as a last resort. Apps work better in their native environment.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include note.html note="You should only run non-native applications as a last resort. Apps work better in their native environment." %}
 
 ### 12.3.1 Wine
 
@@ -78,16 +60,7 @@ Wine is a command line application, the syntax is:
 
 <div class="cl">wine /path/to/setup.exe</div>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>The package <a href="http://sourceforge.net/projects/q4wine/" target="_blank">q4wine</a> provides a graphical interface for some features of Wine.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="The package [q4wine](http://sourceforge.net/projects/q4wine/) provides a graphical interface for some features of Wine." %}
 
 The Wine project keeps a database for sharing experiences of running applications, see:
 

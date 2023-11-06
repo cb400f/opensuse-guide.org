@@ -8,16 +8,7 @@ permalink: /apps
 
 Here's a list of applications used to perform common tasks, they're all installed by default and are all high quality, but naturally you can replace them with alternatives if you wish.
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>All the alternatives mentioned below will be available for easy installation with the <a href="installpackage.php">package manager</a>, if the recommended <a href="repositories.php">software repositories</a> are added (see later chapters).</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="All the alternatives mentioned below will be available for easy installation with the [package manager](installpackage), if the recommended [software repositories](repositories) are added (see later chapters)." %}
 
 You can find more replacements for your familiar applications here:
 
@@ -55,16 +46,7 @@ GIMP (GNU Image Manipulation Program) is a very powerful image editing applicati
 
 {% include screenshot.html image="gimp" %}
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>GIMP can work as a single window, simply click 'Windows' in the menu and check the option 'Single-Window Mode'.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="GIMP can work as a single window, simply click 'Windows' in the menu and check the option 'Single-Window Mode'." %}
 
 Alternatives to consider: Gwenview (only very basic editing), Krita (primarily a paint application)
 

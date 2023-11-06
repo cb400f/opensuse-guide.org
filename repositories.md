@@ -20,23 +20,15 @@ Respositories can be added, removed and configured via YaST, in the module calle
 
 The official repositories are pre-configured, but many unofficial repositories exist and can be added too.
 
-<div class="note">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
-<td>Add repositories with care.
-<ul>
-<li>Unofficial repositories might include experimental packages</li>
-<li>Not all repositories are mutually compatible</li>
-<li>The risk level of a repository can change over time</li>
-<li>Too many repositories makes the package manager slower</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% capture add_repositories_with_care %}
+Add repositories with care.
+
+- Unofficial repositories might include experimental packages
+- Not all repositories are mutually compatible
+- The risk level of a repository can change over time
+- Too many repositories makes the package manager slower
+{% endcapture %}
+{% include note.html note=add_repositories_with_care %}
 
 The easiest and safest way to add repositories is using the list of online community repositories in YaST. This provides you with a selection of popular and quite safe repositories to choose from:
 <div class="path">YaST => Software => Software Repositories => Click on "Add" => Select "Community Repositories" and click "Next"</div>
@@ -61,17 +53,12 @@ Additionally I recommend adding the following <i>unofficial</i> repositories fro
 	<!--<li><b>openSUSE BuildService - KDE:Extra</b></li>-->
 </ul>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Still missing a package? You can search for packages/repositories on the openSUSE BuildService here:<br />
-<a href="http://software.opensuse.org/" target="_blank">http://software.opensuse.org/</a></td>
-</tr>
-</tbody>
-</table>
-</div>
+{% capture still_missing_a_package %}
+Still missing a package? You can search for packages/repositories on the openSUSE BuildService here:
+
+<http://software.opensuse.org/>
+{% endcapture %}
+{% include tip.html tip=still_missing_a_package %}
 
 ### 11.1.3 Vendor Change Updates
 

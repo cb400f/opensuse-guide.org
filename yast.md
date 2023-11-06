@@ -36,16 +36,7 @@ A lot more YaST modules are available than the ones included in the default inst
 <li>And many more...</li>
 </ul>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>You don't have to use YaST if you don't want to. You can achieve the same things and more using command line tools and manually editing configuration files.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="You don't have to use YaST if you don't want to. You can achieve the same things and more using command line tools and manually editing configuration files." %}
 
 ## 9.1 YaST in the Terminal
 
