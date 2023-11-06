@@ -14,7 +14,7 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 
 1) Click on the button below to add the necessary repositories and install the required packages with 1-click install.
 
-<center><a href="https://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center>
+{% include ymp.html icon="codecs" link="http://opensuse-community.org/codecs-kde.ymp" %}
 
 {% include tip.html tip="These 1-Click Installers currently only work with the **Firefox web browser**." %}
 
