@@ -41,7 +41,7 @@ And there's a forum for the LibreOffice office suite too:
 
 You can get help in realtime using IRC (Internet Relay Chat). The IRC-client Konversation is installed by default and preconfigured to join the <a href="irc://irc.opensuse.org/opensuse" class="button" title="join #suse on freenode">#suse</a> channel on the Freenode IRC network.
 
-<center><a href="images/screenshots/konversation.png" rel="thumbnail"><img src="images/screenshots/konversationb.png" alt="konversation" class="pic" /></a></center>
+{% include screenshot.html image="konversation" %}
 
 If you're new to IRC you should probably read the rules before joining.
 

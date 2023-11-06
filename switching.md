@@ -26,7 +26,7 @@ There are many reasons why millions of people enjoy using GNU/Linux - they can b
 - **Trying something new** - Simply trying something new and different can in itself be motivating for many people.
 - And... **it's a lot of fun!**
 
-<center><img src="{{ site.baseurl | append: '/images/pics/hardware.gif' | replace: '//', '/' }}" alt="hardware" /></center>
+{% include pic.html src="hardware.gif" %}
 
 ## 2.2 Challenges of switching
 

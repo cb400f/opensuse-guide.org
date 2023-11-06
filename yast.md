@@ -8,7 +8,7 @@ permalink: /yast
 
 YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.
 
-<center><a href="images/screenshots/yast-controlcenter.png" rel="thumbnail"><img src="images/screenshots/yast-controlcenterb.png" alt="yast" class="pic" /></a></center>
+{% include screenshot.html image="yast-controlcenter" %}
 
 <b>Default YaST modules</b>
 
@@ -55,6 +55,6 @@ Simply run <i>yast</i> as root in a terminal.
 
 <div class="clroot">yast</div>
 
-<center><a href="images/screenshots/yast-ncurses.png" rel="thumbnail"><img src="images/screenshots/yast-ncursesb.png" alt="yast-ncurses" class="pic" /></a></center>
+{% include screenshot.html image="yast-ncurses" %}
 
 Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to quit).

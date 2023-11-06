@@ -39,7 +39,7 @@ Now search for the package you want, select it for installation and click Accept
 
 When browsing openSUSE related websites, you're likely to come across buttons such as this one:
 
-<center><img class="pic" alt="oneclick" src="images/pics/oneclick.png" /></center>
+{% include pic.html src="oneclick.png" %}
 
 1-click installation (also referred to as "Direct Install") simply automates the process of adding one or more software repositories to the package manager and installing one or more RPM packages. Therefore 1-click installation <i>should be used with the same care</i> as manually adding unofficial repositories (see the next chapter for more on software repositories).<br/>
 

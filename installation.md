@@ -53,7 +53,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/grub.png" rel="thumbnail"><img src="images/installation/dvd/grubb.png" alt="grub" class="pic" /></a></td>
+		<td width="205" valign="top">{% include installation.html image="grub" %}</td>
 		<td valign="top">You're presented with a menu.<br /><br />
 		Here you can select your desired language and a few other options, afterwards begin installation.</td>
 	</tr>
@@ -63,7 +63,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-welcome.png" rel="thumbnail"><img src="images/installation/dvd/inst-welcomeb.png" alt="welcome" class="pic" /></a></td>
+		<td width="205" valign="top">{% include installation.html image="inst-welcome" %}</td>
 		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.<br /><br />
 		Check that language and keyboard layout are as desired.</td>
 	</tr>
@@ -74,7 +74,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
+		<td width="205" valign="top">{% include installation.html image="inst-desktop" %}</td>
 		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. The KDE Plasma Workspace is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME desktop or a text based server installation etc.</td>
 
 	</tr>
@@ -84,7 +84,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-	  <td width="205" valign="top"><a href="images/installation/dvd/inst-disk.png" rel="thumbnail"><img src="images/installation/dvd/inst-diskb.png" alt="inst-disk" class="pic" /></a></td>
+	  <td width="205" valign="top">{% include installation.html image="inst-disk" %}</td>
 	  <td valign="top">By default openSUSE will propose to create three new partitions / (root) for system files, /home/ for personal files of users and swap which is used as a supplement for RAM, similar to the page file in MS Windows.<br /><br />
 
 	   Always check that the partitioning proposal is what you want, and if you're performing a dual boot installation, pay extra attention, to make sure everything is as desired.<br /><br />
@@ -97,7 +97,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-time.png" rel="thumbnail"><img src="images/installation/dvd/inst-timeb.png" alt="inst-time" class="pic" /></a></td>
+		<td width="205" valign="top">{% include installation.html image="inst-time" %}</td>
 		<td valign="top">Set the timezone here.<br /><br />If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if you dual boot with MS Windows set it to local time.</td>
 	</tr>
 </table>
@@ -106,7 +106,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-	<td width="205" valign="top"><a href="images/installation/dvd/inst-user.png" rel="thumbnail"><img src="images/installation/dvd/inst-userb.png" alt="inst-user" class="pic" /></a></td>
+	<td width="205" valign="top">{% include installation.html image="inst-user" %}</td>
 	<td valign="top">Now it's time to create your user. Note that by default the root user (administrator) password will be the same as the password for the normal user.<br /><br />
 
 	If you want the added security of a separate root password, consider unchecking that checkbox. You may also want to consider disabling autologin to prevent people from easily accessing your system and data.</td>
@@ -117,7 +117,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-overview.png" rel="thumbnail"><img src="images/installation/dvd/inst-overviewb.png" alt="inst-overview" class="pic" /></a></td>
+		<td width="205" valign="top">{% include installation.html image="inst-overview" %}</td>
 		<td valign="top">Double check that everything is as desired - this is the point of no return!</td>
 	</tr>
 </table>
@@ -126,7 +126,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-inst.png" rel="thumbnail"><img src="images/installation/dvd/inst-instb.png" alt="inst-inst" class="pic" /></a></td>
+		<td width="205" valign="top">{% include installation.html image="inst-inst" %}</td>
 		<td valign="top">Now the actual installation is performed. When it's done the system will reboot and be ready to use.<br /><br />
 
 Have a lot of fun with openSUSE!

@@ -42,7 +42,7 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 
 <div class="path">Start YaST Software Management => Click on View => Click on Repositories => Select the Packman Repository => Click "Switch system packages" => Click "Accept"</div>
 
-<center><a href="images/screenshots/packman-vendorchange.png" rel="thumbnail"><img src="images/screenshots/packman-vendorchangeb.png" alt="packman_vendor_change" class="pic" /></a></center>
+{% include screenshot.html image="packman-vendorchange" %}
 
 ## 13.2 Codec Installation in the Terminal
 

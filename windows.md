@@ -35,7 +35,7 @@ No configuration is needed to access files shared by others. Simply:
 
 <div class="path">Launch the Dolphin file manager => Click the location bar or press Ctrl+L for an editable location bar => Enter 'smb://[ip-address]'</div>
 
-<center><a href="images/screenshots/smb-dolph.png" rel="thumbnail"><img src="images/screenshots/smb-dolphb.png" alt="smb-dolphin" class="pic" /></a></center>
+{% include screenshot.html image="smb-dolph" %}
 
 If you don't know the IP-address of the share you want to access, you can <i>browse</i> the local network by simply entering <i>smb:/</i> in the Dolphin location bar. However, this will only work if you configure or (temporarily) disable the firewall first. More instructions coming soon...
 
@@ -47,7 +47,7 @@ To share <i>your</i> files with MS Windows users, Mac OSX users or other GNU/Lin
 
 <div class="path">YaST =&gt; Network Services  =&gt; Samba Server</div>
 
-<center><a href="images/screenshots/samba-server.png" rel="thumbnail"><img src="images/screenshots/samba-serverb.png" alt="samba" class="pic" /></a></center>
+{% include screenshot.html image="samba-server" %}
 
 <b>2) </b> In the tab <i>Start-Up</i> select whether to autostart the Samba service during boot and whether to open the firewall ports required.
 

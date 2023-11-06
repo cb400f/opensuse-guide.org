@@ -8,7 +8,7 @@ permalink: /wlan
 
 Most of the time wifi will just work out of the box. In these cases you'll be able to configure your wireless card using the NetworkManagement widget which you should find running in your system tray.
 
-<center><a href="images/screenshots/pnm.png" rel="thumbnail"><img src="images/screenshots/pnmb.png" alt="Plasmoid NetworkManagement" class="pic" /></a></center>
+{% include screenshot.html image="pnm" %}
 
 ## 15.1 Find Out Which Chipset
 
@@ -18,7 +18,7 @@ The first step is running this command to find out which chipset is on the card.
 
 <div class="clroot">hwinfo --wlan --short</div>
 
-<center><a href="images/screenshots/hwinfo.png" rel="thumbnail"><img src="images/screenshots/hwinfob.png" alt="lspci" class="pic" /></a></center>
+{% include screenshot.html image="hwinfo" %}
 
 Now that you know which chipset is on your card, you can start figuring out what is required to make the chipset work in openSUSE - usually you'll just need to install a driver and/or some firmware.
 

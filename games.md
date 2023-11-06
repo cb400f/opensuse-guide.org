@@ -8,7 +8,7 @@ permalink: /games
 
 Not all major, mainstream games run natively on GNU/Linux, but there are still plenty of gaming options.
 
-<center><img src="images/pics/spil.jpg" alt="spil" class="pic" /></center>
+{% include pic.html src="spil.jpg" %}
 
 ## B.1 Native GNU/Linux Games
 

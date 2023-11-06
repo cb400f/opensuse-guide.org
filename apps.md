@@ -27,7 +27,7 @@ You can find more replacements for your familiar applications here:
 
 Mozilla Firefox is the default web browser. It's one of the world's leading web browsers.
 
-<center><a href="images/screenshots/firefox.png" rel="thumbnail"><img src="images/screenshots/firefoxb.png" alt="firefox" class="pic" /></a></center>
+{% include screenshot.html image="firefox" %}
 
 Alternatives to consider: Opera, Chromium, Falkon, Konqueror
 
@@ -35,7 +35,7 @@ Alternatives to consider: Opera, Chromium, Falkon, Konqueror
 
 LibreOffice is a complete office suite with word processing, spreadsheets, presentation, drawing and more. It's very compatible with Microsoft Office.
 
-<center><a href="images/screenshots/lowriter.png" rel="thumbnail"><img src="images/screenshots/lowriterb.png" alt="libreoffice" class="pic" /></a></center>
+{% include screenshot.html image="lowriter" %}
 
 Alternatives to consider: Calligra, Abiword, Gnumeric
 
@@ -43,7 +43,7 @@ Alternatives to consider: Calligra, Abiword, Gnumeric
 
 The default installation includes VLC Media Player which plays music and video.
 
-<center><a href="images/screenshots/vlc.png" rel="thumbnail"><img src="images/screenshots/vlcb.png" alt="vlc" class="pic" /></a></center>
+{% include screenshot.html image="vlc" %}
 
 Alternatives to consider for music: Amarok, Elisa, Clementine, JuK, Qmmp
 
@@ -53,7 +53,7 @@ Alternatives to consider for video: SMPlayer, mpv, Kaffeine, Dragon
 
 GIMP (GNU Image Manipulation Program) is a very powerful image editing application.
 
-<center><a href="images/screenshots/gimp.png" rel="thumbnail"><img src="images/screenshots/gimpb.png" alt="gimp" class="pic" /></a></center>
+{% include screenshot.html image="gimp" %}
 
 <div class="tip">
 <table>
@@ -72,6 +72,6 @@ Alternatives to consider: Gwenview (only very basic editing), Krita (primarily a
 
 Kontact is a fullblown PIM (personal information management) suite, combining e-mail, calendar, news feeds, addressbook and more in one place. Each of the Kontact components (KMail, KOrganizer, Akregator etc.) can also be used as standalone applications.
 
-<center><a href="images/screenshots/kontact.png" rel="thumbnail"><img src="images/screenshots/kontactb.png" alt="kontact" class="pic" /></a></center>
+{% include screenshot.html image="kontact" %}
 
 Alternatives to consider: Mozilla Thunderbird, Trojita (IMAP only), Claws-mail

@@ -22,13 +22,13 @@ However, a few things differ significantly from most other desktop environments:
 <li>By default the applications you have running when you shutdown will be started again in the next session</li>
 </ul>
 
-<center><a href="images/screenshots/desktop.png" rel="thumbnail"><img src="images/screenshots/desktopb.png" alt="desktop" class="pic" /></a></center>
+{% include screenshot.html image="desktop" %}
 
 ### 5.1.1 The Launch Menu
 
 The launch menu is opened by clicking the icon in the bottom left corner of the screen or pressing the Super key or Alt+F1. If you start typing a search field will appear on the top. You can add and remove applications to/from favourites by right clicking items in the menu.
 
-<center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center>
+{% include screenshot.html image="launchmenu" %}
 
 You can edit menu entries or add new ones like this:
 
@@ -52,7 +52,7 @@ The default file manager is Dolphin.You can find it as one of the favourites in 
 
 <div class="path">Launch Menu => System => Dolphin</div>
 
-<center><a href="images/screenshots/dolphin.png" rel="thumbnail"><img src="images/screenshots/dolphinb.png" alt="dolphin" class="pic" /></a></center>
+{% include screenshot.html image="dolphin" %}
 
 ## 5.3 Configure Desktop (KDE Systemsettings)
 
@@ -62,7 +62,7 @@ The global KDE settings are gathered conveniently in one place. Here you can con
 
 You can also find Configure Desktop (systemsettings) as one of the favourites in the launch menu.
 
-<center><a href="images/screenshots/systemsettings.png" rel="thumbnail"><img src="images/screenshots/systemsettingsb.png" alt="systemsettings" class="pic" /></a></center>
+{% include screenshot.html image="systemsettings" %}
 
 <div class="tip">
 <table>
@@ -79,7 +79,7 @@ You can also find Configure Desktop (systemsettings) as one of the favourites in
 
 Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press <i>Ctrl+Esc</i> to bring up the system activity window.
 
-<center><a href="images/screenshots/systemactivity.png" rel="thumbnail"><img src="images/screenshots/systemactivityb.png" alt="systemactivity" class="pic" /></a></center>
+{% include screenshot.html image="systemactivity" %}
 
 For an advanced and customizable system monitor, including network graphs etc. run the program <i>ksysguard</i>
 
@@ -95,7 +95,7 @@ To configure, move, resize widgets etc., click to open the toolbox in the top ri
 
 <div class="path">Right click the desktop => Either "Lock Widgets" or "Unlock Widgets".</div>
 
-<center><a href="images/screenshots/widgets.png" rel="thumbnail"><img src="images/screenshots/widgetsb.png" alt="widgets" class="pic" /></a></center>
+{% include screenshot.html image="widgets" %}
 
 ## 5.6 Desktop Effects
 
@@ -103,6 +103,6 @@ The KDE window manager has built-in support for 3D desktop effects. A basic, uno
 
 You can disable or enable other/more effects in Systemsettings.
 
-<center><a href="images/screenshots/effects.png" rel="thumbnail"><img src="images/screenshots/effectsb.png" alt="effects" class="pic" /></a></center>
+{% include screenshot.html image="effects" %}
 
 The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shift+F12</i>.

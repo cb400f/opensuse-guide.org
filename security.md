@@ -29,7 +29,7 @@ You'll be asked for the root password when installing packages or performing oth
 
 To work graphically with system files that require root permissions you can launch the Dolphin file manager in super user mode.
 
-<center><a href="images/screenshots/super-dolph.png" rel="thumbnail"><img src="images/screenshots/super-dolphb.png" alt="super user dolphin" class="pic" /></a></center>
+{% include screenshot.html image="super-dolph" %}
 
 ### 7.1.2 Working as Root User in the Terminal
 
@@ -60,7 +60,7 @@ You can read more about using the terminal in the next chapter.
 
 When new updates are available you'll be notified by the update applet running in the system tray area.
 
-<center><a href="images/screenshots/pk-updater.png" rel="thumbnail"><img src="images/screenshots/pk-updaterb.png" alt="pk-updater" class="pic" /></a></center>
+{% include screenshot.html image="pk-updater" %}
 
 ### 7.2.1 Installing Updates in the Terminal
 

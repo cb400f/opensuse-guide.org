@@ -14,7 +14,7 @@ A software repository is a collection of RPM packages (the openSUSE packaging fo
 
 Respositories can be added, removed and configured via YaST, in the module called Software Repositories.
 
-<center><a href="images/screenshots/yast-repos.png" rel="thumbnail"><img src="images/screenshots/yast-reposb.png" alt="repos" class="pic" /></a></center>
+{% include screenshot.html image="yast-repos" %}
 
 ### 11.1.1 Adding Repositories
 

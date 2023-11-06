@@ -32,7 +32,7 @@ There are companies selling openSUSE in a (German language) box with support, an
 
 <http://en.opensuse.org/Buy_openSUSE>
 
-<center><img src="{{ site.baseurl | append: '/images/pics/box.png' | replace: '//', '/' }}" alt="box" /></center>
+{% include pic.html src="box.png" %}
 
 ## 3.4 Buy a PC with openSUSE Pre-Installed
 
@@ -44,7 +44,7 @@ For example check out these vendors:
 - <https://slimbook.es/>
 - <https://www.thinkpenguin.com/>
 
-<center><img src="{{ site.baseurl | append: '/images/pics/laptop.png' | replace: '//', '/' }}" alt="laptop" /></center>
+{% include pic.html src="laptop.png" %}
 
 ## 3.5 The Source Code
 
