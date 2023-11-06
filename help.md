@@ -27,15 +27,15 @@ In most cases you'll easily find the answer to your question with a simple searc
 
 You can ask for help on the official web forums.
 
-<a href="http://forums.opensuse.org" target="_blank">http://forums.opensuse.org</a>
+<http://forums.opensuse.org>
 
 For questions related to the KDE workspace and KDE applications you might also want to try the official KDE forum.
 
-<a href="http://forum.kde.org/" target="_blank">http://forum.kde.org/</a>
+<http://forum.kde.org/>
 
 And there's a forum for the LibreOffice office suite too:
 
-<a href="http://libreofficeforum.org/" target="_blank">http://libreofficeforum.org/</a>
+<http://libreofficeforum.org/>
 
 ## A.3 IRC
 
@@ -45,41 +45,41 @@ You can get help in realtime using IRC (Internet Relay Chat). The IRC-client Kon
 
 If you're new to IRC you should probably read the rules before joining.
 
-<a href="http://opensuse-community.org/IRC_rules" target="_blank">http://opensuse-community.org/IRC_rules</a>
+<http://opensuse-community.org/IRC_rules>
 
 IRC channels also exist for support in many other languages than English. See the list here:
 
-<a href="http://en.opensuse.org/openSUSE:IRC_list" target="_blank">http://en.opensuse.org/openSUSE:IRC_list</a>
+<http://en.opensuse.org/openSUSE:IRC_list>
 
 ## A.4 Mailinglists
 
 You can get support on mailing lists, see:
 
-<a href="http://en.opensuse.org/openSUSE:Mailing_lists" target="_blank">http://en.opensuse.org/openSUSE:Mailing_lists</a>
+<http://en.opensuse.org/openSUSE:Mailing_lists>
 
 ## A.5 Documentation
 
 Reading the manuals is always a good idea. You can find the official openSUSE manuals in PDF, EPUB and HTML format here:
 
-<a href="http://doc.opensuse.org/" target="_blank">http://doc.opensuse.org/</a>
+<http://doc.opensuse.org/>
 
 Many applications come with a handbook, often you can access it by pressing <i>F1</i>. Usually packages also include documentation which is normally installed to the location <i>/usr/share/doc/</i>.
 
 You'll find a lot of docs and howtos on the documentation portal on the wiki:
 
-<a href="http://en.opensuse.org/Portal:Documentation" target="_blank">http://en.opensuse.org/Portal:Documentation</a>
+<http://en.opensuse.org/Portal:Documentation>
 
 ## A.6 Other Resources
 
 There's a unified search for the openSUSE wiki, forums, mailinglists etc. on:
 
-<a href="http://search.opensuse.org" target="_blank">http://search.opensuse.org</a>.
+<http://search.opensuse.org>.
 
 When asking for support online it can be very useful to share text (e.g. commandline output) or screenshots showing your problem. The openSUSE pastebin makes this easy:
 
-<a href="http://susepaste.org/" target="_blank">http://susepaste.org/</a> (text)
+<http://susepaste.org/> (text)
 
-<a href="http://img.susepaste.org/" target="_blank">http://img.susepaste.org/</a> (images)
+<http://img.susepaste.org/> (images)
 
 ## A.7 Linux User Groups
 
@@ -122,8 +122,8 @@ GNU/Linux supports most hardware, but not all. Components that are very new on t
 
 If you really want to get deep knowledge of GNU/Linux on a serious level, consider reading some books. Technical book stores are loaded with GNU/Linux litterature and you might find something interesting in your local library too. You can also check out these websites, for gratis e-books:
 
-<a href="http://tldp.org/" target="_blank">http://tldp.org/</a>
+<http://tldp.org/>
 
-<a href="http://en.flossmanuals.net" target="_blank">http://en.flossmanuals.net</a>
+<http://en.flossmanuals.net>
 
-<a href="http://www.freetechbooks.com/" target="_blank">http://www.freetechbooks.com/</a>
+<http://www.freetechbooks.com/>

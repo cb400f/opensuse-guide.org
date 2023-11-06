@@ -21,7 +21,7 @@ Here's a list of applications used to perform common tasks, they're all installe
 
 You can find more replacements for your familiar applications here:
 
-<a href="http://en.opensuse.org/Application_equivalents" target="_blank">http://en.opensuse.org/Application_equivalents</a>
+<http://en.opensuse.org/Application_equivalents>
 
 ## 6.1 Surf the Web with Firefox
 

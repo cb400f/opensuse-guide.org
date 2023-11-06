@@ -29,7 +29,7 @@ When you burn the downloaded ISO files to a DVD it's important to remember to bu
 
 The ISO can also be put on an USB stick, see instructions for this for for MS Windows, Apple MacOS, openSUSE and other GNU/Linux here:
 
-<a href="https://en.opensuse.org/Create_installation_USB_stick" target="_blank">https://en.opensuse.org/Create_installation_USB_stick</a>
+<https://en.opensuse.org/Create_installation_USB_stick>
 
 ### 4.1.3 BIOS Setup
 

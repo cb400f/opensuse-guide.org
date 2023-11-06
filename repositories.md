@@ -77,7 +77,7 @@ Additionally I recommend adding the following <i>unofficial</i> repositories fro
 
 Updating installed packages from one repository to versions from a different repository with a different <i>vendor</i>, is a little bit complicated. Read about it here:
 
-<a href="http://en.opensuse.org/SDB:Vendor_change_update" target="_blank">http://en.opensuse.org/SDB:Vendor_change_update</a>
+<http://en.opensuse.org/SDB:Vendor_change_update>
 
 ## 11.2 Repository Management in the Terminal
 

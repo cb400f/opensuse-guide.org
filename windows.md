@@ -91,13 +91,13 @@ Wine is a command line application, the syntax is:
 
 The Wine project keeps a database for sharing experiences of running applications, see:
 
-<a href="http://appdb.winehq.org/appbrowse.php" target="_blank">http://appdb.winehq.org/appbrowse.php</a>
+<http://appdb.winehq.org/appbrowse.php>
 
 ### 12.3.2 CrossOver
 
 CrossOver is not gratis. It's specialised in running a select few of the major MS Windows applications - mostly office related.
 
-<a href="https://www.codeweavers.com/products/cxlinux/" target="_blank">https://www.codeweavers.com/products/cxlinux/</a>
+<https://www.codeweavers.com/products/cxlinux/>
 
 ### 12.3.3 Dual Boot
 

@@ -235,8 +235,8 @@ Vim is quite advanced, you might consider installing a simpler text based editor
 
 If you want to learn more about using the terminal there are many resources available on the internet, here are a couple of links.
 
-<a href="https://www.guru99.com/unix-linux-tutorial.html" target="_blank">https://www.guru99.com/unix-linux-tutorial.html</a>
+<https://www.guru99.com/unix-linux-tutorial.html>
 
-<a href="http://linuxcommand.org/" target="_blank">http://linuxcommand.org/</a>
+<http://linuxcommand.org/>
 
-<a href="http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html" target="_blank">http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html</a>
+<http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html>
