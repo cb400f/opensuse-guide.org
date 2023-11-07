@@ -12,7 +12,7 @@ The PC world is dominated by Microsoft, and they're not exactly known for making
 
 LibreOffice defaults to the Open Document Format (*.odt, *.ods, *.odp, etc.) which is an open standard. This format is partially supported by Microsoft Office >= 2007 Service Pack 2. Or you can suggest to your MS Windows and Mac OSX using contacts to install LibreOffice, as it's freely available for those platforms too.
 
-LibreOffice can also read and write the Microsoft Office formats (*.doc, *.xls,*.ppt, *.docx, *.xlsx, *.pptx etc.) quite well - as well as a wide range of other formats.
+LibreOffice can also read and write the Microsoft Office formats (*.doc, *.xls, *.ppt, *.docx, *.xlsx, *.pptx etc.) quite well - as well as a wide range of other formats.
 
 {% include tip.html tip="If you come across Microsoft documents that LibreOffice doesn't render well, consider trying if you have better luck with the Calligra suite." %}
 
@@ -28,23 +28,23 @@ No configuration is needed to access files shared by others. Simply:
 
 {% include screenshot.html image="smb-dolph" %}
 
-If you don't know the IP-address of the share you want to access, you can <i>browse</i> the local network by simply entering <i>smb:/</i> in the Dolphin location bar. However, this will only work if you configure or (temporarily) disable the firewall first. More instructions coming soon...
+If you don't know the IP-address of the share you want to access, you can _browse_ the local network by simply entering _smb:/_ in the Dolphin location bar. However, this will only work if you configure or (temporarily) disable the firewall first. More instructions coming soon...
 
 ### 12.2.2 Sharing Your Files
 
-To share <i>your</i> files with MS Windows users, Mac OSX users or other GNU/Linux users on the local network you must configure the Samba Server (make sure the packages <i>yast2-samba-server</i> and <i>samba</i> are installed). You only need to perform the first three steps the first time you want share a folder.
+To share _your_ files with MS Windows users, Mac OSX users or other GNU/Linux users on the local network you must configure the Samba Server (make sure the packages _yast2-samba-server_ and _samba_ are installed). You only need to perform the first three steps the first time you want share a folder.
 
-<b>1) </b> Open the YaST Samba Server module.
+**1)** Open the YaST Samba Server module.
 
 <div class="path">YaST =&gt; Network Services  =&gt; Samba Server</div>
 
 {% include screenshot.html image="samba-server" %}
 
-<b>2) </b> In the tab <i>Start-Up</i> select whether to autostart the Samba service during boot and whether to open the firewall ports required.
+**2)** In the tab _Start-Up_ select whether to autostart the Samba service during boot and whether to open the firewall ports required.
 
-<b>3) </b> Go to the <i>Shares</i> tab, check the options <i>Allow Users to Share Their Directories</i> and <i>Allow Guest Access</i>. In the <i>Identity</i> tab you can configure your workgroup and share name.
+**3)** Go to the _Shares_ tab, check the options _Allow Users to Share Their Directories_ and _Allow Guest Access_. In the _Identity_ tab you can configure your workgroup and share name.
 
-<b>4) </b> Add shares by clicking the "Add" button and specifying the directories you want to share.
+**4)** Add shares by clicking the "Add" button and specifying the directories you want to share.
 
 ## 12.3 Running MS Windows Applications
 
@@ -74,8 +74,8 @@ CrossOver is not gratis. It's specialised in running a select few of the major M
 
 ### 12.3.3 Dual Boot
 
-As mentioned in the <i>Installation</i> chapter, it's relatively simple to run GNU/Linux and MS Windows on the same computer. If you only need a few applications that you rarely use, maybe it's worth it to reboot into MS Windows now and then, when you need to use these particular apps.
+As mentioned in the _Installation_ chapter, it's relatively simple to run GNU/Linux and MS Windows on the same computer. If you only need a few applications that you rarely use, maybe it's worth it to reboot into MS Windows now and then, when you need to use these particular apps.
 
 ### 12.3.4 Virtualisation
 
-It's possible to run MS Windows on top of GNU/Linux inside a <i>virtual machine</i>, using software such as VirtualBox, KVM, Xen or VMware. This is somewhat advanced, and requires some computer power.
+It's possible to run MS Windows on top of GNU/Linux inside a _virtual machine_, using software such as VirtualBox, KVM, Xen or VMware. This is somewhat advanced, and requires some computer power.
