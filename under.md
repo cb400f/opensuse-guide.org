@@ -27,31 +27,31 @@ Any modern computer operating system is a very large and complicated contraption
 
 Most users will hardly ever need to work outside their home folder, but nevertheless it's probably a good idea to have a basic idea about the how the file hierarchy works.
 
-On GNU/Linux you only have <i>one</i> file tree, unlike e.g. Microsoft Windows which has a different file tree for each filesystem/partition - on GNU/Linux separate filesystems/partitions are <i>mounted</i> in folders within a single file tree. The root folder for the file tree is "<b>/</b>" and paths are written using forward slashes.
+On GNU/Linux you only have _one_ file tree, unlike e.g. Microsoft Windows which has a different file tree for each filesystem/partition - on GNU/Linux separate filesystems/partitions are _mounted_ in folders within a single file tree. The root folder for the file tree is "**/**" and paths are written using forward slashes.
 
 So a path might look like this in GNU/Linux:
 
-<b>/home/<i>username</i>/Desktop/</b>
+**/home/_username_/Desktop/**
 
 In MS Windows a comparable path might look like this:
 
-<b>C:\Documents and Settings\<i>username</i>\Desktop</b>
+**C:\\Documents and Settings\\_username_\\Desktop**
 
 {% include tip.html tip="In GNU/Linux filenames and folders are **case sensitive**." %}
 
-Normal users only have write permission in their <b>/home/</b> folder, and rarely have any need to work outside of that.
+Normal users only have write permission in their **/home/** folder, and rarely have any need to work outside of that.
 
 ## C.3 Hidden Files
 
-Files and folders starting with '.' (dot) are hidden. You can make them visible in Dolphin file manager via the keyboard shortcut <b>Alt+.</b> or <b>View -&gt; Show Hidden Files</b> in the menubar.
+Files and folders starting with '.' (dot) are hidden. You can make them visible in Dolphin file manager via the keyboard shortcut **Alt+.** or **View -&gt; Show Hidden Files** in the menubar.
 
-Applications store the user settings and data in hidden folders in the users home folder, e.g. <b>/home/<i>username</i>/.mozilla/</b> or <b>/home/<i>username</i>/.config/vlc/</b> etc. If you uninstall/reinstall an application the settings and data will remain in the home folder. To "reset" an application, you just rename or (re)move the settings and/or data hidden in your home folder.
+Applications store the user settings and data in hidden folders in the users home folder, e.g. **/home/_username_/.mozilla/** or **/home/_username_/.config/vlc/** etc. If you uninstall/reinstall an application the settings and data will remain in the home folder. To "reset" an application, you just rename or (re)move the settings and/or data hidden in your home folder.
 
 ## C.4 Important Config Files
 
 In GNU/Linux configurations and settings are usually stored in human-readable plain text files. Almost any configuration can be done graphically via YaST or various other GUI applications, but nevertheless it can be useful to know the location of some key config files.
 
-System wide configurations are mainly stored in <b>/etc/</b>, user settings are stored in hidden files in the home folder for the individual user.
+System wide configurations are mainly stored in **/etc/**, user settings are stored in hidden files in the home folder for the individual user.
 
 <table class="table">
 <tbody>
@@ -87,12 +87,12 @@ System wide configurations are mainly stored in <b>/etc/</b>, user settings are 
     <td style="width: 230px;"><b>/etc/modprobe.d/50-blacklist.conf</b></td>
     <td>Blacklisting kernel modules.</td>
     </tr>
-    </tbody>
+</tbody>
 </table>
 
 ## C.5 Logs
 
-In case of problems it's good to know the location of the main log files, most are kept in <b>/var/log/</b>.
+In case of problems it's good to know the location of the main log files, most are kept in **/var/log/**.
 
 <table class="table">
 <tbody>
@@ -101,7 +101,7 @@ In case of problems it's good to know the location of the main log files, most a
       <td>Log for the X-server.</td>
   </tr>
   <tr class="d1">
-      <td style="width: 230px;"><b>/home/<i>username</i>/.xsession-errors</b></td>
+      <td style="width: 230px;"><b>/home/_username_/.xsession-errors</b></td>
       <td>Useful for troubleshooting applications ran as normal user.</td>
   </tr>
   <tr class="d1">
@@ -111,7 +111,7 @@ In case of problems it's good to know the location of the main log files, most a
   </tbody>
 </table>
 
-The main system log can be viewed with the YaST module <i>systemd-journal</i> or with the command journalctl:
+The main system log can be viewed with the YaST module _systemd-journal_ or with the command journalctl:
 
 <div class="clroot">journalctl</div>
 

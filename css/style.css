@@ -292,7 +292,7 @@ a:hover {
         border-color: #A6A6A6;
 	 }
 
-.code {
+pre.highlight {
         color: black;
 	font-size: 8pt;
 	font-family: sans-serif;
@@ -304,6 +304,15 @@ a:hover {
         border-width: thin;
         border-color: #74BA24;
 	 }
+
+pre { /* https://www.tutorialspoint.com/How-do-I-wrap-text-in-a-pre-tag-in-HTML */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
 
 .oneclick {
         color: black;

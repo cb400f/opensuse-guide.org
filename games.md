@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Appendix B: Games - Playing Games on openSUSE'
+title: "Appendix B: Games - Playing Games on openSUSE"
 permalink: games
 ---
 
@@ -14,7 +14,7 @@ Not all major, mainstream games run natively on GNU/Linux, but there are still p
 
 ### B.1.1 openSUSE Build Service Games Repository
 
-Some games are included in the official openSUSE repositories, but the Games repository on the openSUSE Build Service includes a lot more games. You can easily add this repository via the list of Community Repositories as described in the chapter about <a href="repositories.php">Software Repositories</a>
+Some games are included in the official openSUSE repositories, but the Games repository on the openSUSE Build Service includes a lot more games. You can easily add this repository via the list of Community Repositories as described in the chapter about [Software Repositories](repositories).
 
 Or add the games repository using the command line:
 
@@ -22,7 +22,7 @@ Or add the games repository using the command line:
 
 ### B.1.2 Steam Gaming Platform and Store
 
-The <a href="http://store.steampowered.com/browse/linux/" target="_blank">Steam gaming platform and store</a> is available for GNU/Linux.You can find packages of it <a href="http://software.opensuse.org/package/steam" target="_blank">here</a>
+The [Steam gaming platform and store](http://store.steampowered.com/browse/linux/) is available for GNU/Linux. You can find packages of it [here](http://software.opensuse.org/package/steam).
 
 ### B.1.3 Desura
 
@@ -62,7 +62,7 @@ Wine is a command line application, the syntax is:
 
 ### B.2.2 PlayOnLinux
 
-<a href="http://www.playonlinux.com/" target="_blank">PlayOnLinux</a> is based on Wine and lets you easily install and use (some) MS Windows Games. You can find packages of PlayOnLinux in the above mentioned Games repository.
+[PlayOnLinux](http://www.playonlinux.com/) is based on Wine and lets you easily install and use (some) MS Windows Games. You can find packages of PlayOnLinux in the above mentioned Games repository.
 
 ### B.2.3 CrossOver Games
 
@@ -82,13 +82,4 @@ Numerous emulators exist, making it possible to run many old classic games of ot
 - Nintendo (infones, bsnes, nestopia)
 - Play Station (pcsx, pcsx2)
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
-<td>Usually you can only do this legally, if you own the original hardware/have a licence for it.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Usually you can only do this legally, if you own the original hardware/have a licence for it." %}

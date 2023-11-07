@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Appendix E: Getting Involved - Being a Part of the openSUSE Community and How to Contribute'
+title: "Appendix E: Getting Involved - Being a Part of the openSUSE Community and How to Contribute"
 permalink: contribute
 ---
 

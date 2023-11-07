@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Appendix A: Help and Docs - Support and Documentation for openSUSE'
+title: "Appendix A: Help and Docs - Support and Documentation for openSUSE"
 permalink: help
 ---
 
@@ -30,7 +30,7 @@ And there's a forum for the LibreOffice office suite too:
 
 ## A.3 IRC
 
-You can get help in realtime using IRC (Internet Relay Chat). The IRC-client Konversation is installed by default and preconfigured to join the <a href="irc://irc.opensuse.org/opensuse" class="button" title="join #suse on freenode">#suse</a> channel on the Freenode IRC network.
+You can get help in realtime using IRC (Internet Relay Chat). The IRC-client Konversation is installed by default and preconfigured to join the [#suse](irc://irc.opensuse.org/opensuse) channel on the Freenode IRC network.
 
 {% include screenshot.html image="konversation" %}
 
@@ -54,7 +54,7 @@ Reading the manuals is always a good idea. You can find the official openSUSE ma
 
 <http://doc.opensuse.org/>
 
-Many applications come with a handbook, often you can access it by pressing <i>F1</i>. Usually packages also include documentation which is normally installed to the location <i>/usr/share/doc/</i>.
+Many applications come with a handbook, often you can access it by pressing _F1_. Usually packages also include documentation which is normally installed to the location _/usr/share/doc/_.
 
 You'll find a lot of docs and howtos on the documentation portal on the wiki:
 
@@ -64,7 +64,7 @@ You'll find a lot of docs and howtos on the documentation portal on the wiki:
 
 There's a unified search for the openSUSE wiki, forums, mailinglists etc. on:
 
-<http://search.opensuse.org>.
+<http://search.opensuse.org>
 
 When asking for support online it can be very useful to share text (e.g. commandline output) or screenshots showing your problem. The openSUSE pastebin makes this easy:
 
@@ -78,7 +78,7 @@ There's likely to be a LUG in your vicinity, with mailinglists or forums and pos
 
 ## A.8 Hardware
 
-GNU/Linux supports most hardware, but not all. Components that are very new on the market, or components with little marketshare, are most prone to causing problems. Here are some databases tracking support for various hardware types. It's recommended to research whether hardware is supported by GNU/Linux <i>before</i> making a purchase.
+GNU/Linux supports most hardware, but not all. Components that are very new on the market, or components with little marketshare, are most prone to causing problems. Here are some databases tracking support for various hardware types. It's recommended to research whether hardware is supported by GNU/Linux _before_ making a purchase.
 
 {% include tip.html tip="Don't expect these databases to be 100% complete or up-to-date - and remember to contribute with your own findings." %}
 
