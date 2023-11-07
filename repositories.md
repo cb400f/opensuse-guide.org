@@ -31,20 +31,21 @@ Add repositories with care.
 {% include note.html note=add_repositories_with_care %}
 
 The easiest and safest way to add repositories is using the list of online community repositories in YaST. This provides you with a selection of popular and quite safe repositories to choose from:
+
 <div class="path">YaST => Software => Software Repositories => Click on "Add" => Select "Community Repositories" and click "Next"</div>
 
-Note that the <i>openSUSE BuildService</i> is a service for the community to build and share packages. <i>openSUSE BuildService repositories are unofficial and unsupported</i>. Use at your own risk.
+Note that the _openSUSE BuildService_ is a service for the community to build and share packages. _openSUSE BuildService repositories are unofficial and unsupported_. Use at your own risk.
 
 ### 11.1.2 Recommended Repositories
 
-You should always have the four <i>official</i> repositories (which are configured out of the box).<br/>
+You should always have the four _official_ repositories (which are configured out of the box).
 
 - **Main Repository (OSS)**
 - **Main Repository (NON-OSS)**
 - **Main Update Repository**
 - **Main Update Repository (NON-OSS)**
 
-Additionally I recommend adding the following <i>unofficial</i> repositories from the Community Repositories list, for having a good balance of software supply and stability for most users.
+Additionally I recommend adding the following _unofficial_ repositories from the Community Repositories list, for having a good balance of software supply and stability for most users.
 
 - **Packman Repository**
 
@@ -57,7 +58,7 @@ Still missing a package? You can search for packages/repositories on the openSUS
 
 ### 11.1.3 Vendor Change Updates
 
-Updating installed packages from one repository to versions from a different repository with a different <i>vendor</i>, is a little bit complicated. Read about it here:
+Updating installed packages from one repository to versions from a different repository with a different _vendor_, is a little bit complicated. Read about it here:
 
 <http://en.opensuse.org/SDB:Vendor_change_update>
 
@@ -65,15 +66,15 @@ Updating installed packages from one repository to versions from a different rep
 
 If you wish, you can manage your repositories via a terminal too.
 
-Add a repository with auto-refresh enabled <i>zypper addrepo -f [URL] [Alias]</i>. Example:
+Add a repository with auto-refresh enabled _zypper addrepo -f [URL] [Alias]_. Example:
 
 <div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/ packman</div>
 
-Disable a repository <i>zypper modifyrepo -d [URL|Alias]</i>. Example:
+Disable a repository _zypper modifyrepo -d [URL|Alias]_. Example:
 
 <div class="clroot">zypper modifyrepo -d Packman</div>
 
-Remove a repository <i>zypper removerepo [URL|Alias]</i>. Example:
+Remove a repository _zypper removerepo [URL|Alias]_. Example:
 
 <div class="clroot">zypper removerepo http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/</div>
 
@@ -81,7 +82,7 @@ List configured repositories, showing  details (priorities, URL, etc.):
 
 <div class="cl">zypper repos -d</div>
 
-See <i>man zypper</i> for more.
+See _man zypper_ for more.
 
 <div class="cl">man zypper</div>
 
