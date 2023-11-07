@@ -24,13 +24,13 @@ When browsing openSUSE related websites, you're likely to come across buttons su
 
 {% include pic.html src="oneclick.png" %}
 
-1-click installation (also referred to as "Direct Install") simply automates the process of adding one or more software repositories to the package manager and installing one or more RPM packages. Therefore 1-click installation <i>should be used with the same care</i> as manually adding unofficial repositories (see the next chapter for more on software repositories).<br/>
+1-click installation (also referred to as "Direct Install") simply automates the process of adding one or more software repositories to the package manager and installing one or more RPM packages. Therefore 1-click installation _should be used with the same care_ as manually adding unofficial repositories (see the next chapter for more on software repositories).
 
 ## 10.2 Other Installation Methods
 
 Most users will find everything they need and more in the package manager - especially if a few additional software repositories are added (see next chapter). But not all software is packaged and provided via repositories, and non-free software usually can't be legally redistributed via the package manager because of license restrictions.
 
-In these cases you'll need to go to the developer/vendor website and download and install the software manually - but <b>always</b> look for an openSUSE package in repositories first - and make sure you only download and install software from trusted sources.
+In these cases you'll need to go to the developer/vendor website and download and install the software manually - but **always** look for an openSUSE package in repositories first - and make sure you only download and install software from trusted sources.
 
 ### 10.2.1 RPM file
 
@@ -42,7 +42,7 @@ With a bit of luck the developer/vendor website will have an RPM file for openSU
 
 ### 10.2.2 Tarball
 
-If the website doesn't have an RPM for openSUSE, it will most likely have a so-called <i>tarball</i>. Tarballs (*.tar.gz, *.tar.bz2) are simply compressed archives similar to ZIP and RAR files. To uncompress a tarball:
+If the website doesn't have an RPM for openSUSE, it will most likely have a so-called _tarball_. Tarballs (*.tar.gz, *.tar.bz2) are simply compressed archives similar to ZIP and RAR files. To uncompress a tarball:
 
 <div class="path">Open the Dolphin file manager =&gt; Navigate to the tarball =&gt; Right click =&gt; Extract Archive</div>
 
@@ -52,19 +52,19 @@ The tarball might contain binaries that just need to be run, or it might contain
 
 If you wish, you can install and remove packages via a terminal too.
 
-To search for a package run <i>zypper search [search term]</i>. Example:
+To search for a package run _zypper search [search term]_. Example:
 
 <div class="cl">zypper search thunder</div>
 
-To install a package run <i>zypper install [package name]</i>. Example:
+To install a package run _zypper install [package name]_. Example:
 
 <div class="clroot">zypper install MozillaThunderbird</div>
 
-To remove a package run <i>zypper remove [package name]</i>. Example:
+To remove a package run _zypper remove [package name]_. Example:
 
 <div class="clroot">zypper remove PackageKit</div>
 
-See <i>man zypper</i> for more.
+See _man zypper_ for more.
 
 <div class="cl">man zypper</div>
 
@@ -74,7 +74,7 @@ Or for help on indvidual commands use for example:
 
 ### 10.3.1 Using 1-click in the Terminal
 
-You can actually use 1-click installation in the terminal too, the syntax is <i>OCICLI [URL]</i>, Example:
+You can actually use 1-click installation in the terminal too, the syntax is _OCICLI [URL]_, Example:
 
 <div class="clroot">OCICLI http://opensuse-community.org/nvidia.ymp</div>
 
