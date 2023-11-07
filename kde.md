@@ -41,7 +41,7 @@ To avoid your desktop getting cluttered with windows you can use virtual desktop
 
 <center><img src="images/screenshots/pager.png" alt="pager" class="pic" /></center>
 
-You can also use the desktop grid effect to get a big overview of your virtual desktops, try pressing <i>Ctrl+F8</i> (requires desktop effects support, see the paragraph on this topic below).
+You can also use the desktop grid effect to get a big overview of your virtual desktops, try pressing _Ctrl+F8_ (requires desktop effects support, see the paragraph on this topic below).
 
 ## 5.2 File Management
 
@@ -65,11 +65,11 @@ You can also find Configure Desktop (systemsettings) as one of the favourites in
 
 ## 5.4 System Activity / Task List
 
-Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press <i>Ctrl+Esc</i> to bring up the system activity window.
+Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press _Ctrl+Esc_ to bring up the system activity window.
 
 {% include screenshot.html image="systemactivity" %}
 
-For an advanced and customizable system monitor, including network graphs etc. run the program <i>ksysguard</i>
+For an advanced and customizable system monitor, including network graphs etc. run the program _ksysguard_
 
 ## 5.5 Widgets
 
@@ -87,10 +87,10 @@ To configure, move, resize widgets etc., click to open the toolbox in the top ri
 
 ## 5.6 Desktop Effects
 
-The KDE window manager has built-in support for 3D desktop effects. A basic, unobtrusive selection of effects will be enabled out of the box if you have the proper hardware and driver support in place. Try pressing <i>Ctrl+F8</i> or <i>Ctrl+F9</i> for example.
+The KDE window manager has built-in support for 3D desktop effects. A basic, unobtrusive selection of effects will be enabled out of the box if you have the proper hardware and driver support in place. Try pressing _Ctrl+F8_ or _Ctrl+F9_ for example.
 
 You can disable or enable other/more effects in Systemsettings.
 
 {% include screenshot.html image="effects" %}
 
-The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shift+F12</i>.
+The keyboard shortcut to temporarily toggle desktop effects on/off is _Alt+Shift+F12_.
