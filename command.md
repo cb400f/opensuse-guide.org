@@ -10,7 +10,7 @@ Almost any task can be performed graphically on a modern GNU/Linux distribution 
 
 There are thousands of commands you can run, each with a number of different options. So this chapter is just a small teaser describing the most common commands.
 
-You'll find <i>Konsole</i> under System in the launch menu.
+You'll find _Konsole_ under System in the launch menu.
 
 {% include video.html video="konsole" screenshot="konsole" size="4.5 MB" %}
 
@@ -18,7 +18,7 @@ Using the command line is quite easy. Simply enter a command and possibly one or
 
 <div class="cl">ls -l /home/[username]/ </div>
 
-The <i>command</i> <b>ls</b> displays a list of files, the <i>option</i> <b>-l</b> means that the list will be displayed in a long listing format, and the <i>argument</i> <b>/home/[username]/</b> sets the directory of which the contents are listed.
+The _command_ **ls** displays a list of files, the _option_ **-l** means that the list will be displayed in a long listing format, and the _argument_ **/home/[username]/** sets the directory of which the contents are listed.
 
 ## 8.1 Useful Shortcuts
 
@@ -68,7 +68,7 @@ Moving or renaming a file
 
 ### 8.2.2 System Monitoring
 
-Running processes and consumption of system resources. Press <b>'Q'</b> to exit.
+Running processes and consumption of system resources. Press **'Q'** to exit.
 
 <div class="cl">top </div>
 
@@ -100,9 +100,9 @@ Almost all commands have an accompanying manual page describing how to use the c
 
 <div class="cl">man cp</div>
 
-To leave the man page again press <b>'Q'</b>
+To leave the man page again press **'Q'**
 
-If a command does not have a man page, try <i>--help</i> instead, example:
+If a command does not have a man page, try _--help_ instead, example:
 
 <div class="cl">cp --help</div>
 
@@ -114,7 +114,7 @@ To switch to the root user to perform system administration tasks, type:
 
 Then type your (root) password. Nothing will appear on screen as you type, this is intended.
 
-To stop working as root and return to working as your normal user, run <i>exit</i>.
+To stop working as root and return to working as your normal user, run _exit_.
 
 <div class="clroot">exit</div>
 
@@ -187,14 +187,15 @@ List USB devices:
 
 Editing configuration files or other text files can be done like this using the vim editor, which is installed by default.
 
-Open a file with <i>vim /path/to/file</i>. Example:
+Open a file with _vim /path/to/file_. Example:
+
 <div class="clroot">vim /etc/sysconfig/yast2</div>
 
 {% include note.html note="Root permissions are used in the example because _yast2_ is a system configuration file - this is not generally required to edit files with vim." %}
 
-Press <b>i</b> to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press <b>Esc</b> to leave insert mode and return to command mode. Now type <b>:x</b> which is the command for exit and save. To quit without saving any changes use <b>:q!</b>.
+Press **i** to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press **Esc** to leave insert mode and return to command mode. Now type **:x** which is the command for exit and save. To quit without saving any changes use **:q!**.
 
-Vim is quite advanced, you might consider installing a simpler text based editor, e.g. try <i>nano</i>.
+Vim is quite advanced, you might consider installing a simpler text based editor, e.g. try _nano_.
 
 ## 8.4 Further reading
 
