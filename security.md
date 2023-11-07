@@ -31,9 +31,11 @@ The following command is used to switch to the root user in a terminal:
 {% include tip.html tip="Nothing will appear on the screen while you type your password. This is intended." %}
 
 To stop working as root, enter the following command:
+
 <div class="clroot">exit</div>
 
 To run a single command as root you can use:
+
 <div class="cl">su -c "[command]"</div>
 
 You can read more about using the terminal in the next chapter.
