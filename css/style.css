@@ -181,7 +181,8 @@ a.content-text:hover {
 	font-weight: normal;
 	font-size: 11pt;
 	/*font-style: italic;  */
-	margin-bottom: 0px;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 
@@ -251,7 +252,7 @@ a:hover {
 	font-family: sans-serif;
 	font-size: 10pt;
         background: black;
-        margin: 2px 50px 2px 2px;
+        margin: 1em 50px 1em 2px;
         padding: 6px 6px 6px 6px;
         list-style: none;
           }
@@ -261,7 +262,7 @@ a:hover {
 	font-size: 10pt;
 	font-family: sans-serif;
         background: black;
-        margin: 2px 50px 2px 2px;
+        margin: 1em 50px 1em 2px;
         padding: 6px 6px 6px 6px;
         list-style: none;
           }
@@ -271,7 +272,7 @@ a:hover {
         background: #FFFFCC;
 	font-size: 10pt;
 	font-family: sans-serif;
-        margin: 2px 75px 2px 75px;
+        margin: 1em 75px 1em 75px;
         padding: 6px 6px 6px 6px;
         list-style: none;
         border-style: solid;
@@ -284,7 +285,7 @@ a:hover {
 	font-size: 10pt;
 	font-family: sans-serif;
         background: #FFFFCC;
-        margin: 2px 75px 2px 75px;
+        margin: 1em 75px 1em 75px;
         padding: 6px 6px 6px 6px;
         list-style: none;
         border-style: solid;
