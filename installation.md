@@ -25,7 +25,7 @@ When you burn the downloaded ISO files to a DVD it's important to remember to bu
 
 ### 4.1.2b Creating a USB stick
 
-The ISO can also be put on an USB stick, see instructions for this for for MS Windows, Apple MacOS, openSUSE and other GNU/Linux here:
+The ISO can also be put on an USB stick, see instructions for this for MS Windows, Apple MacOS, openSUSE and other GNU/Linux here:
 
 <https://en.opensuse.org/Create_installation_USB_stick>
 
