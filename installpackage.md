@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 10. Installing Software - Install Programs With the Package Manager
-permalink: /installpackage
+permalink: installpackage
 ---
 
 # 10. Installing Software

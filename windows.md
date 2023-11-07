@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 12. MS Windows Interoperability - Using openSUSE With Windows Network, Documents and Running MS Windows
-permalink: /windows
+permalink: windows
 ---
 
 # 12. MS Windows Interoperability

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2. Switching to GNU/Linux - Benefits and Challenges of Migrating to GNU/Linux
-permalink: /switching
+permalink: switching
 ---
 
 # 2. Switching to GNU/Linux

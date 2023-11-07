@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Appendix E: Getting Involved - Being a Part of the openSUSE Community and How to Contribute'
-permalink: /contribute
+permalink: contribute
 ---
 
 # Appendix E: Getting Involved

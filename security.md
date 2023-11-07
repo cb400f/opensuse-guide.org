@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 7. Security and Root - Basic Security and Working as the Root User
-permalink: /security
+permalink: security
 ---
 
 # 7. Security and Root

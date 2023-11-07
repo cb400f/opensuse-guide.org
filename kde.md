@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 5. KDE Workspace - Use and Configure KDE on Desktop or Netbook
-permalink: /kde
+permalink: kde
 ---
 
 # 5. KDE Plasma Workspace

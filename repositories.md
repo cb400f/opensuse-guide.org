@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 11. Software Repositories - Adding and Managing Package Repositories
-permalink: /repositories
+permalink: repositories
 ---
 
 # 11. Software Repositories

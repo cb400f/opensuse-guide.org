@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Appendix D: History and Background - What is Free Software and Open Source and What is the History of openSUSE'
-permalink: /history
+permalink: history
 ---
 
 # Appendix D: History and Background

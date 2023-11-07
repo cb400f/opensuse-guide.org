@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Appendix C: Under the Hood - A Look at What's Happening Under the Surface"
-permalink: /under
+permalink: under
 ---
 
 # Appendix C: Under the Hood

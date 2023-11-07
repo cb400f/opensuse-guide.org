@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4. Installation - Howto Install openSUSE on Your Computer
-permalink: /installation
+permalink: installation
 ---
 
 # 4. Installation

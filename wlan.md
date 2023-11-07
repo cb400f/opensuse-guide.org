@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 15. Wireless Driver Installation - Making Your Broadcom, Ralink etc. Wifi/Wlan Work
-permalink: /wlan
+permalink: wlan
 ---
 
 # 15. Wifi Driver Installation

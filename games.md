@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Appendix B: Games - Playing Games on openSUSE'
-permalink: /games
+permalink: games
 ---
 
 # Appendix B: Games

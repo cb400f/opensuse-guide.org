@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 9. Administrator Settings (YaST) - Introduction to the YaST Setup Tool
-permalink: /yast
+permalink: yast
 ---
 
 # 9. Administrator Settings (YaST)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 13. Multimedia Codecs - Install Support for restricted codecs including MP3, DVD, WMA, WMV, MOV etc.
-permalink: /codecs
+permalink: codecs
 ---
 
 # 13. Multimedia Codecs

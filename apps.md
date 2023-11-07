@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 6. Apps for Common Tasks - Applications to Perform the Most Common Tasks
-permalink: /apps
+permalink: apps
 ---
 
 # 6. Apps for Common Tasks
