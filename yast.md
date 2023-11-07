@@ -10,7 +10,7 @@ YaST (Yet another Setup Tool) is the central tool for system administration. You
 
 {% include screenshot.html image="yast-controlcenter" %}
 
-<b>Default YaST modules</b>
+**Default YaST modules**
 
 In YaST you can perform almost any system task, with powerful graphical modules, e.g.:
 
@@ -23,7 +23,7 @@ In YaST you can perform almost any system task, with powerful graphical modules,
 - Enable NTP daemon
 - And much, much more...
 
-<b>Additional YaST modules</b>
+**Additional YaST modules**
 
 A lot more YaST modules are available than the ones included in the default installation (read about installing packages in the next chapter). Some notable modules not installed by default are:
 
@@ -39,7 +39,7 @@ A lot more YaST modules are available than the ones included in the default inst
 
 The YaST modules can also be used in a terminal (ncurses mode) - this is very useful for servers with no graphical environment running, for remote access via SSH, or in case your graphical environment fails.
 
-Simply run <i>yast</i> as root in a terminal.
+Simply run _yast_ as root in a terminal.
 
 <div class="clroot">yast</div>
 
