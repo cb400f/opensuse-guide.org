@@ -22,9 +22,11 @@ There are many webshops that offer to sell unofficial media (DVD, USB-stick) wit
 
 This saves you the trouble of downloading and burning the media yourself, and the subsequent risk of errors. See for example:
 
-- [OSDisc.com](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/suse)
-- [Ixsoft.de](http://www.ixsoft.de/cgi-bin/web_store.cgi?ref=Catalogs/de/opensuse-catalog.html)
-- [Thelinuxshop.co.uk](http://thelinuxshop.co.uk/opensuse-m-14.html)
+[OSDisc.com](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/suse)
+
+[Ixsoft.de](http://www.ixsoft.de/cgi-bin/web_store.cgi?ref=Catalogs/de/opensuse-catalog.html)
+
+[Thelinuxshop.co.uk](http://thelinuxshop.co.uk/opensuse-m-14.html)
 
 ## 3.3 Buy a Box Set
 
@@ -40,9 +42,11 @@ Some vendors offer some or all of their laptops or PCs with openSUSE pre-install
 
 For example check out these vendors:
 
-- <https://www.tuxedocomputers.com>
-- <https://slimbook.es/>
-- <https://www.thinkpenguin.com/>
+<https://www.tuxedocomputers.com>
+
+<https://slimbook.es/>
+
+<https://www.thinkpenguin.com/>
 
 {% include pic.html src="laptop.png" %}
 

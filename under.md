@@ -121,11 +121,9 @@ Read up on journalctl to use it effectively.
 
 Here are some basic troubleshooting tips for GNU/Linux in case an application crashes or won't start at all.
 
-<ul>
-<li>If an application fails, try running it from a terminal to get more/better output</li>
-<li>Try removing/renaming the hidden folder(s) for the application in the users home folder</li>
-<li>Try creating a new user and see if the problem persists. If the problem does not persist for a new user, the cause can probably be found in the settings/data in the home folder of the user with the problem</li>
-<li>Check out relevant log files</li>
-</ul>
+- If an application fails, try running it from a terminal to get more/better output
+- Try removing/renaming the hidden folder(s) for the application in the users home folder
+- Try creating a new user and see if the problem persists. If the problem does not persist for a new user, the cause can probably be found in the settings/data in the home folder of the user with the problem
+- Check out relevant log files
 
 {% include tip.html tip="Reinstalling the software packages almost never solves anything, because the old settings and data will remain in hidden folders in the home folder." %}

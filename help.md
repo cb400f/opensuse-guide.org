@@ -82,23 +82,21 @@ GNU/Linux supports most hardware, but not all. Components that are very new on t
 
 {% include tip.html tip="Don't expect these databases to be 100% complete or up-to-date - and remember to contribute with your own findings." %}
 
-	<ul>
-	<li><a href="http://en.opensuse.org/Portal:Hardware" target="_blank">http://en.opensuse.org/Portal:Hardware</a></li>
-	<li><a href="http://www.linux-laptop.net/" target="_blank">http://www.linux-laptop.net/</a> (Laptops)</li>
-	<li><a href="http://www.linlap.com/" target="_blank">http://www.linlap.com/</a> (Laptops)</li>
-	<li><a href="http://thinkwiki.org/wiki/ThinkWiki">http://thinkwiki.org/wiki/ThinkWiki</a> (IBM/Lenovo Thinkpads)</li>
-	<li><a href="http://bugtrack.alsa-project.org/main/index.php/Matrix:Main" target="_blank">http://bugtrack.alsa-project.org/main/index.php/Matrix:Main</a> (Sound cards)</li>
-	<li><a href="http://www.linuxfoundation.org/collaborate/workgroups/openprinting/database/databaseintro" target="_blank">http://www.linuxfoundation.org/collaborate/workgroups/openprinting/database/databaseintro</a> (Printers)</li>
-	<li><a href="http://www.sane-project.org/sane-supported-devices.html" target="_blank">http://www.sane-project.org/sane-supported-devices.html</a> (Scanners)</li>
-	<li><a href="http://wireless.kernel.org/en/users/Devices" target="_blank">http://wireless.kernel.org/en/users/Devices</a> (Wireless devices)</li>
-	<li><a href="http://linux-wless.passys.nl/" target="_blank">http://linux-wless.passys.nl/</a> (Wireless devices)</li>
-	<li><a href="http://linuxtv.org/" target="_blank">http://linuxtv.org/</a> (TV cards)</li>
-	<li><a href="http://www.linux-usb.org/" target="_blank">http://www.linux-usb.org/</a> (USB devices)</li>
-	<li><a href="http://www.linux1394.org/hcl.php" target="_blank">http://www.linux1394.org/hcl.php</a>  (FireWire)</li>
-	<li><a href="http://mxhaard.free.fr/spca5xx.html" target="_blank">http://mxhaard.free.fr/spca5xx.html</a> (Webcams)</li>
-	<li><a href="http://www.ideasonboard.org/uvc/#devices" target="_blank">http://www.ideasonboard.org/uvc/#devices</a> (Webcams)</li>
-	<li><a href="https://h-node.org/" target="_blank">https://h-node.org/</a> (General hardware working with free software)</li>
-	</ul>
+- <http://en.opensuse.org/Portal:Hardware>
+- <http://www.linux-laptop.net/> (Laptops)
+- <http://www.linlap.com/> (Laptops)
+- <http://thinkwiki.org/wiki/ThinkWiki> (IBM/Lenovo Thinkpads)
+- <http://bugtrack.alsa-project.org/main/index.php/Matrix:Main> (Sound cards)
+- <http://www.linuxfoundation.org/collaborate/workgroups/openprinting/database/databaseintro> (Printers)
+- <http://www.sane-project.org/sane-supported-devices.html> (Scanners)
+- <http://wireless.kernel.org/en/users/Devices> (Wireless devices)
+- <http://linux-wless.passys.nl/> (Wireless devices)
+- <http://linuxtv.org/> (TV cards)
+- <http://www.linux-usb.org/> (USB devices)
+- <http://www.linux1394.org/hcl.php> (FireWire)
+- <http://mxhaard.free.fr/spca5xx.html> (Webcams)
+- <http://www.ideasonboard.org/uvc/#devices> (Webcams)
+- <https://h-node.org/> (General hardware working with free software)
 
 ## A.8 General and in-depth knowledge
 

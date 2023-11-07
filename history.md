@@ -44,12 +44,10 @@ In 1984 and 1985 respectively, system programmer Richard M. Stallman (RMS), who 
 
 Free software doesn't mean free of charge, free software can be commercial. It refers to free as in freedom, specifically defined by the following four fundamental freedoms:
 
-<ul>
-<li>(0) The freedom to run the program, for any purpose.</li>
-<li>(1) The freedom to study how the program works, and change it to make it do what you wish.</li>
-<li>(2) The freedom to redistribute copies so you can help your neighbor.</li>
-<li>(3) The freedom to improve the program, and release your improvements (and modified versions in general) to the public, so that the whole community benefits.</li>
-</ul>
+- (0) The freedom to run the program, for any purpose.
+- (1) The freedom to study how the program works, and change it to make it do what you wish.
+- (2) The freedom to redistribute copies so you can help your neighbor.
+- (3) The freedom to improve the program, and release your improvements (and modified versions in general) to the public, so that the whole community benefits.
 
 The freedoms 1 and 3 require access to the source code of the program.
 
@@ -142,16 +140,15 @@ Many developers are employed by large companies such as IBM, Novell, Red Hat, Go
 Also many people are paid to develop free software in other ways, via university work, government sponsorships, donations, students can be paid via the <a href="http://code.google.com/soc" target="_blank">Google Summer of Code</a> project, etc.
 
 However there are also many, many people working on free software in their spare time for nothing. They can have many different motivations.
-	<ul>
-		<li>They may need a feature or suffer a bug ("scratch your own itch").</li>
-		<li>It builds their skills and network and creates job opportunities.</li>
-		<li>Programming is fun and challenging.</li>
-		<li>There's a lot of recognition and respect to be gained.</li>
-		<li>You can work on projects of you own choosing, unlike at your day-job.</li>
-		<li>They may think software freedom in itself is important enough to work for.</li>
-		<li>They'll take part in an exciting worldwide community.</li>
-		<li>Etc.</li>
-	</ul>
+
+- They may need a feature or suffer a bug ("scratch your own itch").
+- It builds their skills and network and creates job opportunities.
+- Programming is fun and challenging.
+- There's a lot of recognition and respect to be gained.
+- You can work on projects of you own choosing, unlike at your day-job.
+- They may think software freedom in itself is important enough to work for.
+- They'll take part in an exciting worldwide community.
+- Etc.
 
 ### D.6.3 Who is Using GNU/Linux?
 

@@ -107,7 +107,8 @@ If you start using applications available for GNU/Linux in your familiar environ
 
 Many of the KDE applications (see later chapters), are also available for MS Windows and Mac OSX - however they are in an early stage on those platforms. See:
 
-- <http://windows.kde.org>
-- <http://mac.kde.org>
+<http://windows.kde.org>
+
+<http://mac.kde.org>
 
 On Mac OSX you can additionally install KDE applications and lots and lots of other free software via the [MacPorts Project](http://www.macports.org/) or [Fink Project](http://www.finkproject.org/).

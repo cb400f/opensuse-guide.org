@@ -39,19 +39,14 @@ Note that the <i>openSUSE BuildService</i> is a service for the community to bui
 
 You should always have the four <i>official</i> repositories (which are configured out of the box).<br/>
 
-<ul>
-	<li><b>Main Repository (OSS)</b></li>
-	<li><b>Main Repository (NON-OSS)</b></li>
-	<li><b>Main Update Repository</b></li>
-	<li><b>Main Update Repository (NON-OSS)</b></li>
-</ul>
+- **Main Repository (OSS)**
+- **Main Repository (NON-OSS)**
+- **Main Update Repository**
+- **Main Update Repository (NON-OSS)**
 
 Additionally I recommend adding the following <i>unofficial</i> repositories from the Community Repositories list, for having a good balance of software supply and stability for most users.
 
-<ul>
-	<li><b>Packman Repository</b></li>
-	<!--<li><b>openSUSE BuildService - KDE:Extra</b></li>-->
-</ul>
+- **Packman Repository**
 
 {% capture still_missing_a_package %}
 Still missing a package? You can search for packages/repositories on the openSUSE BuildService here:

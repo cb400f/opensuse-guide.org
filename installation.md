@@ -14,12 +14,10 @@ Before starting there are a few things you should be aware of.
 
 ### 4.1.1 System Minimum Requirements
 
-<ul>
-    <li><b>CPU:</b> AMD64 or Intel64 processor</li>
-    <li><b>RAM:</b> 1 GB physical RAM (2 GB recommended)</li>
-    <li><b>Disk Space:</b> 5,0 GB for a normal installation (more recommended)</li>
-    <li><b>Sound and Graphics Card:</b> Most modern cards are supported</li>
-    </ul>
+- **CPU:** AMD64 or Intel64 processor
+- **RAM:** 1 GB physical RAM (2 GB recommended)
+- **Disk Space:** 5,0 GB for a normal installation (more recommended)
+- **Sound and Graphics Card:** Most modern cards are supported
 
 ### 4.1.2a Burning the ISOs to a DVD
 

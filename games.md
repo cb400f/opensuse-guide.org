@@ -74,16 +74,13 @@ A second option is CrossOver Games which is an effort based on Wine. See:
 
 Numerous emulators exist, making it possible to run many old classic games of other platforms on GNU/Linux. For example:
 
-<ul>
-  <li>Amiga (UAE)</li>
-  <li>Arcade (MAME)</li>
-  <li>Atari (Stella, Steem)</li>
-  <li>Commodore 64/128 (VICE)</li>
-  <li>MS DOS (DOSBox, DOSEMU)</li>
-  <li>Nintendo (infones, bsnes, nestopia)</li>
-  <li>Play Station (pcsx, pcsx2)</li>
-
-</ul>
+- Amiga (UAE)
+- Arcade (MAME)
+- Atari (Stella, Steem)
+- Commodore 64/128 (VICE)
+- MS DOS (DOSBox, DOSEMU)
+- Nintendo (infones, bsnes, nestopia)
+- Play Station (pcsx, pcsx2)
 
 <div class="tip">
 <table>

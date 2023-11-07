@@ -16,11 +16,8 @@ The desktop is not very different from other desktop environments you may be fam
 
 However, a few things differ significantly from most other desktop environments:
 
-<ul>
-<li>KDE uses <i>single click</i> to open and launch things by default</li>
-<!--<li>The content of the <i>~/Desktop/</i> folder is not scattered all over the desktop itself, but is instead organized inside a widget called Folder View</li>-->
-<li>By default the applications you have running when you shutdown will be started again in the next session</li>
-</ul>
+- KDE uses _single click_ to open and launch things by default
+- By default the applications you have running when you shutdown will be started again in the next session
 
 {% include screenshot.html image="desktop" %}
 
