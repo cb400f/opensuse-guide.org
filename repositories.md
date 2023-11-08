@@ -68,7 +68,7 @@ If you wish, you can manage your repositories via a terminal too.
 
 Add a repository with auto-refresh enabled _zypper addrepo -f [URL] [Alias]_. Example:
 
-<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/ packman</div>
+<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.5/ packman</div>
 
 Disable a repository _zypper modifyrepo -d [URL|Alias]_. Example:
 
@@ -76,7 +76,8 @@ Disable a repository _zypper modifyrepo -d [URL|Alias]_. Example:
 
 Remove a repository _zypper removerepo [URL|Alias]_. Example:
 
-<div class="clroot">zypper removerepo http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/</div>
+<div class="clroot">zypper removerepo http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.5/
+</div>
 
 List configured repositories, showing  details (priorities, URL, etc.):
 

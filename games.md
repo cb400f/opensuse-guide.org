@@ -18,7 +18,7 @@ Some games are included in the official openSUSE repositories, but the Games rep
 
 Or add the games repository using the command line:
 
-<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.3/ games</div>
+<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.5/ games</div>
 
 ### B.1.2 Steam Gaming Platform and Store
 

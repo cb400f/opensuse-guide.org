@@ -10,22 +10,6 @@ This chapter describes two different methods for installing the packages needed 
 
 By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).
 
-## 13.1 Codec Installation with 1-Click
-
-1) Click on the button below to add the necessary repositories and install the required packages with 1-click install.
-
-{% include ymp.html icon="codecs" link="http://opensuse-community.org/codecs-kde.ymp" %}
-
-{% include tip.html tip="These 1-Click Installers currently only work with the **Firefox web browser**." %}
-
-{% include tip.html tip="If a conflict dialog appears, select to install the packages **_with_ Vendor Change**." %}
-
-2) Afterwards make sure all your multimedia packages are coming from the Packman Repository:
-
-<div class="path">Start YaST Software Management => Click on View => Click on Repositories => Select the Packman Repository => Click "Switch system packages" => Click "Accept"</div>
-
-{% include screenshot.html image="packman-vendorchange" %}
-
 ## 13.2 Codec Installation in the Terminal
 
 To install codecs using the terminal instead, do these steps:
@@ -34,13 +18,14 @@ To install codecs using the terminal instead, do these steps:
 
 1) Add the needed repositories:
 
-<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/ packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.3/ dvd</div>
+<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.5/ packman</div>
+
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.5/ dvd</div>
 
 2) Then install the necessary packages:
 
-<div class="clroot">zypper install --allow-vendor-change ffmpeg-3 lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice57 libdvdcss2 vlc-codecs</div>
+<div class="clroot">zypper install --allow-vendor-change ffmpeg-4 lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice57 libdvdcss2 vlc-codecs</div>
 
 3) Make sure all your multimedia packages are coming from the Packman Repository:
 
-<div class="clroot">zypper dup --allow-vendor-change --from http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/</div>
+<div class="clroot">zypper dup --allow-vendor-change --from http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.5/</div>
