@@ -1,0 +1,43 @@
+{% assign menu_pages = "" | split:"|" %}
+{% for section in site.data.menu %}
+    {% for section_page in section.pages %}
+        {% assign menu_pages = menu_pages | push: section_page.link %}
+    {% endfor %}
+{% endfor %}
+
+{% for menu_page in menu_pages %}
+  {% assign page_url = menu_page | prepend: '/' %}
+  {% if page_url == page.url %}
+    <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="width: 50%;">
+            {% if forloop.first %}
+            {% else %}
+              {% assign previous = forloop.index0 | minus: 1 %}
+              {% assign previous_page_url = menu_pages[previous] | prepend: '/' | prepend: site.baseurl | replace: '//', '/' %}
+              <div style="text-align: center;">
+                <a href="{{ previous_page_url }}">
+                  <img class="pic" style="width: 32px; height: 32px;" alt="prev" src="{{ site.baseurl | append: '/images/pics/prev.png' | replace: '//', '/' }}" />
+                </a>
+              </div>
+            {% endif %}
+          </td>
+          <td style="width: 50%;">
+            {% if forloop.last %}
+            {% else %}
+              {% assign next = forloop.index0 | plus: 1 %}
+              {% assign next_page_url = menu_pages[next] | prepend: '/' | prepend: site.baseurl | replace: '//', '/' %}
+              <div style="text-align: center;">
+                <a href="{{ next_page_url }}">
+                  <img class="pic" style="width: 32px; height: 32px;" alt="next" src="{{ site.baseurl | append: '/images/pics/next.png' | replace: '//', '/' }}" />
+                </a>
+              </div>
+            {% endif %}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    {% break %}
+  {% endif %}
+{% endfor %}

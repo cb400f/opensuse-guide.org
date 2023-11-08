@@ -1,0 +1,12 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="{{ '/mstile-150x150.png' | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}"/>
+            <TileColor>#73ba25</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

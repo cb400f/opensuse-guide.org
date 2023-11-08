@@ -1,0 +1,16 @@
+<div id="topLeft">
+
+{% for section in site.data.menu %}
+<div class="content-title">{{ section.title }}</div>
+    {% for section_page in section.pages %}
+        {% assign page_url = section_page.link | prepend: '/' | prepend: site.baseurl | replace: '//', '/' %}
+        <a href="{{ page_url }}" class="content-text">{{ section_page.title }}</a><br />
+    {% endfor %}
+{% endfor %}
+
+<!--
+<br /><br />
+
+<center><a href="https://en.opensuse.org/Portal:15.3"><img src="http://counter.opensuse.org/small" border="0" alt="countdown" /></a></center><br />
+-->
+</div>

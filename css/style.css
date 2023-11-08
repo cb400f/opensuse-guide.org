@@ -22,7 +22,7 @@ html {
 
 
 #topLeft {
-    position: fixed; 
+    position: fixed;
     top: 10px;
     left: 1%;
     width: 17%;
@@ -38,7 +38,7 @@ html {
 /* Paragraph titles */
 
 
-.heading1 {
+.heading1, h1 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -46,11 +46,11 @@ html {
 	text-decoration: none;
 	border-bottom-color: #409040;
 	border-bottom-style: dashed;
-	border-bottom-width: 1px; 
+	border-bottom-width: 1px;
 	margin-bottom: 3px;
 }
-    
-.heading2 {
+
+.heading2, h2 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -58,11 +58,11 @@ html {
 	text-decoration: none;
 	border-bottom-color: #409040;
 	border-bottom-style: dashed;
-	border-bottom-width: 1px; 
+	border-bottom-width: 1px;
 	margin-bottom: 3px;
 }
 
-.heading3 {
+.heading3, h3 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -95,7 +95,7 @@ html {
 	font-weight: normal;
 	font-size: 9pt;
 	text-decoration: none;
-	margin-bottom: 0px; 
+	margin-bottom: 0px;
 }
 
 a.content-text {
@@ -104,7 +104,7 @@ a.content-text {
 	font-weight: normal;
 	font-size: 9pt;
 	text-decoration: none;
-	margin-bottom: 0px; 
+	margin-bottom: 0px;
 }
 
 a.content-text:link {
@@ -181,7 +181,8 @@ a.content-text:hover {
 	font-weight: normal;
 	font-size: 11pt;
 	/*font-style: italic;  */
-	margin-bottom: 0px;  
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 
@@ -215,7 +216,7 @@ a:link {
 a:visited {
 	color: #409040;
 	font-family: sans-serif;
-	font-size: 11pt; 
+	font-size: 11pt;
 	text-decoration: none;
 }
 
@@ -246,74 +247,83 @@ a:hover {
 /* ------------ Boxes ------------ */
 
 
-.cl { 
-        color: white;                
+.cl {
+        color: white;
 	font-family: sans-serif;
 	font-size: 10pt;
-        background: black;            
-        margin: 2px 50px 2px 2px;
-        padding: 6px 6px 6px 6px; 
-        list-style: none;                
+        background: black;
+        margin: 1em 50px 1em 2px;
+        padding: 6px 6px 6px 6px;
+        list-style: none;
           }
 
-.clroot { 
+.clroot {
         color: #ff7070;
 	font-size: 10pt;
 	font-family: sans-serif;
-        background: black;        
-        margin: 2px 50px 2px 2px;
-        padding: 6px 6px 6px 6px; 
-        list-style: none;         
+        background: black;
+        margin: 1em 50px 1em 2px;
+        padding: 6px 6px 6px 6px;
+        list-style: none;
           }
 
-.note { 
-        color: black;             
-        background: #FFFFCC;      
+.note {
+        color: black;
+        background: #FFFFCC;
 	font-size: 10pt;
 	font-family: sans-serif;
-        margin: 2px 75px 2px 75px;
-        padding: 6px 6px 6px 6px; 
-        list-style: none;         
+        margin: 1em 75px 1em 75px;
+        padding: 6px 6px 6px 6px;
+        list-style: none;
         border-style: solid;
-        border-width: thin;       
+        border-width: thin;
         border-color: red;
           }
 
-.tip { 
-        color: black;             
+.tip {
+        color: black;
 	font-size: 10pt;
 	font-family: sans-serif;
-        background: #FFFFCC;           
-        margin: 2px 75px 2px 75px;
-        padding: 6px 6px 6px 6px; 
-        list-style: none;         
+        background: #FFFFCC;
+        margin: 1em 75px 1em 75px;
+        padding: 6px 6px 6px 6px;
+        list-style: none;
         border-style: solid;
-        border-width: thin;       
+        border-width: thin;
         border-color: #A6A6A6;
 	 }
 
-.code { 
-        color: black;              
+pre.highlight {
+        color: black;
 	font-size: 8pt;
 	font-family: sans-serif;
-        background: #DCDCDC;       
+        background: #DCDCDC;
         margin: 2px 200px 2px 2px;
-        padding: 6px 6px 6px 6px; 
-        list-style: none;         
+        padding: 6px 6px 6px 6px;
+        list-style: none;
         border-style: dashed;
-        border-width: thin;       
+        border-width: thin;
         border-color: #74BA24;
 	 }
 
-.oneclick { 
-        color: black;               
+pre { /* https://www.tutorialspoint.com/How-do-I-wrap-text-in-a-pre-tag-in-HTML */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.oneclick {
+        color: black;
 	font-size: 10pt;
 	font-family: sans-serif;
-        background: #FFFFCC;         
+        background: #FFFFCC;
         margin: 2px 125px 2px 125px;
-        padding: 6px 6px 6px 6px; 
-        list-style: none;            
+        padding: 6px 6px 6px 6px;
+        list-style: none;
         border-style: solid;
-        border-width: thin;        
+        border-width: thin;
         border-color: #A6A6A6;
           }
